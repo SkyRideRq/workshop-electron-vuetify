@@ -46,18 +46,9 @@ See [Configuration Reference](https://cli.vuejs.org/config/).
 
 ### DB faker code 
 See [Json Generator](https://next.json-generator.com/). https://next.json-generator.com/
-<details><summary>CLICK ME</summary>
+<details><summary>Code</summary>
 <p>
-
-#### yes, even hidden code blocks!
-
-```python
-print("hello world!")
-```
-
-</p>
-</details>
-```
+```json
 [
   {
     'repeat(5, 10)': {
@@ -178,4 +169,10 @@ print("hello world!")
     }
   }
 ]
+```
+
+</p>
+</details>
+```
+
 ```

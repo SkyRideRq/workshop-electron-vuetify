@@ -32,18 +32,20 @@ See [Configuration Reference](https://cli.vuejs.org/config/).
 
 ### Used
 
-nedb-promises--
-rxdb --
-leveldown --
-pouchdb-adapter-leveldb --
-trilogy--
-sql.js--
-mssql--
-linvodb3--
-level-js--
-lowdb
-electron-store
-### DB faker code
+ - ~~nedb-promises~~
+ - ~~rxdb~~
+ - ~~leveldown~~
+ - ~~pouchdb-adapter-leveldb~~
+ - ~~trilog~~
+ - ~~sql.j~~
+ - ~~mssq~~
+ - ~~linvodb~~
+ - ~~level-j~~
+ - lowdb
+ - electron-store
+
+### DB faker code 
+See [Json Generator](https://next.json-generator.com/). https://next.json-generator.com/
 ```
 [
   {

@@ -6,7 +6,7 @@
 </template>
 
 <script>
-import db from "@/db/db";
+// import db from "@/db/db";
 export default {
   name: "SearchBar",
   data: () => {
@@ -17,18 +17,18 @@ export default {
   components: {},
   methods: {
     search(word){
-      console.log('go')
-      console.log(word)
-      console.log(this.$db.keys(db))
+      // console.log('go')
+      // console.log(word)
+      // console.log(this.$db.keys(db))
 
-      const regex = new RegExp(`\\b${word}`, 'i');
+      const regex = new RegExp(`\\w${word}`, 'i');
 
       var show = this.$db.get('users')
       .filter(item => regex.test(item.name))
       .value()
-
+      console.log('searchresuilt')
       console.log(show)
-      console.log(this.$db.getState())
+      // console.log(this.$db.getState())
     }
     
   }

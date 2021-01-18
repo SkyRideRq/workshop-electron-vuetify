@@ -1,32 +1,31 @@
 <template>
-  <div id="app">
-    <div id="nav">
-      <router-link to="/">Home</router-link> |
-      <router-link to="/about">About</router-link>
-    </div>
-    <router-view />
-  </div>
+  <v-app>
+    <NavDrawer />
+    <Header />
+    <AppView />
+  </v-app>
 </template>
 
-<style>
-#app {
-  font-family: Avenir, Helvetica, Arial, sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  text-align: center;
-  color: #2c3e50;
-}
+<script>
+import Header from "./components/layout/Header";
+import AppView from "./components/layout/AppView";
+import NavDrawer from "./components/layout/NavDrawer";
+export default {
+  name: "App",
 
-#nav {
-  padding: 30px;
-}
+  components: {
+    AppView,
+    NavDrawer,
+    Header,
+  },
 
-#nav a {
-  font-weight: bold;
-  color: #2c3e50;
-}
-
-#nav a.router-link-exact-active {
-  color: #42b983;
-}
-</style>
+  data: () => ({
+    //
+  }),
+  watch: {
+    $route() {
+      console.log(this.$route);
+    },
+  },
+};
+</script>

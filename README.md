@@ -170,9 +170,5 @@ See [Json Generator](https://next.json-generator.com/). https://next.json-genera
   }
 ]
 ```
-
 </p>
 </details>
-```
-
-```

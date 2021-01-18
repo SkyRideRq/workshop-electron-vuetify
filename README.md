@@ -59,8 +59,13 @@ See [Json Generator](https://next.json-generator.com/). https://next.json-genera
       name(tags) {
         return `${this.first} ${this.last}`;
       },
-      company: '{{company().toUpperCase()}}',
+      company: '{{company()}}',
       phone: '+48 {{phone()}}',
+      mail(tags) {
+        return `${this.first}.${this.last}@${this.company}.com`;
+      },
+      type:'user',
+      adress:'{{city()}}, {{street()}} {{floating([1], [234], [0])}}',
       registered: '{{moment(this.date(new Date(2014, 0, 1), new Date())).format("LLLL")}}',
       link(tags) {
         return `${this.guid}`;
@@ -84,6 +89,7 @@ See [Json Generator](https://next.json-generator.com/). https://next.json-genera
                 'repeat(3)': {
                   id: '{{objectId()}}',
                   guid: '{{guid()}}',
+                  type:'rapair',
                   registered: '{{moment(this.date(new Date(2014, 0, 1), new Date())).format("LLLL")}}',
                   link(tags,parent) {
                     return `${parent.link}/${this.guid}`;
@@ -117,6 +123,7 @@ See [Json Generator](https://next.json-generator.com/). https://next.json-genera
                 'repeat(3)': {
                   id: '{{objectId()}}',
                   guid: '{{guid()}}',
+                  type:'rapair',
                   registered: '{{moment(this.date(new Date(2014, 0, 1), new Date())).format("LLLL")}}',
                   link(tags,parent) {
                     return `${parent.link}/${this.guid}`;
@@ -150,6 +157,7 @@ See [Json Generator](https://next.json-generator.com/). https://next.json-genera
                 'repeat(3)': {
                   id: '{{objectId()}}',
                   guid: '{{guid()}}',
+                  type:'rapair',
                   registered: '{{moment(this.date(new Date(2014, 0, 1), new Date())).format("LLLL")}}',
                   link(tags,parent) {
                     return `${parent.link}/${this.guid}`;

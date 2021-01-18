@@ -36,7 +36,7 @@ const routes = [
   {
     path: "/:id",
     name: "Klient",
-    component: () => import("../components/customer/CustomerPage.vue"),
+    component: () => import("../views/CustomerPage.vue"),
   },
   {
     path: "/:id/:id1",

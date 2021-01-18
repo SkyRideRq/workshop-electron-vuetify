@@ -11,7 +11,9 @@ yarn install
 ```
 yarn serve
 ```
+```
 yarn electron:serve
+```
 ### Compiles and minifies for production
 
 ```
@@ -41,3 +43,57 @@ linvodb3--
 level-js--
 lowdb
 electron-store
+### DB faker code
+```
+[
+  {
+    'repeat(5, 10)': {
+      id: '{{objectId()}}',
+      guid: '{{guid()}}',
+      first: '{{firstName()}}',
+      last: '{{surname()}}',
+      name(tags) {
+        return `${this.first} ${this.last}`;
+      },
+      company: '{{company().toUpperCase()}}',
+      phone: '+48 {{phone()}}',
+      registered: '{{moment(this.date(new Date(2014, 0, 1), new Date())).format("LLLL")}}',
+      link(tags) {
+        return `${this.guid}`;
+      },
+      children: [
+        {
+          'repeat(3)': {
+            id: '{{objectId()}}',
+            guid: '{{guid()}}',
+            name: '{{random(["MS 180"], ["MS 230"] )}}',
+            registered: '{{moment(this.date(new Date(2014, 0, 1), new Date())).format("LLLL")}}',
+            link(tags,parent) {
+              return `${parent.link}/${this.guid}`;
+            },
+            parentLink(tags,parent) {
+              return `${parent.link}`;
+            },
+            children:[
+              {
+                'repeat(3)': {
+                  id: '{{objectId()}}',
+                  guid: '{{guid()}}',
+                  registered: '{{moment(this.date(new Date(2014, 0, 1), new Date())).format("LLLL")}}',
+                  link(tags,parent) {
+                    return `${parent.link}/${this.guid}`;
+                  },
+                   parentLink(tags,parent) {
+                    return `${parent.link}`;
+                  },
+                  name: '{{random(["naprawa tłoka"], ["naprawa gaźnika"],["serwis"] )}}'
+                }
+              }
+            ]
+          }
+        }
+      ],
+    }
+  }
+]
+```

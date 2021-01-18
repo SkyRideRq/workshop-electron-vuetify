@@ -48,7 +48,7 @@ See [Configuration Reference](https://cli.vuejs.org/config/).
 See [Json Generator](https://next.json-generator.com/). https://next.json-generator.com/
 <details><summary>Code</summary>
 <p>
-```json
+```js
 [
   {
     'repeat(5, 10)': {

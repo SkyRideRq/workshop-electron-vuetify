@@ -91,8 +91,8 @@ export default {
         // .find("products")
         .get("products")
         .push({ id: 1, title: "lowdb is awesome" })
-        // .write();
-        .update();
+        .write();
+        // .update();
 
       // this.$db.set("products", "typicode").write();
       // .get("products")
@@ -100,8 +100,6 @@ export default {
       // .update();
       console.log('wynik')
       console.log(this.$db.getState());
-      var fs = require('fs');
-      
     },
   },
 };

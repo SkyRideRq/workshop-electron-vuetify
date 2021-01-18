@@ -1,17 +1,19 @@
 <template>
   <v-container>
-    <v-text-field label="Szukaj"></v-text-field>
+    <SearchBar/>
     <CustomerTree :items="items"/>
   </v-container>
 </template>
 <script>
 import db from "@/db/db";
 import CustomerTree from "../components/customer/CustomerTree";
+import SearchBar from "../components/search/SearchBar";
 
 export default {
   name: "Customers",
   components: {
-    CustomerTree
+    CustomerTree,
+    SearchBar
   },
   data: () => {
     return {
@@ -20,7 +22,7 @@ export default {
   },
   created() {
     console.log(db);
-    this.items = db;
+    this.items = db.users;
   },
   methods: {},
 };

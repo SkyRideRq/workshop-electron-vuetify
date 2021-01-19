@@ -17,17 +17,19 @@ export default {
     };
   },
   created() {
-    console.log(this.$route.meta.name)
-    this.items = this.$db.get(`${this.$route.meta.name}`)
-      .value()
-      .sort(function(a,b){ return new Date(b.registered) - new Date(a.registered);});
+    this.updateContent()
   },
   watch: {
     '$route' () {
-      this.items = this.$db.get(`${this.$route.meta.name}`)
-      .value()
-      .sort(function(a,b){ return new Date(b.registered) - new Date(a.registered);});
+      this.updateContent()
     }
-  }
+  },
+  methods: {
+    updateContent() {
+      this.items = this.$db.get(`${this.$route.meta.name}`)
+        .value()
+        .sort(function(a,b){ return new Date(b.registered) - new Date(a.registered);});
+    }
+  },
 };
 </script>

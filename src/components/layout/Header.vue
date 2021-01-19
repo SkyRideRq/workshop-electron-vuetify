@@ -83,23 +83,36 @@ export default {
     },
 
     addData() {
-      console.log(this.$db.getState());
+      // console.log(this.$db.getState());
       
-      console.log(this.$db.find("products").value());
-      this.$db.defaults({ products: [] }).write();
-      this.$db
-        // .find("products")
-        .get("products")
-        .push({ id: 1, title: "lowdb is awesome" })
-        .write();
-        // .update();
+      // console.log(this.$db.find("products").value());
+      // this.$db.defaults({ products: [] }).write();
+      // this.$db
+      //   // .find("products")
+      //   .get("products")
+      //   .push({ id: 1, title: "lowdb is awesome" })
+      //   .write();
+      //   // .update();
 
-      // this.$db.set("products", "typicode").write();
-      // .get("products")
-      // .push({ id: 1, title: "lowdb is awesome" })
-      // .update();
-      console.log('wynik')
-      console.log(this.$db.getState());
+      // // this.$db.set("products", "typicode").write();
+      // // .get("products")
+      // // .push({ id: 1, title: "lowdb is awesome" })
+      // // .update();
+      // console.log('wynik')
+
+// for building products db
+
+      // console.log(this.$db.get('users').value());
+      // var st= this.$db.get('users').value()
+      // st.forEach(element => {
+      //   element.children.forEach(element =>{
+      //     if(element.type==='mower')
+      //     {
+      //       this.$db.get('mowers').push(element).write();
+      //     }
+      //   })
+      // });
+      // this.$db.get('stihl')
     },
   },
 };

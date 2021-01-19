@@ -1,13 +1,25 @@
 <template>
   <v-container>
-    <div class="about">
-      <h1>This is an about page</h1>
-    </div>
+    <ProductTree :items="items"/>
   </v-container>
 </template>
 <script>
+import ProductTree from "../components/product/ProductTree";
+
 export default {
   name: "Stihl",
-  components: {},
+  components: {
+    ProductTree
+  },
+  data: () => {
+    return {
+      items: [],
+    };
+  },
+  created() {
+    this.items = this.$db.get('stihl')
+      .value()
+      .sort(function(a,b){ return new Date(b.registered) - new Date(a.registered);});
+  },
 };
 </script>

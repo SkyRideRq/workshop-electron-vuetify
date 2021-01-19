@@ -5,7 +5,6 @@
   </v-container>
 </template>
 <script>
-// import db from "../../db.json";
 import CustomerTree from "../components/customer/CustomerTree";
 import SearchBar from "../components/search/SearchBar";
 

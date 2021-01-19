@@ -1,7 +1,27 @@
 <template>
-  <v-container class="d-flex">
-    <v-text-field label="Szukaj" v-model="searchString"></v-text-field>
-    <v-btn @click="search(searchString)">Szukaj</v-btn>
+  <v-container >
+    <v-form
+      ref="form"
+      @submit="search()"
+      class="d-flex"
+    >
+      <v-combobox
+        v-model="searchPlace"
+        :items="items"
+        class="px-2"
+        label="Szukaj po"
+        @change="changeSearchLabel()"
+        disable-lookup
+      ></v-combobox>
+
+      <v-text-field :label="this.searchPlace.searchLabel" v-model="searchWord" class="px-2"></v-text-field>
+      <v-btn
+        type="submit"
+        style="primary"
+      >
+        Szukaj
+      </v-btn>
+    </v-form>
   </v-container>
 </template>
 
@@ -11,26 +31,42 @@ export default {
   name: "SearchBar",
   data: () => {
     return {
-      searchString: '',
+      searchWord: '',
+      searchPlace:
+        {
+          text: 'Nazwisku klienta',
+          value: 'last',
+          searchLabel:'Nazwisko'
+        },
+      items:[
+        {
+          text: 'Nazwie firmy',
+          value: 'company',
+          searchLabel:'Firma'
+        },
+        {
+          text: 'Nazwisku klienta',
+          value: 'last',
+          searchLabel:'Nazwisko'
+        }
+      ]
     };
   },
   components: {},
   methods: {
-    search(word){
-      // console.log('go')
-      // console.log(word)
-      // console.log(this.$db.keys(db))
-
-      const regex = new RegExp(`\\w${word}`, 'i');
-
-      var show = this.$db.get('users')
-      .filter(item => regex.test(item.name))
+    search(){
+      const regex = new RegExp(`^${this.searchWord}`, 'i');
+      console.log(this.searchPlace.value)
+      var searchResult = this.$db.get('users')
+      .filter(item => regex.test(item[this.searchPlace.value]))
+      .sortBy('last')
       .value()
       console.log('searchresuilt')
-      console.log(show)
+      console.log(searchResult)
+      this.$emit('searchResult', searchResult);
+
       // console.log(this.$db.getState())
-    }
-    
+    },   
   }
 };
 </script>

@@ -1,11 +1,11 @@
 <template>
   <v-container>
-    <SearchBar/>
+    <SearchBar @searchResult="showSearchResult"/>
     <CustomerTree :items="items"/>
   </v-container>
 </template>
 <script>
-import db from "@/db/db";
+// import db from "../../db.json";
 import CustomerTree from "../components/customer/CustomerTree";
 import SearchBar from "../components/search/SearchBar";
 
@@ -21,9 +21,14 @@ export default {
     };
   },
   created() {
-    console.log(db);
-    this.items = db.users;
+    this.items = this.$db.get('users')
+      .sortBy('last')
+      .value()
   },
-  methods: {},
+  methods: {
+    showSearchResult(value) {
+      this.items = value
+    }
+  },
 };
 </script>

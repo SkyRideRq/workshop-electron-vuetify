@@ -21,17 +21,26 @@ const routes = [
   {
     path: "/Stihl",
     name: "Stihl",
-    component: () => import("../views/Stihl.vue"),
+    meta:{
+      name: "stihl"
+    },
+    component: () => import("../views/ProductView.vue"),
   },
   {
     path: "/Kosiarki",
     name: "Kosiarki",
-    component: () => import("../views/Mowers.vue"),
+    meta:{
+      name: "mowers"
+    },
+    component: () => import("../views/ProductView.vue"),
   },
   {
     path: "/Rowery",
     name: "Rowery",
-    component: () => import("../views/Bikes.vue"),
+    meta:{
+      name: "bikes"
+    },
+    component: () => import("../views/ProductView.vue"),
   },
   {
     path: "/:id",

@@ -7,7 +7,7 @@
 import ProductTree from "../components/product/ProductTree";
 
 export default {
-  name: "Stihl",
+  name: "ProductView",
   components: {
     ProductTree
   },
@@ -17,9 +17,17 @@ export default {
     };
   },
   created() {
-    this.items = this.$db.get('stihl')
+    console.log(this.$route.meta.name)
+    this.items = this.$db.get(`${this.$route.meta.name}`)
       .value()
       .sort(function(a,b){ return new Date(b.registered) - new Date(a.registered);});
   },
+  watch: {
+    '$route' () {
+      this.items = this.$db.get(`${this.$route.meta.name}`)
+      .value()
+      .sort(function(a,b){ return new Date(b.registered) - new Date(a.registered);});
+    }
+  }
 };
 </script>

@@ -1,14 +1,14 @@
 import Vue from "vue";
 import VueRouter from "vue-router";
-import Search from "../views/Search.vue";
+import DashboardView from "../views/DashboardView.vue";
 
 Vue.use(VueRouter);
 
 const routes = [
   {
     path: "/",
-    name: "Szukaj",
-    component: Search,
+    name: "Panel Główny",
+    component: DashboardView,
   },
   {
     path: "/klienci",
@@ -16,7 +16,7 @@ const routes = [
     // route level code-splitting
     // this generates a separate chunk (about.[hash].js) for this route
     // which is lazy-loaded when the route is visited.
-    component: () => import("../views/Customers.vue"),
+    component: () => import("../views/CustomersView.vue"),
   },
   {
     path: "/Stihl",
@@ -39,6 +39,14 @@ const routes = [
     name: "Rowery",
     meta:{
       name: "bikes"
+    },
+    component: () => import("../views/ProductView.vue"),
+  },
+  {
+    path: "/Naprawy",
+    name: "naprawy",
+    meta:{
+      name: "repairs"
     },
     component: () => import("../views/ProductView.vue"),
   },

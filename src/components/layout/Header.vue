@@ -113,6 +113,19 @@ export default {
       //   })
       // });
       // this.$db.get('stihl')
+      // repairs
+      // var st= this.$db.get('stihl').value()
+      // console.log(st)
+      // st.forEach(element => {
+        
+      //   element.children.forEach(element =>{
+      //     // if(element.children==='mower')
+      //     // element.children.forEach(element => {
+      //     //   // console.log(element)
+      //       this.$db.get('repairs').push(element).write();
+      //     // })
+      //   })
+      // });
     },
   },
 };

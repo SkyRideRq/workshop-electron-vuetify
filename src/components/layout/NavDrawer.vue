@@ -57,8 +57,8 @@ export default {
       activeItem: null,
       items: [
         {
-          icon: "mdi-magnify",
-          title: "Szukaj",
+          icon: "mdi-view-dashboard",
+          title: "Panel Główny",
           to: "/",
           name: "dashboard",
         },
@@ -85,6 +85,12 @@ export default {
           title: "Rowery",
           to: "/Rowery",
           name: "Rowery",
+        },
+        {
+          icon: "mdi-wrench",
+          title: "Naprawy",
+          to: "/Naprawy",
+          name: "Naprawy",
         },
       ],
     };

@@ -24,7 +24,7 @@
 // //=> undefined
 
 export default {
-  name: "Search",
+  name: "DashboardView",
   components: {},
 };
 </script>

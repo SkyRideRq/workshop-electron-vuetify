@@ -23,6 +23,12 @@
       class="font-weight-light text-capitalize"
       v-text="$route.name"
     />
+    <v-spacer></v-spacer>
+    <v-btn x-large icon @click="saveDBtoDisk()" color="primary">
+      <v-icon>
+        mdi-content-save
+      </v-icon>
+    </v-btn>
     <template slot="extension">
       <v-divider></v-divider>
     </template>
@@ -30,7 +36,7 @@
 </template>
 <script>
 import { mapGetters, mapState, mapMutations } from "vuex";
-
+const FileSync = require("lowdb/adapters/FileSync");
 export default {
   name: "TheHeader",
   data: () => ({
@@ -57,8 +63,58 @@ export default {
         ? (this.desktop = true)
         : (this.desktop = false);
     },
+    saveDBtoDisk() {
+      // https://www.geeksforgeeks.org/save-files-in-electronjs/
+      const electron = require("electron");
+      const path = require("path");
+      const fs = require("fs");
+      // Importing dialog module using remote
+      const dialog = electron.remote.dialog;
+      // Resolves to a Promise<Object>
+      dialog
+        .showSaveDialog({
+          title: "Select the File Path to save",
+          defaultPath: path.join(
+            __dirname,
+            "./db-" +
+              new Date().getDate() +
+              "-" +
+              new Date().getMonth() +
+              "-" +
+              new Date().getFullYear() +
+              ".json"
+          ),
+          // defaultPath: path.join(__dirname, '../assets/'),
+          buttonLabel: "Save",
+          properties: [],
+        })
+        .then((file) => {
+          console.log(path.join("./db.json"));
+          console.log(file);
+          // Stating whether dialog operation was cancelled or not.
+          // console.log(file.canceled);
+          // if (!file.canceled) {
+          //   console.log(file.filePath.toString());
 
+          //   // Creating and Writing to the sample.txt file
+          fs.copyFile(
+            "./db.json",
+            file.filePath.toString(),
+            "This is a Sample File",
+            function(err) {
+              if (err) throw err;
+              console.log("Saved!");
+            }
+          );
+          // }
+        })
+        .catch((err) => {
+          console.log(err);
+        });
+    },
     addData() {
+      console.log(FileSync);
+
       // console.log(this.$db.getState());
       // console.log(this.$db.find("products").value());
       // this.$db.defaults({ products: [] }).write();

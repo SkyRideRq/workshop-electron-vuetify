@@ -36,7 +36,6 @@
 </template>
 <script>
 import { mapGetters, mapState, mapMutations } from "vuex";
-const FileSync = require("lowdb/adapters/FileSync");
 export default {
   name: "TheHeader",
   data: () => ({
@@ -84,7 +83,6 @@ export default {
               new Date().getFullYear() +
               ".json"
           ),
-          // defaultPath: path.join(__dirname, '../assets/'),
           buttonLabel: "Save",
           properties: [],
         })
@@ -113,8 +111,6 @@ export default {
         });
     },
     addData() {
-      console.log(FileSync);
-
       // console.log(this.$db.getState());
       // console.log(this.$db.find("products").value());
       // this.$db.defaults({ products: [] }).write();

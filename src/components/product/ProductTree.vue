@@ -3,8 +3,13 @@
     <template slot="append" slot-scope="props">
       <div class="d-flex align-center">
         <p class="ma-0 pa-0 pr-3">
-          {{ props.item.registered }}
+          Data przyjęcia:
+          {{ new Date(props.item.registered).toLocaleDateString() }}
         </p>
+        <p class="ma-0 pa-0 pr-3" v-if="props.item.returned">
+          Data oddania: {{ new Date(props.item.returned).toLocaleDateString() }}
+        </p>
+
         <v-btn @click="$event.stopPropagation()" :to="props.item.link">
           Szczegóły
         </v-btn>
@@ -21,6 +26,7 @@ export default {
       // items: [],
     };
   },
+  created() {},
   props: ["items"],
 };
 </script>

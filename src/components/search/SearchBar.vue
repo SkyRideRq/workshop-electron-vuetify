@@ -1,23 +1,30 @@
 <template>
   <v-container>
-    <v-form ref="form" @submit="search()" class="d-flex">
-      <v-combobox
-        v-model="searchPlace"
-        :items="items"
-        class="px-2"
-        label="Szukaj po"
-        @change="changeSearchLabel()"
-        disable-lookup
-      ></v-combobox>
-
-      <v-text-field
-        :label="this.searchPlace.searchLabel"
-        v-model="searchWord"
-        class="px-2"
-      ></v-text-field>
-      <v-btn type="submit" style="primary">
-        Szukaj
-      </v-btn>
+    <v-form ref="form" @submit="search()">
+      <v-row>
+        <v-col>
+          <v-combobox
+            v-model="searchPlace"
+            :items="items"
+            class="px-2"
+            label="Szukaj po"
+            @change="changeSearchLabel()"
+            disable-lookup
+          ></v-combobox>
+        </v-col>
+        <v-col>
+          <v-text-field
+            :label="this.searchPlace.searchLabel"
+            v-model="searchWord"
+            class="px-2"
+          ></v-text-field>
+        </v-col>
+        <v-col class="d-flex align-center">
+          <v-btn type="submit" color="primary">
+            Szukaj
+          </v-btn>
+        </v-col>
+      </v-row>
     </v-form>
   </v-container>
 </template>

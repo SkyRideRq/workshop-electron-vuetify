@@ -1,7 +1,13 @@
 <template>
   <v-container>
-    <h1 class="ml-4">{{ data.name }}</h1>
-
+    <v-row>
+      <v-col>
+        <h1 class="ml-4">{{ data.name }}</h1>
+      </v-col>
+      <v-col>
+        <h2>Typ urządzenia: {{ data.type }}</h2>
+      </v-col>
+    </v-row>
     <v-divider class="mb-5 mt-2"></v-divider>
     <ProductTree :items="items" />
   </v-container>

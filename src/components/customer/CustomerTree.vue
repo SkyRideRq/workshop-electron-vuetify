@@ -3,7 +3,7 @@
     <template slot="append" slot-scope="props">
       <div class="d-flex align-center">
         <p class="ma-0 pa-0 pr-3" v-if="props.item.photos">
-          {{ props.item.registered }}
+          {{ new Date(props.item.registered).toLocaleDateString() }}
         </p>
         <CustomerPreview v-if="props.item.type === 'user'" :data="props.item" />
         <v-btn @click="$event.stopPropagation()" :to="props.item.link">

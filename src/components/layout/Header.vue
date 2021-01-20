@@ -84,7 +84,6 @@ export default {
 
     addData() {
       // console.log(this.$db.getState());
-      
       // console.log(this.$db.find("products").value());
       // this.$db.defaults({ products: [] }).write();
       // this.$db
@@ -93,15 +92,12 @@ export default {
       //   .push({ id: 1, title: "lowdb is awesome" })
       //   .write();
       //   // .update();
-
       // // this.$db.set("products", "typicode").write();
       // // .get("products")
       // // .push({ id: 1, title: "lowdb is awesome" })
       // // .update();
       // console.log('wynik')
-
-// for building products db
-
+      // for building products db
       // console.log(this.$db.get('users').value());
       // var st= this.$db.get('users').value()
       // st.forEach(element => {
@@ -117,7 +113,6 @@ export default {
       // var st= this.$db.get('stihl').value()
       // console.log(st)
       // st.forEach(element => {
-        
       //   element.children.forEach(element =>{
       //     // if(element.children==='mower')
       //     // element.children.forEach(element => {

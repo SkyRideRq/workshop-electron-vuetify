@@ -45,6 +45,6 @@
 export default {
   name: "CustomerData",
   components: {},
-  props:['data']
+  props: ["data"],
 };
 </script>

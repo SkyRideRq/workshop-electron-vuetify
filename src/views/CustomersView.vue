@@ -1,7 +1,7 @@
 <template>
   <v-container>
-    <SearchBar @searchResult="showSearchResult"/>
-    <CustomerTree :items="items"/>
+    <SearchBar @searchResult="showSearchResult" />
+    <CustomerTree :items="items" />
   </v-container>
 </template>
 <script>
@@ -12,7 +12,7 @@ export default {
   name: "Customers",
   components: {
     CustomerTree,
-    SearchBar
+    SearchBar,
   },
   data: () => {
     return {
@@ -20,14 +20,15 @@ export default {
     };
   },
   created() {
-    this.items = this.$db.get('users')
-      .sortBy('last')
-      .value()
+    this.items = this.$db
+      .get("users")
+      .sortBy("last")
+      .value();
   },
   methods: {
     showSearchResult(value) {
-      this.items = value
-    }
+      this.items = value;
+    },
   },
 };
 </script>

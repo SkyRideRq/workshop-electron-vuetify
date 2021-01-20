@@ -1,6 +1,6 @@
 <template>
   <v-container>
-    <ProductTree :items="items"/>
+    <ProductTree :items="items" />
   </v-container>
 </template>
 <script>
@@ -9,7 +9,7 @@ import ProductTree from "../components/product/ProductTree";
 export default {
   name: "ProductView",
   components: {
-    ProductTree
+    ProductTree,
   },
   data: () => {
     return {
@@ -17,19 +17,22 @@ export default {
     };
   },
   created() {
-    this.updateContent()
+    this.updateContent();
   },
   watch: {
-    '$route' () {
-      this.updateContent()
-    }
+    $route() {
+      this.updateContent();
+    },
   },
   methods: {
     updateContent() {
-      this.items = this.$db.get(`${this.$route.meta.name}`)
+      this.items = this.$db
+        .get(`${this.$route.meta.name}`)
         .value()
-        .sort(function(a,b){ return new Date(b.registered) - new Date(a.registered);});
-    }
+        .sort(function(a, b) {
+          return new Date(b.registered) - new Date(a.registered);
+        });
+    },
   },
 };
 </script>

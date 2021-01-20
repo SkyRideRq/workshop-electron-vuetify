@@ -5,7 +5,9 @@
         <p class="ma-0 pa-0 pr-3">
           {{ props.item.registered }}
         </p>
-        <router-link :to="props.item.link">Szczegóły</router-link>
+        <v-btn @click="$event.stopPropagation()" :to="props.item.link">
+          Szczegóły
+        </v-btn>
       </div>
     </template>
   </v-treeview>

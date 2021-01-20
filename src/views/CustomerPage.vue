@@ -5,15 +5,19 @@
       <v-col>
         <CustomerData :data="adressData" />
       </v-col>
-      <v-col>
+      <v-col class="mr-2">
         <DataEdit :data="adressData" @dataToChange="changeData" />
       </v-col>
     </v-row>
+    <v-divider class="my-5"></v-divider>
+    <ProductTree :items="items" />
   </v-container>
 </template>
 <script>
 import CustomerData from "../components/customer/CustomerData";
 import DataEdit from "../components/DataEdit";
+import ProductTree from "../components/product/ProductTree";
+
 export default {
   name: "CustomerPage",
   data: () => {
@@ -25,6 +29,7 @@ export default {
   components: {
     CustomerData,
     DataEdit,
+    ProductTree,
   },
   created() {
     console.log(this.$route);
@@ -43,6 +48,7 @@ export default {
       phone: this.data.phone,
       mail: this.data.mail,
     };
+    this.items = this.data.children;
   },
   methods: {
     changeData(value) {

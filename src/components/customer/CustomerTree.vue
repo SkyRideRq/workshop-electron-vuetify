@@ -6,7 +6,9 @@
           {{ props.item.registered }}
         </p>
         <CustomerPreview v-if="props.item.type === 'user'" :data="props.item" />
-        <router-link :to="props.item.link">Szczegóły</router-link>
+        <v-btn @click="$event.stopPropagation()" :to="props.item.link">
+          Szczegóły
+        </v-btn>
       </div>
     </template>
   </v-treeview>

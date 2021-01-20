@@ -5,9 +5,9 @@
     v-model="drawer"
     app
   >
-    <v-list-item>
-      <h2 class="text-center">Warsztat DB</h2>
-    </v-list-item>
+    <div class="d-flex align-center ml-4" style="height:75px">
+      <h2>Warsztat DB</h2>
+    </div>
 
     <v-divider></v-divider>
 

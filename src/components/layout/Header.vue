@@ -1,51 +1,31 @@
 <template>
   <v-app-bar
     id="app-bar"
-    absolute
+    fixed
     app
-    color="transparent"
+    color="white"
     flat
     height="75"
+    elevate-on-scroll
     v-resize="onResize"
+    extension-height="1"
   >
-    <v-row class="ma-0 d-flex align-center">
-      <div class=" ">
-        <v-btn class="mr-3" elevation="1" fab small @click="setDrawer(!drawer)">
-          <v-icon v-if="value">
-            mdi-view-quilt
-          </v-icon>
+    <v-btn class="mr-3" elevation="1" fab small @click="setDrawer(!drawer)">
+      <v-icon v-if="!drawer">
+        mdi-menu
+      </v-icon>
+      <v-icon v-else>
+        mdi-menu-open
+      </v-icon>
+    </v-btn>
 
-          <v-icon v-else>
-            mdi-dots-vertical
-          </v-icon>
-        </v-btn>
-      </div>
-      <v-toolbar-title
-        class="font-weight-light text-capitalize"
-        v-text="$route.name"
-      />
-      <v-spacer />
-
-      <div class="d-flex pt-2" v-if="desktop">
-        <v-list>
-          <v-list-item><v-btn @click="addData">1</v-btn> </v-list-item>
-          <v-list-item> </v-list-item>
-        </v-list>
-      </div>
-      <div v-else>
-        <v-menu offset-y>
-          <template v-slot:activator="{ on }">
-            <v-btn color="primary" dark v-on="on" icon class="mr-4">
-              <v-icon>mdi-dots-vertical</v-icon>
-            </v-btn>
-          </template>
-          <v-list>
-            <v-list-item> </v-list-item>
-            <v-list-item> </v-list-item>
-          </v-list>
-        </v-menu>
-      </div>
-    </v-row>
+    <v-toolbar-title
+      class="font-weight-light text-capitalize"
+      v-text="$route.name"
+    />
+    <template slot="extension">
+      <v-divider></v-divider>
+    </template>
   </v-app-bar>
 </template>
 <script>
@@ -59,10 +39,6 @@ export default {
   }),
   props: {
     links: null,
-    value: {
-      type: Boolean,
-      default: false,
-    },
   },
   components: {},
   mounted() {
@@ -125,3 +101,8 @@ export default {
   },
 };
 </script>
+<style>
+.v-toolbar__extension {
+  padding: 0 !important;
+}
+</style>

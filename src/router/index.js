@@ -21,32 +21,32 @@ const routes = [
   {
     path: "/Stihl",
     name: "Stihl",
-    meta:{
-      name: "stihl"
+    meta: {
+      name: "stihl",
     },
     component: () => import("../views/ProductView.vue"),
   },
   {
     path: "/Kosiarki",
     name: "Kosiarki",
-    meta:{
-      name: "mowers"
+    meta: {
+      name: "mowers",
     },
     component: () => import("../views/ProductView.vue"),
   },
   {
     path: "/Rowery",
     name: "Rowery",
-    meta:{
-      name: "bikes"
+    meta: {
+      name: "bikes",
     },
     component: () => import("../views/ProductView.vue"),
   },
   {
     path: "/Naprawy",
     name: "naprawy",
-    meta:{
-      name: "repairs"
+    meta: {
+      name: "repairs",
     },
     component: () => import("../views/ProductView.vue"),
   },
@@ -58,7 +58,7 @@ const routes = [
   {
     path: "/:id/:id1",
     name: "Produkt",
-    component: () => import("../components/product/ProductPage.vue"),
+    component: () => import("../views/ProductPage.vue"),
   },
   {
     path: "/:id/:id1/:id2",

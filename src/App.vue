@@ -24,8 +24,24 @@ export default {
   }),
   watch: {
     $route() {
-      console.log(this.$route);
+      // console.log(this.$route);
     },
   },
 };
 </script>
+<style>
+::-webkit-scrollbar {
+  width: 12px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  -webkit-box-shadow: inset 0 0 1px rgba(0, 0, 0, 1);
+  margin-top: 75px;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #1976d2;
+}
+</style>

@@ -4,28 +4,28 @@
     hoverable
     activatable
     :items="items"
-    class="product-tree"
+    class="display-tree"
   >
     <template slot="append" slot-scope="props">
-      <div class="d-flex align-center product-tree__box">
+      <div class="d-flex align-center display-tree__box">
         <div
-          class="d-flex align-center product-tree__holder"
+          class="d-flex align-center display-tree__holder"
           v-if="props.item.type === 'repair'"
         >
-          <p class="ma-0 pa-0 pr-3 product-tree__desc">
+          <p class="ma-0 pa-0 pr-3 display-tree__desc">
             <b>Opis skrócony:</b>
             {{ props.item.shortNotes }}
           </p>
-          <p class="ma-0 pa-0 pr-3 product-tree__data">
+          <p class="ma-0 pa-0 pr-3 display-tree__data">
             <b>Data przyjęcia:</b>
             {{ new Date(props.item.registered).toLocaleDateString() }}
           </p>
-          <p class="ma-0 pa-0 pr-3 product-tree__data">
+          <p class="ma-0 pa-0 pr-3 display-tree__data">
             <b>Data oddania:</b>
             {{ new Date(props.item.returned).toLocaleDateString() }}
           </p>
         </div>
-
+        <CustomerPreview v-if="props.item.type === 'user'" :data="props.item" />
         <v-btn @click="changeLink($event, props.item.link)">
           Szczegóły
         </v-btn>
@@ -35,14 +35,19 @@
 </template>
 
 <script>
+import CustomerPreview from "../customer/CustomerPreview";
+
 export default {
-  name: "ProductTree",
+  name: "DisplayTree",
   data: () => {
     return {
       // items: [],
     };
   },
-  created() {},
+  components: {
+    CustomerPreview,
+  },
+
   props: ["items"],
   methods: {
     changeLink($event, link) {
@@ -59,27 +64,33 @@ export default {
 };
 </script>
 <style>
-.product-tree .v-treeview-node__append {
+.display-tree .v-treeview-node__append {
   flex: 8;
   justify-content: flex-end;
   display: flex;
 }
-.product-tree__box {
+.display-tree__box {
   width: 100%;
   justify-content: flex-end;
 }
-.product-tree__holder {
+.display-tree__holder {
   flex: 1;
 }
-.product-tree__desc {
+.display-tree__desc {
   width: 60%;
   display: -webkit-box;
   -webkit-box-orient: vertical;
   -webkit-line-clamp: 1;
   overflow: hidden;
 }
-.product-tree__data {
+.display-tree__data {
   width: 20%;
+}
+.v-treeview > .v-treeview-node:nth-of-type(2n) {
+  background-color: rgba(0, 0, 0, 0.1);
+}
+.v-treeview > .v-treeview-node {
+  border-bottom: 1px solid rgba(0, 0, 0, 0.13);
 }
 .v-treeview-node__label {
   font-weight: 700;
@@ -119,5 +130,28 @@ export default {
 }
 .v-treeview-node__children .v-treeview-node__children .v-treeview-node::before {
   left: 45px;
+}
+
+.v-treeview-node__children .v-treeview-node:last-child::after {
+  content: "";
+  width: 2px;
+  height: calc(100% - 25px);
+  position: absolute;
+  top: 25px;
+  left: 19px;
+  background-color: #e5e5e5;
+  z-index: 1;
+  overflow: hidden;
+}
+.v-treeview
+  > .v-treeview-node:nth-of-type(2n + 1)
+  .v-treeview-node__children
+  .v-treeview-node:last-child::after {
+  background-color: #fff;
+}
+.v-treeview-node__children
+  .v-treeview-node__children
+  .v-treeview-node:last-child::after {
+  content: none;
 }
 </style>

@@ -1,15 +1,15 @@
 <template>
   <v-container>
-    <ProductTree :items="items" />
+    <DisplayTree :items="items" />
   </v-container>
 </template>
 <script>
-import ProductTree from "../components/product/ProductTree";
+import DisplayTree from "../components/display/DisplayTree";
 
 export default {
   name: "ProductView",
   components: {
-    ProductTree,
+    DisplayTree,
   },
   data: () => {
     return {

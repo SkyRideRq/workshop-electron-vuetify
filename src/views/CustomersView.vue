@@ -1,17 +1,17 @@
 <template>
   <v-container>
     <SearchBar @searchResult="showSearchResult" />
-    <CustomerTree :items="items" />
+    <DisplayTree :items="items" />
   </v-container>
 </template>
 <script>
-import CustomerTree from "../components/customer/CustomerTree";
+import DisplayTree from "../components/display/DisplayTree";
 import SearchBar from "../components/search/SearchBar";
 
 export default {
   name: "Customers",
   components: {
-    CustomerTree,
+    DisplayTree,
     SearchBar,
   },
   data: () => {

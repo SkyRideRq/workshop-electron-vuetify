@@ -23,16 +23,17 @@
       </v-col>
     </v-row>
     <v-divider class="mb-5 mt-0"></v-divider>
-    <ProductTree :items="items" />
+
+    <DisplayTree :items="items" />
   </v-container>
 </template>
 
 <script>
-import ProductTree from "../components/product/ProductTree";
+import DisplayTree from "../components/display/DisplayTree";
 export default {
   name: "ProductPage",
   components: {
-    ProductTree,
+    DisplayTree,
   },
   data: () => {
     return {

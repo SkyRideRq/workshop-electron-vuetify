@@ -1,30 +1,26 @@
 <template>
   <v-container>
     <v-form ref="form" @submit="search()">
-      <v-row>
-        <v-col>
-          <v-combobox
-            v-model="searchPlace"
-            :items="items"
-            class="px-2"
-            label="Szukaj po"
-            @change="changeSearchLabel()"
-            disable-lookup
-          ></v-combobox>
-        </v-col>
-        <v-col>
-          <v-text-field
-            :label="this.searchPlace.searchLabel"
-            v-model="searchWord"
-            class="px-2"
-          ></v-text-field>
-        </v-col>
-        <v-col class="d-flex align-center">
-          <v-btn type="submit" color="primary">
-            Szukaj
-          </v-btn>
-        </v-col>
-      </v-row>
+      <div class="search-box mt-5">
+        <v-combobox
+          v-model="searchPlace"
+          :items="items"
+          class="px-2 search-box__input"
+          label="Szukaj po"
+          @change="changeSearchLabel()"
+          disable-lookup
+        ></v-combobox>
+
+        <v-text-field
+          :label="this.searchPlace.searchLabel"
+          v-model="searchWord"
+          class="px-2 search-box__input"
+        ></v-text-field>
+
+        <v-btn type="submit" color="primary" class="search-box__btn">
+          Szukaj
+        </v-btn>
+      </div>
     </v-form>
   </v-container>
 </template>
@@ -74,3 +70,16 @@ export default {
   },
 };
 </script>
+<style>
+.search-box {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.search-box__input {
+  max-width: 400px;
+}
+
+.search-box__btn {
+}
+</style>

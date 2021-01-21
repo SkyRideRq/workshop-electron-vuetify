@@ -10,13 +10,13 @@
       </v-col>
     </v-row>
     <v-divider class="my-5"></v-divider>
-    <ProductTree :items="items" />
+    <DisplayTree :items="items" />
   </v-container>
 </template>
 <script>
 import CustomerData from "../components/customer/CustomerData";
 import DataEdit from "../components/DataEdit";
-import ProductTree from "../components/product/ProductTree";
+import DisplayTree from "../components/display/DisplayTree";
 
 export default {
   name: "CustomerPage",
@@ -29,7 +29,7 @@ export default {
   components: {
     CustomerData,
     DataEdit,
-    ProductTree,
+    DisplayTree,
   },
   created() {
     console.log(this.$route);

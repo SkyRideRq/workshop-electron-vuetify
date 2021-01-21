@@ -45,12 +45,7 @@ export default {
 ::-webkit-scrollbar-thumb {
   background: #1976d2;
 }
-.v-treeview > .v-treeview-node:nth-of-type(2n) {
-  background-color: rgba(0, 0, 0, 0.1);
-}
-.v-treeview > .v-treeview-node {
-  border-bottom: 1px solid rgba(0, 0, 0, 0.13);
-}
+
 .container {
   padding: 0 !important;
 }

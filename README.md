@@ -84,6 +84,7 @@ See [Json Generator](https://next.json-generator.com/). https://next.json-genera
               guid: '{{guid()}}',
               name: '{{random(["MS 180"], ["MS 230"] )}}',
               type:'stihl',
+              serialNumber:'{{floating([100000000], [999999999], [0])}}',
               registered: '{{moment(this.date(new Date(2014, 0, 1), new Date())).format("LLLL")}}',
               link(tags,parent) {
                 return `${parent.link}/${this.guid}`;
@@ -96,7 +97,7 @@ See [Json Generator](https://next.json-generator.com/). https://next.json-genera
                   'repeat(1, 4)': {
                     id: '{{objectId()}}',
                     guid: '{{guid()}}',
-                    type:'rapair',
+                    type:'repair',
                     registered: '{{moment(this.date(new Date(2014, 0, 1), new Date())).format("LLLL")}}',
                     returned:'{{moment(this.date(new Date(2014, 0, 1), new Date())).format("LLLL")}}',
                     partCost:'{{floating([1], [1234], [0])}}',
@@ -109,6 +110,7 @@ See [Json Generator](https://next.json-generator.com/). https://next.json-genera
                     },
                     name: '{{random(["naprawa tłoka"], ["naprawa gaźnika"],["serwis"] )}}',
                     photos:'{{random(["photo1stihl.jpg"], ["photo2stihl.jpg"], ["photo3stihl.jpg"] )}}',
+                    shortNotes:'{{lorem([1]).toLowerCase()}}',
                     notes:'{{lorem([10]).toLowerCase()}}',
                     partList:'{{random(["tłok, uszczelka, karabin, sznur, łopata"], ["membrana, widelec, koło"],["iglica, klucz, zapadka, nakrętka, sznur,"] )}}'
                   }
@@ -122,6 +124,7 @@ See [Json Generator](https://next.json-generator.com/). https://next.json-genera
               guid: '{{guid()}}',
               name: '{{random(["giant"], ["fox"], ["unibike"],["romet"], )}}',
               type:'bike',
+              serialNumber:'{{floating([100000000], [999999999], [0])}}',
               registered: '{{moment(this.date(new Date(2014, 0, 1), new Date())).format("LLLL")}}',
 
               link(tags,parent) {
@@ -135,7 +138,7 @@ See [Json Generator](https://next.json-generator.com/). https://next.json-genera
                   'repeat(1, 5)': {
                     id: '{{objectId()}}',
                     guid: '{{guid()}}',
-                    type:'rapair',
+                    type:'repair',
                     registered: '{{moment(this.date(new Date(2014, 0, 1), new Date())).format("LLLL")}}',
                     returned:'{{moment(this.date(new Date(2014, 0, 1), new Date())).format("LLLL")}}',
                     partCost:'{{floating([1], [1234], [0])}}',
@@ -148,6 +151,7 @@ See [Json Generator](https://next.json-generator.com/). https://next.json-genera
                     },
                     name: '{{random(["wymiana dętki"], ["naprawa"],["serwis"] )}}',
                     photos:'{{random(["photo1rower.jpg"], ["photo2rower.jpg"], ["photo3rower.jpg"] )}}',
+                    shortNotes:'{{lorem([1]).toLowerCase()}}',
                     notes:'{{lorem([10]).toLowerCase()}}',
                     partList:'{{random(["tłok, uszczelka, karabin, sznur, łopata"], ["membrana, widelec, koło"],["iglica, klucz, zapadka, nakrętka, sznur,"] )}}'
                   }
@@ -161,6 +165,7 @@ See [Json Generator](https://next.json-generator.com/). https://next.json-genera
               guid: '{{guid()}}',
               name: '{{random(["viking 440"], ["honda 234i"], ["viking 2324"],["maruyama 400xl"], )}}',
               type:'mower',
+              serialNumber:'{{floating([100000000], [999999999], [0])}}',
               registered: '{{moment(this.date(new Date(2014, 0, 1), new Date())).format("LLLL")}}',
               link(tags,parent) {
                 return `${parent.link}/${this.guid}`;
@@ -173,7 +178,7 @@ See [Json Generator](https://next.json-generator.com/). https://next.json-genera
                   'repeat(1, 6)': {
                     id: '{{objectId()}}',
                     guid: '{{guid()}}',
-                    type:'rapair',
+                    type:'repair',
                     registered: '{{moment(this.date(new Date(2014, 0, 1), new Date())).format("LLLL")}}',
                     returned:'{{moment(this.date(new Date(2014, 0, 1), new Date())).format("LLLL")}}',
                     partCost:'{{floating([1], [1234], [0])}}',
@@ -186,6 +191,7 @@ See [Json Generator](https://next.json-generator.com/). https://next.json-genera
                     },
                     name: '{{random(["wymiana cylindra"], ["wymiana kółek"],["serwis"] )}}',
                     photos:'{{random(["photo1kosiarka.jpg"], ["photo2kosiarka.jpg"], ["photo3kosiarka.jpg"] )}}',
+                    shortNotes:'{{lorem([1]).toLowerCase()}}',
                     notes:'{{lorem([10]).toLowerCase()}}',
                     partList:'{{random(["tłok, uszczelka, karabin, sznur, łopata"], ["membrana, widelec, koło"],["iglica, klucz, zapadka, nakrętka, sznur,"] )}}'
                   }

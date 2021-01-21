@@ -18,7 +18,7 @@
         mdi-menu-open
       </v-icon>
     </v-btn>
-    <!-- <v-btn @click="addData()">1</v-btn> -->
+    <v-btn @click="addData()">1</v-btn>
     <v-toolbar-title
       class="font-weight-light text-capitalize"
       v-text="$route.name"
@@ -95,15 +95,10 @@ export default {
           //   console.log(file.filePath.toString());
 
           //   // Creating and Writing to the sample.txt file
-          fs.copyFile(
-            "./db.json",
-            file.filePath.toString(),
-            "This is a Sample File",
-            function(err) {
-              if (err) throw err;
-              console.log("Saved!");
-            }
-          );
+          fs.copyFile("./db.json", file.filePath.toString(), function(err) {
+            if (err) throw err;
+            console.log("Saved!");
+          });
           // }
         })
         .catch((err) => {
@@ -111,37 +106,22 @@ export default {
         });
     },
     addData() {
-      // console.log(this.$db.getState());
-      // console.log(this.$db.find("products").value());
-      // this.$db.defaults({ products: [] }).write();
-      // this.$db
-      //   // .find("products")
-      //   .get("products")
-      //   .push({ id: 1, title: "lowdb is awesome" })
-      //   .write();
-      //   // .update();
-      // // this.$db.set("products", "typicode").write();
-      // // .get("products")
-      // // .push({ id: 1, title: "lowdb is awesome" })
-      // // .update();
-      // console.log('wynik')
       // for building products db
       // console.log(this.$db.get('users').value());
       // var st = this.$db.get("users").value();
       // st.forEach((element) => {
       //   element.children.forEach((element) => {
-      //     if (element.type === "bike") {
+      //     if (element.type === "mower") {
       //       this.$db
-      //         .get("bikes")
+      //         .get("mowers")
       //         .push(element)
       //         .write();
       //     }
       //   });
       // });
-      // this.$db.get('stihl')
       // repairs
-      // var st = this.$db.get("mowers").value();
-      // // console.log(st)
+      // var st = this.$db.get("bikes").value();
+      // // // console.log(st)
       // st.forEach((element) => {
       //   element.children.forEach((element) => {
       //     // if(element.children==='mower')

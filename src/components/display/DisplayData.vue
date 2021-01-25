@@ -70,6 +70,10 @@ export default {
           icon: "mdi-account",
           text: "Właściciel",
         },
+        machineName: {
+          icon: "mdi-tag",
+          text: "Nazwa urządzenia",
+        },
       },
     };
   },

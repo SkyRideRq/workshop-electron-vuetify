@@ -18,6 +18,20 @@
         </v-row>
         <v-row>
           <v-col>
+            <b>Koszt pracy:</b>
+            {{ data.workCost }} zł
+          </v-col>
+          <v-col>
+            <b>Koszt części:</b>
+            {{ data.partCost }} zł
+          </v-col>
+          <v-col>
+            <b>Koszt całkowity:</b>
+            {{ data.workCost + data.partCost }} zł
+          </v-col>
+        </v-row>
+        <v-row>
+          <v-col>
             <v-textarea
               label="Opis skrócony"
               :value="data.shortNotes"
@@ -25,10 +39,26 @@
             ></v-textarea>
           </v-col>
         </v-row>
-        <v-row></v-row>
+        <v-row>
+          <v-col>
+            {{ data.photos }}
+          </v-col>
+        </v-row>
       </v-col>
     </v-row>
     <v-divider class="mb-5 mt-0"></v-divider>
+    <v-row>
+      <v-col> {{ data.partList }} </v-col>
+      <v-col>
+        <v-textarea
+          label="Notatki"
+          :value="data.notes"
+          hint="Miejsce na notatki związane z naprawą"
+          rows="10"
+          auto-grow
+        ></v-textarea>
+      </v-col>
+    </v-row>
     {{ data }}
   </v-container>
 </template>
@@ -81,6 +111,7 @@ export default {
       this.type = "Kosiarka";
     }
     this.machineData = {
+      machineName: this.product.name,
       type: this.type,
       serialNumber: this.product.serialNumber,
       name: this.owner.name,

@@ -89,9 +89,9 @@ export default {
 .v-treeview > .v-treeview-node:nth-of-type(2n) {
   background-color: rgba(0, 0, 0, 0.1);
 }
-.v-treeview > .v-treeview-node {
+/* .v-treeview > .v-treeview-node {
   border-bottom: 1px solid rgba(0, 0, 0, 0.13);
-}
+} */
 .v-treeview-node__label {
   font-weight: 700;
 }
@@ -153,5 +153,20 @@ export default {
   .v-treeview-node__children
   .v-treeview-node:last-child::after {
   content: none;
+}
+.theme--light.v-treeview--hoverable .v-treeview-node__root:hover::before,
+.theme--light.v-treeview
+  .v-treeview-node--click
+  > .v-treeview-node__root:hover::before {
+  z-index: 2;
+}
+.v-treeview-node__root::before {
+  transition: none;
+}
+.theme--light.v-treeview
+  .v-treeview-node__root.v-treeview-node--active:hover::before,
+.theme--light.v-treeview
+  .v-treeview-node__root.v-treeview-node--active::before {
+  z-index: 2;
 }
 </style>

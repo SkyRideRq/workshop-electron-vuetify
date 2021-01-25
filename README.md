@@ -109,10 +109,19 @@ See [Json Generator](https://next.json-generator.com/). https://next.json-genera
                       return `${parent.link}`;
                     },
                     name: '{{random(["naprawa tłoka"], ["naprawa gaźnika"],["serwis"] )}}',
-                    photos:'{{random(["photo1stihl.jpg"], ["photo2stihl.jpg"], ["photo3stihl.jpg"] )}}',
+                    photos:[{
+                      'repeat(0, 3)': '{{random(["photo1stihl.jpg"], ["photo2stihl.jpg"], ["photo3stihl.jpg"] )}},'
+                    }],
                     shortNotes:'{{lorem([1]).toLowerCase()}}',
                     notes:'{{lorem([10]).toLowerCase()}}',
-                    partList:'{{random(["tłok, uszczelka, karabin, sznur, łopata"], ["membrana, widelec, koło"],["iglica, klucz, zapadka, nakrętka, sznur,"] )}}'
+                    partList:[
+                      {
+                        'repeat(1, 4)': {
+                          name:'{{random(["tłok"], ["uszczelka"], ["karabin"], ["sznur"], ["łopata"], ["membrana"], ["widelec"], ["koło"], ["iglica"], ["klucz"], ["zapadka"], ["nakrętka"] )}}',
+                          cost:'{{floating([1], [1234], [0])}}'
+                        }
+                      }
+                    ]
                   }
                 }
               ]
@@ -150,10 +159,19 @@ See [Json Generator](https://next.json-generator.com/). https://next.json-genera
                       return `${parent.link}`;
                     },
                     name: '{{random(["wymiana dętki"], ["naprawa"],["serwis"] )}}',
-                    photos:'{{random(["photo1rower.jpg"], ["photo2rower.jpg"], ["photo3rower.jpg"] )}}',
+                    photos:[{
+                      'repeat(0, 3)': '{{random(["photo1rower.jpg"], ["photo2rower.jpg"], ["photo3rower.jpg"] )}},'
+                    }],
                     shortNotes:'{{lorem([1]).toLowerCase()}}',
                     notes:'{{lorem([10]).toLowerCase()}}',
-                    partList:'{{random(["tłok, uszczelka, karabin, sznur, łopata"], ["membrana, widelec, koło"],["iglica, klucz, zapadka, nakrętka, sznur,"] )}}'
+                    partList:[
+                      {
+                        'repeat(1, 4)': {
+                          name:'{{random(["tłok"], ["uszczelka"], ["karabin"], ["sznur"], ["łopata"], ["membrana"], ["widelec"], ["koło"], ["iglica"], ["klucz"], ["zapadka"], ["nakrętka"] )}}',
+                          cost:'{{floating([1], [1234], [0])}}'
+                        }
+                      }
+                    ]
                   }
                 }
               ]
@@ -190,10 +208,19 @@ See [Json Generator](https://next.json-generator.com/). https://next.json-genera
                       return `${parent.link}`;
                     },
                     name: '{{random(["wymiana cylindra"], ["wymiana kółek"],["serwis"] )}}',
-                    photos:'{{random(["photo1kosiarka.jpg"], ["photo2kosiarka.jpg"], ["photo3kosiarka.jpg"] )}}',
+                    photos:[{
+                      'repeat(0, 3)': '{{random(["photo2kosiarka.jpg"], ["photo1kosiarka.jpg"], ["photo3kosiarka.jpg"] )}},'
+                    }],
                     shortNotes:'{{lorem([1]).toLowerCase()}}',
                     notes:'{{lorem([10]).toLowerCase()}}',
-                    partList:'{{random(["tłok, uszczelka, karabin, sznur, łopata"], ["membrana, widelec, koło"],["iglica, klucz, zapadka, nakrętka, sznur,"] )}}'
+                    partList:[
+                      {
+                        'repeat(1, 4)': {
+                          name:'{{random(["tłok"], ["uszczelka"], ["karabin"], ["sznur"], ["łopata"], ["membrana"], ["widelec"], ["koło"], ["iglica"], ["klucz"], ["zapadka"], ["nakrętka"] )}}',
+                          cost:'{{floating([1], [1234], [0])}}'
+                        }
+                      }
+                    ]
                   }
                 }
               ]

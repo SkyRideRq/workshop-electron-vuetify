@@ -63,7 +63,7 @@ const routes = [
   {
     path: "/:id/:id1/:id2",
     name: "Naprawa",
-    component: () => import("../components/repair/RepairPage.vue"),
+    component: () => import("../views/RepairPage.vue"),
   },
 ];
 

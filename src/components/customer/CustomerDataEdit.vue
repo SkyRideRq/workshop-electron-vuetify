@@ -98,7 +98,7 @@
 </template>
 <script>
 export default {
-  name: "DataEdit",
+  name: "CustomerDataEdit",
   data: () => {
     return {
       // data: [],

@@ -22,26 +22,34 @@
         </v-card-title>
 
         <v-card-text>
-          <CustomerData :data="data" />
+          <DisplayData :data="adressData" />
         </v-card-text>
       </v-card>
     </v-dialog>
   </div>
 </template>
 <script>
-import CustomerData from "./CustomerData";
-
+import DisplayData from "../display/DisplayData";
 export default {
   name: "CustomerPreview",
   components: {
-    CustomerData,
+    DisplayData,
   },
   data: () => {
     return {
       dialog: false,
+      adressData: [],
     };
   },
-
+  created() {
+    this.adressData = {
+      company: this.data.company,
+      adress: this.data.adress,
+      phone: this.data.phone,
+      mail: this.data.mail,
+    };
+    console.log(this.adressData);
+  },
   props: ["data"],
 };
 </script>

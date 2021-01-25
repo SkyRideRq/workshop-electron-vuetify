@@ -3,10 +3,10 @@
     <h1 class="ml-4">{{ data.name }}</h1>
     <v-row>
       <v-col>
-        <CustomerData :data="adressData" />
+        <DisplayData :data="adressData" />
       </v-col>
       <v-col class="mr-2">
-        <DataEdit :data="adressData" @dataToChange="changeData" />
+        <CustomerDataEdit :data="dataToEdit" @dataToChange="changeData" />
       </v-col>
     </v-row>
     <v-divider class="my-5"></v-divider>
@@ -14,8 +14,8 @@
   </v-container>
 </template>
 <script>
-import CustomerData from "../components/customer/CustomerData";
-import DataEdit from "../components/DataEdit";
+import DisplayData from "../components/display/DisplayData";
+import CustomerDataEdit from "../components/customer/CustomerDataEdit";
 import DisplayTree from "../components/display/DisplayTree";
 
 export default {
@@ -27,8 +27,8 @@ export default {
     };
   },
   components: {
-    CustomerData,
-    DataEdit,
+    DisplayData,
+    CustomerDataEdit,
     DisplayTree,
   },
   created() {
@@ -40,6 +40,15 @@ export default {
     console.log(this.data);
 
     this.adressData = {
+      // name: this.data.name,
+      // last: this.data.last,
+      // first: this.data.first,
+      company: this.data.company,
+      adress: this.data.adress,
+      phone: this.data.phone,
+      mail: this.data.mail,
+    };
+    this.dataToEdit = {
       name: this.data.name,
       last: this.data.last,
       first: this.data.first,

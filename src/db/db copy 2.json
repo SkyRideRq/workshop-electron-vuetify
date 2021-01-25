@@ -17,7 +17,7 @@
         {
           "id": "60096a6b88c2d2ce67d31dae",
           "guid": "e133ef64-a323-4ab8-8c27-8b3ba8251d2d",
-          "name": "MS 230CBE",
+          "name": "MS 230C",
           "type": "stihl",
           "serialNumber": 914133505,
           "registered": "Sunday, October 14, 2018 9:26 PM",
@@ -145,6 +145,34 @@
               "partList": "iglica, klucz, zapadka, nakrętka, sznur,"
             }
           ]
+        },
+        {
+          "repeat(1, 3)": {
+            "id": "{{objectId()}}",
+            "guid": "{{guid()}}",
+            "name": "{{random([\"viking 440\"], [\"honda 234i\"], [\"viking 2324\"],[\"maruyama 400xl\"], )}}",
+            "type": "mower",
+            "serialNumber": "{{floating([100000000], [999999999], [0])}}",
+            "registered": "{{moment(this.date(new Date(2014, 0, 1), new Date())).format(\"LLLL\")}}",
+            "children": [
+              {
+                "repeat(1, 6)": {
+                  "id": "{{objectId()}}",
+                  "guid": "{{guid()}}",
+                  "type": "repair",
+                  "registered": "{{moment(this.date(new Date(2014, 0, 1), new Date())).format(\"LLLL\")}}",
+                  "returned": "{{moment(this.date(new Date(2014, 0, 1), new Date())).format(\"LLLL\")}}",
+                  "partCost": "{{floating([1], [1234], [0])}}",
+                  "workCost": "{{floating([1], [1234], [0])}}",
+                  "name": "{{random([\"wymiana cylindra\"], [\"wymiana kółek\"],[\"serwis\"] )}}",
+                  "photos": "{{random([\"photo1kosiarka.jpg\"], [\"photo2kosiarka.jpg\"], [\"photo3kosiarka.jpg\"] )}}",
+                  "shortNotes": "{{lorem([1]).toLowerCase()}}",
+                  "notes": "{{lorem([10]).toLowerCase()}}",
+                  "partList": "{{random([\"tłok, uszczelka, karabin, sznur, łopata\"], [\"membrana, widelec, koło\"],[\"iglica, klucz, zapadka, nakrętka, sznur,\"] )}}"
+                }
+              }
+            ]
+          }
         }
       ]
     },
@@ -205,6 +233,34 @@
               "partList": "tłok, uszczelka, karabin, sznur, łopata"
             }
           ]
+        },
+        {
+          "repeat(1, 3)": {
+            "id": "{{objectId()}}",
+            "guid": "{{guid()}}",
+            "name": "{{random([\"giant\"], [\"fox\"], [\"unibike\"],[\"romet\"], )}}",
+            "type": "bike",
+            "serialNumber": "{{floating([100000000], [999999999], [0])}}",
+            "registered": "{{moment(this.date(new Date(2014, 0, 1), new Date())).format(\"LLLL\")}}",
+            "children": [
+              {
+                "repeat(1, 5)": {
+                  "id": "{{objectId()}}",
+                  "guid": "{{guid()}}",
+                  "type": "repair",
+                  "registered": "{{moment(this.date(new Date(2014, 0, 1), new Date())).format(\"LLLL\")}}",
+                  "returned": "{{moment(this.date(new Date(2014, 0, 1), new Date())).format(\"LLLL\")}}",
+                  "partCost": "{{floating([1], [1234], [0])}}",
+                  "workCost": "{{floating([1], [1234], [0])}}",
+                  "name": "{{random([\"wymiana dętki\"], [\"naprawa\"],[\"serwis\"] )}}",
+                  "photos": "{{random([\"photo1rower.jpg\"], [\"photo2rower.jpg\"], [\"photo3rower.jpg\"] )}}",
+                  "shortNotes": "{{lorem([1]).toLowerCase()}}",
+                  "notes": "{{lorem([10]).toLowerCase()}}",
+                  "partList": "{{random([\"tłok, uszczelka, karabin, sznur, łopata\"], [\"membrana, widelec, koło\"],[\"iglica, klucz, zapadka, nakrętka, sznur,\"] )}}"
+                }
+              }
+            ]
+          }
         },
         {
           "id": "60096a6b4b98591a19394592",
@@ -5800,126 +5856,6 @@
       "name": "giant",
       "type": "bike",
       "serialNumber": 608185137,
-      "registered": "Saturday, October 29, 2016 5:50 PM",
-      "link": "2ca41755-667c-4d25-9ebc-8f9bc1522088/998177ba-30d5-4f97-9825-95e5f728aaea",
-      "parentLink": "2ca41755-667c-4d25-9ebc-8f9bc1522088",
-      "children": [
-        {
-          "id": "60096a6b26dbc98c0b937782",
-          "guid": "e2f86982-4c79-4e11-a77e-6483b5b9f327",
-          "type": "repair",
-          "registered": "Monday, August 28, 2017 11:35 PM",
-          "returned": "Wednesday, January 9, 2019 11:27 AM",
-          "partCost": 796,
-          "workCost": 135,
-          "link": "2ca41755-667c-4d25-9ebc-8f9bc1522088/998177ba-30d5-4f97-9825-95e5f728aaea/e2f86982-4c79-4e11-a77e-6483b5b9f327",
-          "parentLink": "2ca41755-667c-4d25-9ebc-8f9bc1522088/998177ba-30d5-4f97-9825-95e5f728aaea",
-          "name": "serwis",
-          "photos": "photo2rower.jpg",
-          "shortNotes": "pariatur adipisicing nulla lorem lorem proident eu do sunt cupidatat excepteur aliquip minim enim quis.",
-          "notes": "aute ad minim aliquip ex dolor tempor nulla sint fugiat aute adipisicing consequat minim. aliqua dolore officia deserunt nisi est in esse. nostrud ex sunt in pariatur cupidatat ut aliqua. officia reprehenderit laboris aliqua nisi sit amet laborum anim nulla occaecat aliquip minim amet ipsum. incididunt dolore irure ut aliquip ut sunt duis aliqua eu sunt aliqua proident nostrud est. amet proident nostrud id id id incididunt mollit adipisicing nulla ipsum officia eiusmod cillum. aliquip irure in laboris dolor. minim magna quis esse pariatur reprehenderit non ex est esse. do consequat adipisicing enim mollit elit ut. esse reprehenderit anim sit laborum.",
-          "partList": "membrana, widelec, koło"
-        },
-        {
-          "id": "60096a6b081b9a543b56af2b",
-          "guid": "65d1a347-7505-4a76-91e7-3699de5b75d6",
-          "type": "repair",
-          "registered": "Tuesday, January 10, 2017 11:17 PM",
-          "returned": "Sunday, July 24, 2016 10:45 AM",
-          "partCost": 627,
-          "workCost": 804,
-          "link": "2ca41755-667c-4d25-9ebc-8f9bc1522088/998177ba-30d5-4f97-9825-95e5f728aaea/65d1a347-7505-4a76-91e7-3699de5b75d6",
-          "parentLink": "2ca41755-667c-4d25-9ebc-8f9bc1522088/998177ba-30d5-4f97-9825-95e5f728aaea",
-          "name": "naprawa",
-          "photos": "photo2rower.jpg",
-          "shortNotes": "labore excepteur elit aliquip commodo lorem deserunt ut aliqua amet.",
-          "notes": "occaecat fugiat duis nostrud id ullamco quis quis minim mollit duis pariatur pariatur. elit commodo dolore esse elit anim nisi in elit do occaecat nostrud fugiat duis. duis nisi dolor nisi eiusmod nostrud. consequat et deserunt exercitation ex nisi culpa veniam aliqua aliqua veniam dolore irure dolor. ex sunt ea aute officia cillum et duis id dolor non pariatur lorem duis officia. eu aliquip magna in tempor nulla sint ut incididunt amet quis et nostrud incididunt mollit. culpa magna eu et laboris reprehenderit sit enim et ullamco ex id consequat non. commodo laborum incididunt est voluptate qui ex minim reprehenderit tempor cillum sint esse. labore sint sunt nulla dolor do labore. ut eiusmod elit nisi ex pariatur anim minim fugiat adipisicing sint labore in qui occaecat.",
-          "partList": "iglica, klucz, zapadka, nakrętka, sznur,"
-        },
-        {
-          "id": "60096a6bb4bda6ed7bb0dd8c",
-          "guid": "d92e23ca-313d-45f8-a4e7-477e948fef46",
-          "type": "repair",
-          "registered": "Tuesday, January 16, 2018 12:07 AM",
-          "returned": "Thursday, June 18, 2020 3:46 AM",
-          "partCost": 1225,
-          "workCost": 160,
-          "link": "2ca41755-667c-4d25-9ebc-8f9bc1522088/998177ba-30d5-4f97-9825-95e5f728aaea/d92e23ca-313d-45f8-a4e7-477e948fef46",
-          "parentLink": "2ca41755-667c-4d25-9ebc-8f9bc1522088/998177ba-30d5-4f97-9825-95e5f728aaea",
-          "name": "serwis",
-          "photos": "photo1rower.jpg",
-          "shortNotes": "ipsum irure officia commodo est magna nulla lorem non consequat.",
-          "notes": "deserunt proident duis sunt excepteur aute nulla aliqua. mollit duis id ea consequat culpa esse ullamco mollit non amet culpa dolore duis pariatur. nulla sint id aliqua eiusmod. sint tempor lorem qui mollit nostrud qui sit do est. est adipisicing voluptate eu deserunt occaecat mollit aliqua excepteur. ipsum cillum elit exercitation in commodo consectetur. ea sit laboris et eu commodo fugiat anim incididunt reprehenderit. eu tempor adipisicing quis cupidatat reprehenderit excepteur minim ex in reprehenderit lorem. officia anim do dolore do lorem. ad excepteur lorem in culpa.",
-          "partList": "iglica, klucz, zapadka, nakrętka, sznur,"
-        }
-      ]
-    },
-    {
-      "id": "60096a6b6202e03dd99944a0",
-      "guid": "998177ba-30d5-4f97-9825-95e5f728aaea",
-      "name": "giant mv23-02d",
-      "type": "bike",
-      "serialNumber": "608185137e",
-      "registered": "Saturday, October 29, 2016 5:50 PM",
-      "link": "2ca41755-667c-4d25-9ebc-8f9bc1522088/998177ba-30d5-4f97-9825-95e5f728aaea",
-      "parentLink": "2ca41755-667c-4d25-9ebc-8f9bc1522088",
-      "children": [
-        {
-          "id": "60096a6b26dbc98c0b937782",
-          "guid": "e2f86982-4c79-4e11-a77e-6483b5b9f327",
-          "type": "repair",
-          "registered": "Monday, August 28, 2017 11:35 PM",
-          "returned": "Wednesday, January 9, 2019 11:27 AM",
-          "partCost": 796,
-          "workCost": 135,
-          "link": "2ca41755-667c-4d25-9ebc-8f9bc1522088/998177ba-30d5-4f97-9825-95e5f728aaea/e2f86982-4c79-4e11-a77e-6483b5b9f327",
-          "parentLink": "2ca41755-667c-4d25-9ebc-8f9bc1522088/998177ba-30d5-4f97-9825-95e5f728aaea",
-          "name": "serwis",
-          "photos": "photo2rower.jpg",
-          "shortNotes": "pariatur adipisicing nulla lorem lorem proident eu do sunt cupidatat excepteur aliquip minim enim quis.",
-          "notes": "aute ad minim aliquip ex dolor tempor nulla sint fugiat aute adipisicing consequat minim. aliqua dolore officia deserunt nisi est in esse. nostrud ex sunt in pariatur cupidatat ut aliqua. officia reprehenderit laboris aliqua nisi sit amet laborum anim nulla occaecat aliquip minim amet ipsum. incididunt dolore irure ut aliquip ut sunt duis aliqua eu sunt aliqua proident nostrud est. amet proident nostrud id id id incididunt mollit adipisicing nulla ipsum officia eiusmod cillum. aliquip irure in laboris dolor. minim magna quis esse pariatur reprehenderit non ex est esse. do consequat adipisicing enim mollit elit ut. esse reprehenderit anim sit laborum.",
-          "partList": "membrana, widelec, koło"
-        },
-        {
-          "id": "60096a6b081b9a543b56af2b",
-          "guid": "65d1a347-7505-4a76-91e7-3699de5b75d6",
-          "type": "repair",
-          "registered": "Tuesday, January 10, 2017 11:17 PM",
-          "returned": "Sunday, July 24, 2016 10:45 AM",
-          "partCost": 627,
-          "workCost": 804,
-          "link": "2ca41755-667c-4d25-9ebc-8f9bc1522088/998177ba-30d5-4f97-9825-95e5f728aaea/65d1a347-7505-4a76-91e7-3699de5b75d6",
-          "parentLink": "2ca41755-667c-4d25-9ebc-8f9bc1522088/998177ba-30d5-4f97-9825-95e5f728aaea",
-          "name": "naprawa",
-          "photos": "photo2rower.jpg",
-          "shortNotes": "labore excepteur elit aliquip commodo lorem deserunt ut aliqua amet.",
-          "notes": "occaecat fugiat duis nostrud id ullamco quis quis minim mollit duis pariatur pariatur. elit commodo dolore esse elit anim nisi in elit do occaecat nostrud fugiat duis. duis nisi dolor nisi eiusmod nostrud. consequat et deserunt exercitation ex nisi culpa veniam aliqua aliqua veniam dolore irure dolor. ex sunt ea aute officia cillum et duis id dolor non pariatur lorem duis officia. eu aliquip magna in tempor nulla sint ut incididunt amet quis et nostrud incididunt mollit. culpa magna eu et laboris reprehenderit sit enim et ullamco ex id consequat non. commodo laborum incididunt est voluptate qui ex minim reprehenderit tempor cillum sint esse. labore sint sunt nulla dolor do labore. ut eiusmod elit nisi ex pariatur anim minim fugiat adipisicing sint labore in qui occaecat.",
-          "partList": "iglica, klucz, zapadka, nakrętka, sznur,"
-        },
-        {
-          "id": "60096a6bb4bda6ed7bb0dd8c",
-          "guid": "d92e23ca-313d-45f8-a4e7-477e948fef46",
-          "type": "repair",
-          "registered": "Tuesday, January 16, 2018 12:07 AM",
-          "returned": "Thursday, June 18, 2020 3:46 AM",
-          "partCost": 1225,
-          "workCost": 160,
-          "link": "2ca41755-667c-4d25-9ebc-8f9bc1522088/998177ba-30d5-4f97-9825-95e5f728aaea/d92e23ca-313d-45f8-a4e7-477e948fef46",
-          "parentLink": "2ca41755-667c-4d25-9ebc-8f9bc1522088/998177ba-30d5-4f97-9825-95e5f728aaea",
-          "name": "serwis",
-          "photos": "photo1rower.jpg",
-          "shortNotes": "ipsum irure officia commodo est magna nulla lorem non consequat.",
-          "notes": "deserunt proident duis sunt excepteur aute nulla aliqua. mollit duis id ea consequat culpa esse ullamco mollit non amet culpa dolore duis pariatur. nulla sint id aliqua eiusmod. sint tempor lorem qui mollit nostrud qui sit do est. est adipisicing voluptate eu deserunt occaecat mollit aliqua excepteur. ipsum cillum elit exercitation in commodo consectetur. ea sit laboris et eu commodo fugiat anim incididunt reprehenderit. eu tempor adipisicing quis cupidatat reprehenderit excepteur minim ex in reprehenderit lorem. officia anim do dolore do lorem. ad excepteur lorem in culpa.",
-          "partList": "iglica, klucz, zapadka, nakrętka, sznur,"
-        }
-      ]
-    },
-    {
-      "id": "60096a6b6202e03dd99944a0",
-      "guid": "998177ba-30d5-4f97-9825-95e5f728aaea",
-      "name": "giant mv23-02d",
-      "type": "stihl",
-      "serialNumber": "608185137e",
       "registered": "Saturday, October 29, 2016 5:50 PM",
       "link": "2ca41755-667c-4d25-9ebc-8f9bc1522088/998177ba-30d5-4f97-9825-95e5f728aaea",
       "parentLink": "2ca41755-667c-4d25-9ebc-8f9bc1522088",

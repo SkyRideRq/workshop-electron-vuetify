@@ -18,7 +18,7 @@
         mdi-menu-open
       </v-icon>
     </v-btn>
-    <v-btn @click="addData()">1</v-btn>
+    <!-- <v-btn @click="addData()">1</v-btn> -->
     <v-toolbar-title
       class="font-weight-light text-capitalize"
       v-text="$route.name"

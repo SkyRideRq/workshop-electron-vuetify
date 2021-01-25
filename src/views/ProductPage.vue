@@ -1,25 +1,12 @@
 <template>
   <v-container>
+    <h1 class="ml-4">{{ data.name }}</h1>
     <v-row>
-      <v-col class="d-flex align-center">
-        <h1 class="ml-4">{{ data.name }}</h1>
+      <v-col>
+        <DisplayData :data="machineData" />
       </v-col>
-      <v-col class="d-flex align-center">
-        <h2>Typ urządzenia: {{ type }}</h2>
-      </v-col>
-      <v-col class="d-flex align-center">
-        <h2 class="m-0">Numer seryjny: {{ data.serialNumber }}</h2>
-      </v-col>
-    </v-row>
-    <v-row>
-      <v-col class="d-flex align-center">
-        <h2 class="ml-4">Właściciel: {{ owner.name }}</h2>
-      </v-col>
-      <v-col class="d-flex align-center">
-        <h2>Firma: {{ owner.company }}</h2>
-      </v-col>
-      <v-col class="d-flex align-center">
-        <h2>Nr telefonu: {{ owner.phone }}</h2>
+      <v-col class="mr-2">
+        <ProductDataEdit :data="dataToEdit" @dataToChange="changeData" />
       </v-col>
     </v-row>
     <v-divider class="mb-5 mt-0"></v-divider>
@@ -30,16 +17,22 @@
 
 <script>
 import DisplayTree from "../components/display/DisplayTree";
+import DisplayData from "../components/display/DisplayData";
+import ProductDataEdit from "../components/product/ProductDataEdit";
 export default {
   name: "ProductPage",
   components: {
     DisplayTree,
+    DisplayData,
+    ProductDataEdit,
   },
   data: () => {
     return {
       data: [],
       type: "",
       owner: [],
+      items: [],
+      machineData: [],
     };
   },
   created() {
@@ -65,6 +58,44 @@ export default {
     if (this.data.type === "mower") {
       this.type = "Kosiarka";
     }
+    this.machineData = {
+      type: this.type,
+      serialNumber: this.data.serialNumber,
+      name: this.owner.name,
+      company: this.owner.company,
+      phone: this.owner.phone,
+      mail: this.owner.mail,
+    };
+    this.dataToEdit = {
+      serialNumber: this.data.serialNumber,
+      name: this.data.name,
+      type: this.data.type,
+    };
+  },
+  methods: {
+    changeData(value) {
+      this.machineData.type = value.type;
+      if (value.type === "stihl") {
+        this.machineData.type = "Stihl";
+      }
+      if (value.type === "bike") {
+        this.machineData.type = "Rower";
+      }
+      if (value.type === "mower") {
+        this.machineData.type = "Kosiarka";
+      }
+      this.machineData.serialNumber = value.serialNumber;
+
+      this.data.name = value.name;
+
+      this.$db
+        .get("users")
+        .find({ guid: this.$route.params.id })
+        .get("children")
+        .find({ guid: this.$route.params.id1 })
+        .assign(value)
+        .write();
+    },
   },
 };
 </script>

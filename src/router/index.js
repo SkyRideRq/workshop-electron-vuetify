@@ -30,7 +30,7 @@ const routes = [
     path: "/Kosiarki",
     name: "Kosiarki",
     meta: {
-      name: "mowers",
+      name: "mower",
     },
     component: () => import("../views/ProductView.vue"),
   },
@@ -38,7 +38,7 @@ const routes = [
     path: "/Rowery",
     name: "Rowery",
     meta: {
-      name: "bikes",
+      name: "bike",
     },
     component: () => import("../views/ProductView.vue"),
   },

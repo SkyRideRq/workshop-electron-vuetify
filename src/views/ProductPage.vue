@@ -12,6 +12,7 @@
     <v-divider class="mb-5 mt-0"></v-divider>
 
     <DisplayTree :items="items" />
+    <RepairAdd />
   </v-container>
 </template>
 
@@ -19,12 +20,14 @@
 import DisplayTree from "../components/display/DisplayTree";
 import DisplayData from "../components/display/DisplayData";
 import ProductDataEdit from "../components/product/ProductDataEdit";
+import RepairAdd from "../components/repair/RepairAdd";
 export default {
   name: "ProductPage",
   components: {
     DisplayTree,
     DisplayData,
     ProductDataEdit,
+    RepairAdd,
   },
   data: () => {
     return {

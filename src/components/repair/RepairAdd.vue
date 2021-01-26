@@ -14,45 +14,50 @@
           <v-icon x-large>mdi-plus</v-icon>
         </v-btn>
       </template>
-      <span>Dodaj klienta</span>
+      <span>Dodaj naprawę</span>
     </v-tooltip>
   </div>
 </template>
 <script>
 export default {
-  name: "AddCustomer",
+  name: "RepairAdd",
   components: {},
   data: () => {
     return {};
   },
   created() {},
-  // props: ["data"],
   methods: {
     AddItem() {
       var guid = this.uuidv4();
       var id = this.mongoObjectId();
 
-      var newUser = {
-        guid: guid,
+      var newRepair = {
         id: id,
-        first: "",
-        last: "",
+        guid: guid,
+        type: "repair",
+        registered: "",
+        returned: "",
+        partCost: "",
+        workCost: "",
+        link: this.$route.params.id + "/" + this.$route.params.id1 + "/" + guid,
+        parentLink: this.$route.params.id + "/" + this.$route.params.id1,
         name: "",
-        company: "",
-        phone: "",
-        mail: "",
-        type: "user",
-        adress: "",
-        registered: new Date(),
-        link: guid,
-        children: [],
+        photos: [],
+        shortNotes: "",
+        notes: "",
+        partList: [],
       };
-      console.log(newUser);
+      console.log(newRepair);
       this.$db
         .get("users")
-        .push(newUser)
+        .find({ guid: this.$route.params.id })
+        .get("children")
+        .find({ guid: this.$route.params.id1 })
+        .get("children")
+        .push(newRepair)
         .write();
-      this.$router.push(newUser.link);
+      this.$router.push("/");
+      this.$router.push(newRepair.link);
     },
     // https://stackoverflow.com/questions/105034/how-to-create-a-guid-uuid
     uuidv4() {

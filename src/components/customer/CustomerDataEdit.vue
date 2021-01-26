@@ -150,7 +150,7 @@ export default {
       event.preventDefault();
       this.data.name = this.data.last + " " + this.data.first;
       this.$emit("dataToChange", this.data);
-      console.log(this.data);
+      // console.log(this.data);
       this.confirmed = false;
     },
   },

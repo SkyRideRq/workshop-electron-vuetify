@@ -7,11 +7,15 @@
       </v-col>
       <v-col class="mr-2">
         <v-row>
-          <v-col>
+          <v-col class="d-flex">
             <b>Data przyjęcia:</b>
-            {{ new Date(data.registered).toLocaleDateString() }}
+
+            <p v-if="data.registered">
+              {{ new Date(data.registered).toLocaleDateString() }}
+            </p>
+            <DispalyDatePicker />
           </v-col>
-          <v-col>
+          <v-col class="d-flex">
             <b>Data oddania:</b>
             {{ new Date(data.returned).toLocaleDateString() }}
           </v-col>
@@ -65,11 +69,13 @@
 
 <script>
 import DisplayData from "../components/display/DisplayData";
+import DispalyDatePicker from "../components/display/DispalyDatePicker";
 
 export default {
   name: "ProductPage",
   components: {
     DisplayData,
+    DispalyDatePicker,
   },
   data: () => {
     return {
@@ -80,7 +86,6 @@ export default {
     };
   },
   created() {
-    console.log(this.$route);
     this.data = this.$db
       .get("users")
       .find({ guid: this.$route.params.id })
@@ -94,6 +99,7 @@ export default {
       .get("users")
       .find({ guid: this.$route.params.id })
       .value();
+
     this.product = this.$db
       .get("users")
       .find({ guid: this.$route.params.id })
@@ -110,6 +116,7 @@ export default {
     if (this.product.type === "mower") {
       this.type = "Kosiarka";
     }
+
     this.machineData = {
       machineName: this.product.name,
       type: this.type,
@@ -119,6 +126,7 @@ export default {
       phone: this.owner.phone,
       mail: this.owner.mail,
     };
+
     this.dataToEdit = {
       serialNumber: this.data.serialNumber,
       name: this.data.name,

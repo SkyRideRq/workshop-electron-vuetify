@@ -83,8 +83,8 @@ export default {
     // console.log(this.data.slice(0, 1));
   },
   updated() {
-    console.log("--display");
-    console.log(this.data);
+    // console.log("--display");
+    // console.log(this.data);
   },
 };
 </script>

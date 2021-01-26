@@ -6,7 +6,7 @@
     :items="items"
     class="display-tree"
   >
-    <template slot="append" slot-scope="props">
+    <template slot="append" slot-scope="props" v-if="props.item.name !== ''">
       <div class="d-flex align-center display-tree__box">
         <div
           class="d-flex align-center display-tree__holder"
@@ -26,6 +26,7 @@
           </p>
         </div>
         <CustomerPreview v-if="props.item.type === 'user'" :data="props.item" />
+
         <v-btn @click="changeLink($event, props.item.link)">
           Szczegóły
         </v-btn>

@@ -1,13 +1,12 @@
 <template>
   <v-container>
-    <v-form ref="form" @submit="search()">
+    <v-form ref="form" @submit="search($event)">
       <div class="search-box mt-5">
         <v-combobox
           v-model="searchPlace"
           :items="items"
           class="px-2 search-box__input"
           label="Szukaj po"
-          @change="changeSearchLabel()"
           disable-lookup
         ></v-combobox>
 
@@ -53,7 +52,9 @@ export default {
   },
   components: {},
   methods: {
-    search() {
+    search(event) {
+      event.preventDefault();
+
       const regex = new RegExp(`^${this.searchWord}`, "i");
       console.log(this.searchPlace.value);
       var searchResult = this.$db

@@ -48,7 +48,6 @@ export default {
       phone: this.data.phone,
       mail: this.data.mail,
     };
-    console.log(this.adressData);
   },
   props: ["data"],
 };

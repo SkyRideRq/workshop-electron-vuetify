@@ -61,7 +61,18 @@ export default {
   },
   methods: {
     changeData(value) {
-      this.adressData = value;
+      this.adressData = {
+        // name: this.data.name,
+        // last: this.data.last,
+        // first: this.data.first,
+        company: value.company,
+        adress: value.adress,
+        phone: value.phone,
+        mail: value.mail,
+      };
+
+      console.log("---value");
+      console.log(value);
       this.data.name = value.last + " " + value.first;
       this.$db
         .get("users")

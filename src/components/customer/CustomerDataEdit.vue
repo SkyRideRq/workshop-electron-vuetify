@@ -83,7 +83,12 @@
     </v-btn>
 
     <div class="d-flex justify-end" v-if="confirmed">
-      <v-btn color="success" class="rounded-0 rounded-l" @click="saveData()">
+      <v-btn
+        color="success"
+        class="rounded-0 rounded-l"
+        @click="saveData($event)"
+        type="submit"
+      >
         <v-icon>mdi-check</v-icon>
       </v-btn>
       <v-btn
@@ -114,6 +119,26 @@ export default {
   },
   components: {},
   props: ["data"],
+  created() {
+    if (this.data.last === "") {
+      this.c1 = false;
+    }
+    if (this.data.first === "") {
+      this.c2 = false;
+    }
+    if (this.data.company === "") {
+      this.c3 = false;
+    }
+    if (this.data.adress === "") {
+      this.c4 = false;
+    }
+    if (this.data.phone === "") {
+      this.c5 = false;
+    }
+    if (this.data.mail === "") {
+      this.c6 = false;
+    }
+  },
   methods: {
     confirmation() {
       for (var i = 1; i < 7; i++) {
@@ -121,7 +146,8 @@ export default {
       }
       this.confirmed = true;
     },
-    saveData() {
+    saveData(event) {
+      event.preventDefault();
       this.data.name = this.data.last + " " + this.data.first;
       this.$emit("dataToChange", this.data);
       console.log(this.data);

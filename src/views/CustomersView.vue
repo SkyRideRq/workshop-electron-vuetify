@@ -2,17 +2,20 @@
   <v-container>
     <SearchBar @searchResult="showSearchResult" />
     <DisplayTree :items="items" />
+    <CustomerAdd />
   </v-container>
 </template>
 <script>
 import DisplayTree from "../components/display/DisplayTree";
 import SearchBar from "../components/search/SearchBar";
+import CustomerAdd from "../components/customer/CustomerAdd";
 
 export default {
   name: "Customers",
   components: {
     DisplayTree,
     SearchBar,
+    CustomerAdd,
   },
   data: () => {
     return {
@@ -24,6 +27,9 @@ export default {
       .get("users")
       .sortBy("last")
       .value();
+    console.log("---current db---");
+    console.log(this.items);
+    console.log("---end current db---");
   },
   methods: {
     showSearchResult(value) {

@@ -22,10 +22,16 @@ export default {
   data: () => ({
     //
   }),
+  created() {
+    console.log("--current route--");
+    console.log(this.$route);
+    console.log("-- end current route--");
+  },
   watch: {
     $route() {
+      console.log("--current route--");
       console.log(this.$route);
-      console.log(this.$route.path);
+      console.log("-- end current route--");
     },
   },
 };

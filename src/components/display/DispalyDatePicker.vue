@@ -1,25 +1,38 @@
 <template>
-  <div class="text-center">
-    <v-dialog v-model="dialog" width="290">
-      <template v-slot:activator="{ on, attrs }">
-        <v-btn color="red lighten-2" dark v-bind="attrs" v-on="on">
-          Click Me
+  <v-menu
+    ref="menu"
+    v-model="menu"
+    :close-on-content-click="false"
+    :return-value.sync="date"
+    transition="scale-transition"
+    offset-y
+    min-width="auto"
+  >
+    <template v-slot:activator="{ on, attrs }">
+      <v-text-field
+        v-model="date"
+        prepend-icon="mdi-calendar"
+        readonly
+        v-bind="attrs"
+        v-on="on"
+      ></v-text-field>
+    </template>
+    <v-date-picker v-model="date" scrollable locale="pl-pl">
+      <v-spacer></v-spacer>
+      <div class="d-flex justify-end">
+        <v-btn
+          class="rounded-0 rounded-l"
+          color="success"
+          @click="$refs.menu.save(date)"
+        >
+          <v-icon>mdi-check</v-icon>
         </v-btn>
-      </template>
-
-      <v-card>
-        <v-card-title class="headline grey lighten-2">
-          Wybierz datę przyjęcia:
-        </v-card-title>
-
-        <v-date-picker
-          v-model="picker"
-          show-adjacent-months
-          locale="pl-pl"
-        ></v-date-picker>
-      </v-card>
-    </v-dialog>
-  </div>
+        <v-btn class="rounded-0 rounded-r" color="error" @click="menu = false">
+          <v-icon>mdi-close</v-icon>
+        </v-btn>
+      </div>
+    </v-date-picker>
+  </v-menu>
 </template>
 <script>
 export default {
@@ -28,8 +41,10 @@ export default {
     return {
       picker: null,
       dialog: false,
+      menu: false,
     };
   },
   components: {},
+  props: ["date"],
 };
 </script>

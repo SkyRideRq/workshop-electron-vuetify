@@ -7,23 +7,35 @@
       </v-col>
       <v-col class="mr-2">
         <v-row>
-          <v-col class="d-flex">
+          <v-col>
             <b>Data przyjęcia:</b>
-
-            <p v-if="data.registered">
-              {{ new Date(data.registered).toLocaleDateString() }}
-            </p>
-            <DispalyDatePicker />
+            <DispalyDatePicker
+              :date="new Date(data.registered).toISOString().substr(0, 10)"
+            />
           </v-col>
-          <v-col class="d-flex">
+          <v-col>
             <b>Data oddania:</b>
-            {{ new Date(data.returned).toLocaleDateString() }}
+            <DispalyDatePicker
+              :date="new Date(data.returned).toISOString().substr(0, 10)"
+            />
           </v-col>
+          <v-col></v-col>
         </v-row>
         <v-row>
           <v-col>
             <b>Koszt pracy:</b>
             {{ data.workCost }} zł
+            <div class="d-flex">
+              <v-text-field
+                label="Nazwa urządzenia"
+                v-model="data.workCost"
+                :disabled="c1"
+                height="20"
+              ></v-text-field>
+              <v-btn icon large @click="c1 = !c1">
+                <v-icon :color="c1 ? '' : 'primary'">mdi-pencil</v-icon>
+              </v-btn>
+            </div>
           </v-col>
           <v-col>
             <b>Koszt części:</b>
@@ -83,6 +95,7 @@ export default {
       type: "",
       owner: [],
       product: {},
+      c1: false,
     };
   },
   created() {

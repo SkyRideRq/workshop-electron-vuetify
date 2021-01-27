@@ -24,11 +24,60 @@
       v-text="$route.name"
     />
     <v-spacer></v-spacer>
-    <v-btn x-large icon @click="saveDBtoDisk()" color="primary">
-      <v-icon>
-        mdi-content-save
-      </v-icon>
-    </v-btn>
+    <v-tooltip bottom>
+      <template v-slot:activator="{ on, attrs }">
+        <v-btn
+          x-large
+          v-bind="attrs"
+          v-on="on"
+          icon
+          @click="back()"
+          color="primary"
+        >
+          <v-icon>
+            mdi-arrow-left-bold
+          </v-icon>
+        </v-btn>
+      </template>
+      <span>Poprzedni ekran</span>
+    </v-tooltip>
+
+    <v-tooltip bottom>
+      <template v-slot:activator="{ on, attrs }">
+        <v-btn
+          x-large
+          icon
+          v-bind="attrs"
+          v-on="on"
+          @click="up()"
+          color="primary"
+        >
+          <v-icon>
+            mdi-arrow-up-bold
+          </v-icon>
+        </v-btn>
+      </template>
+      <span>Ekran rodzica</span>
+    </v-tooltip>
+
+    <v-tooltip bottom>
+      <template v-slot:activator="{ on, attrs }">
+        <v-btn
+          x-large
+          icon
+          v-bind="attrs"
+          v-on="on"
+          @click="saveDBtoDisk()"
+          color="primary"
+        >
+          <v-icon>
+            mdi-content-save
+          </v-icon>
+        </v-btn>
+      </template>
+      <span>Zapisz kopię bazy danych</span>
+    </v-tooltip>
+
     <template slot="extension">
       <v-divider></v-divider>
     </template>
@@ -104,6 +153,22 @@ export default {
         .catch((err) => {
           console.log(err);
         });
+    },
+    up() {
+      var linkUp = "/";
+
+      if (this.$route.params.id1) {
+        linkUp = linkUp + this.$route.params.id;
+      }
+      if (this.$route.params.id2) {
+        linkUp = linkUp + "/" + this.$route.params.id1;
+      }
+      if (this.$route.name != "Panel Główny") {
+        this.$router.push(linkUp);
+      }
+    },
+    back() {
+      this.$router.go(-1);
     },
     addData() {
       // for building products db

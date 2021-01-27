@@ -6658,6 +6658,22 @@
               "shortNotes": "",
               "notes": "",
               "partList": []
+            },
+            {
+              "id": "60102a3cf3f761dc1f962610",
+              "guid": "cde171c3-0037-4c9c-a4c5-3126bb3e6134",
+              "type": "repair",
+              "registered": "",
+              "returned": "",
+              "partCost": "",
+              "workCost": "",
+              "link": "e14275f5-575c-410d-9710-dadd9976ba42/da2d18f7-77dd-4041-813d-fe22e7f6d3a3/cde171c3-0037-4c9c-a4c5-3126bb3e6134",
+              "parentLink": "e14275f5-575c-410d-9710-dadd9976ba42/da2d18f7-77dd-4041-813d-fe22e7f6d3a3",
+              "name": "",
+              "photos": [],
+              "shortNotes": "",
+              "notes": "",
+              "partList": []
             }
           ]
         }

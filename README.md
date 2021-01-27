@@ -52,7 +52,7 @@ See [Configuration Reference](https://cli.vuejs.org/config/).
 
 See [Json Generator](https://next.json-generator.com/). https://next.json-generator.com/
 
-<details><summary>Code</summary>
+<details><summary>Code Users</summary>
 
 ```
 {
@@ -115,12 +115,7 @@ See [Json Generator](https://next.json-generator.com/). https://next.json-genera
                     shortNotes:'{{lorem([1]).toLowerCase()}}',
                     notes:'{{lorem([10]).toLowerCase()}}',
                     partList:[
-                      {
-                        'repeat(1, 4)': {
-                          name:'{{random(["tłok"], ["uszczelka"], ["karabin"], ["sznur"], ["łopata"], ["membrana"], ["widelec"], ["koło"], ["iglica"], ["klucz"], ["zapadka"], ["nakrętka"] )}}',
-                          cost:'{{floating([1], [1234], [0])}}'
-                        }
-                      }
+
                     ]
                   }
                 }
@@ -165,12 +160,7 @@ See [Json Generator](https://next.json-generator.com/). https://next.json-genera
                     shortNotes:'{{lorem([1]).toLowerCase()}}',
                     notes:'{{lorem([10]).toLowerCase()}}',
                     partList:[
-                      {
-                        'repeat(1, 4)': {
-                          name:'{{random(["tłok"], ["uszczelka"], ["karabin"], ["sznur"], ["łopata"], ["membrana"], ["widelec"], ["koło"], ["iglica"], ["klucz"], ["zapadka"], ["nakrętka"] )}}',
-                          cost:'{{floating([1], [1234], [0])}}'
-                        }
-                      }
+
                     ]
                   }
                 }
@@ -213,14 +203,7 @@ See [Json Generator](https://next.json-generator.com/). https://next.json-genera
                     }],
                     shortNotes:'{{lorem([1]).toLowerCase()}}',
                     notes:'{{lorem([10]).toLowerCase()}}',
-                    partList:[
-                      {
-                        'repeat(1, 4)': {
-                          name:'{{random(["tłok"], ["uszczelka"], ["karabin"], ["sznur"], ["łopata"], ["membrana"], ["widelec"], ["koło"], ["iglica"], ["klucz"], ["zapadka"], ["nakrętka"] )}}',
-                          cost:'{{floating([1], [1234], [0])}}'
-                        }
-                      }
-                    ]
+                    partList:[]
                   }
                 }
               ]
@@ -231,6 +214,23 @@ See [Json Generator](https://next.json-generator.com/). https://next.json-genera
     }
   ]
 }
+```
+
+</details>
+<details><summary>Code Parts</summary>
+
+```
+[
+  {
+    'repeat(10)': {
+      id: '{{objectId()}}',
+      guid: '{{guid()}}',
+      name:'{{random(["tłok"], ["uszczelka"], ["karabin"], ["sznur"], ["łopata"], ["membrana"], ["widelec"], ["koło"], ["iglica"], ["klucz"], ["zapadka"], ["nakrętka"], ["taśma izolacyjna"],["cylinder"] )}}',
+      price:'{{floating([1], [1234], [0])}}',
+      productId:'{{floating([999999], [999999999], [0])}}'
+    }
+  }
+]
 ```
 
 </details>

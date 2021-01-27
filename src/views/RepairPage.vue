@@ -10,13 +10,23 @@
           <v-col>
             <b>Data przyjęcia:</b>
             <DispalyDatePicker
-              :date="new Date(data.registered).toISOString().substr(0, 10)"
+              :date="
+                data.registered
+                  ? new Date(data.registered).toISOString().substr(0, 10)
+                  : undefined
+              "
+              @changeDate="changeRegisteredDate"
             />
           </v-col>
           <v-col>
             <b>Data oddania:</b>
             <DispalyDatePicker
-              :date="new Date(data.returned).toISOString().substr(0, 10)"
+              :date="
+                data.returned
+                  ? new Date(data.returned).toISOString().substr(0, 10)
+                  : undefined
+              "
+              @changeDate="changeReturnedDate"
             />
           </v-col>
           <v-col></v-col>
@@ -25,17 +35,14 @@
           <v-col>
             <b>Koszt pracy:</b>
             {{ data.workCost }} zł
-            <div class="d-flex">
-              <v-text-field
-                label="Nazwa urządzenia"
-                v-model="data.workCost"
-                :disabled="c1"
-                height="20"
-              ></v-text-field>
-              <v-btn icon large @click="c1 = !c1">
-                <v-icon :color="c1 ? '' : 'primary'">mdi-pencil</v-icon>
-              </v-btn>
-            </div>
+            <DispalyTextField
+              :data="{
+                data: data.workCost,
+                label: 'Koszt pracy',
+                type: 'number',
+              }"
+              @changeData="changeWorkCost"
+            />
           </v-col>
           <v-col>
             <b>Koszt części:</b>
@@ -43,7 +50,7 @@
           </v-col>
           <v-col>
             <b>Koszt całkowity:</b>
-            {{ data.workCost + data.partCost }} zł
+            {{ Number(data.workCost) + Number(data.partCost) }} zł
           </v-col>
         </v-row>
         <v-row>
@@ -75,7 +82,6 @@
         ></v-textarea>
       </v-col>
     </v-row>
-    {{ data }}
   </v-container>
 </template>
 
@@ -83,11 +89,14 @@
 import DisplayData from "../components/display/DisplayData";
 import DispalyDatePicker from "../components/display/DispalyDatePicker";
 
+import DispalyTextField from "../components/display/DisplayTextField";
+
 export default {
   name: "ProductPage",
   components: {
     DisplayData,
     DispalyDatePicker,
+    DispalyTextField,
   },
   data: () => {
     return {
@@ -139,37 +148,35 @@ export default {
       phone: this.owner.phone,
       mail: this.owner.mail,
     };
-
-    this.dataToEdit = {
-      serialNumber: this.data.serialNumber,
-      name: this.data.name,
-      type: this.data.type,
-    };
   },
-  // methods: {
-  //   changeData(value) {
-  //     this.machineData.type = value.type;
-  //     if (value.type === "stihl") {
-  //       this.machineData.type = "Stihl";
-  //     }
-  //     if (value.type === "bike") {
-  //       this.machineData.type = "Rower";
-  //     }
-  //     if (value.type === "mower") {
-  //       this.machineData.type = "Kosiarka";
-  //     }
-  //     this.machineData.serialNumber = value.serialNumber;
+  methods: {
+    changeRegisteredDate(value) {
+      this.data.registered = value;
+      this.changeData(value, "registered");
+    },
+    changeReturnedDate(value) {
+      console.log(value);
+      this.data.returned = value;
+      this.changeData(value, "returned");
+    },
 
-  //     this.data.name = value.name;
-
-  //     this.$db
-  //       .get("users")
-  //       .find({ guid: this.$route.params.id })
-  //       .get("children")
-  //       .find({ guid: this.$route.params.id1 })
-  //       .assign(value)
-  //       .write();
-  //   },
-  // },
+    changeData(value, place) {
+      this.$db
+        .get("users")
+        .find({ guid: this.$route.params.id })
+        .get("children")
+        .find({ guid: this.$route.params.id1 })
+        .get("children")
+        .find({ guid: this.$route.params.id2 })
+        .get(place)
+        .assign(value)
+        .write();
+    },
+    changeWorkCost(value) {
+      console.log(value);
+      this.data.workCost = value;
+      this.changeData(value, "workCost");
+    },
+  },
 };
 </script>

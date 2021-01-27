@@ -1,6 +1,18 @@
 <template>
   <v-form>
     <div class="d-flex">
+      <v-select
+        :items="types"
+        v-model="data.type"
+        label="Typ urządzenia"
+        :disabled="c3"
+        height="20"
+      ></v-select>
+      <v-btn icon large @click="c3 = !c3">
+        <v-icon :color="c3 ? '' : 'primary'">mdi-pencil</v-icon>
+      </v-btn>
+    </div>
+    <div class="d-flex">
       <v-text-field
         label="Nazwa urządzenia"
         v-model="data.name"
@@ -20,18 +32,6 @@
       ></v-text-field>
       <v-btn icon large @click="c2 = !c2">
         <v-icon :color="c2 ? '' : 'primary'">mdi-pencil</v-icon>
-      </v-btn>
-    </div>
-    <div class="d-flex">
-      <v-select
-        :items="types"
-        v-model="data.type"
-        label="Typ urządzenia"
-        :disabled="c3"
-        height="20"
-      ></v-select>
-      <v-btn icon large @click="c3 = !c3">
-        <v-icon :color="c3 ? '' : 'primary'">mdi-pencil</v-icon>
       </v-btn>
     </div>
     <v-btn
@@ -87,6 +87,17 @@ export default {
   },
   components: {},
   props: ["data"],
+  created() {
+    if (this.data.name === "") {
+      this.c1 = false;
+    }
+    if (this.data.serialNumber === "") {
+      this.c2 = false;
+    }
+    if (this.data.type === "") {
+      this.c3 = false;
+    }
+  },
   methods: {
     confirmation() {
       for (var i = 1; i < 7; i++) {

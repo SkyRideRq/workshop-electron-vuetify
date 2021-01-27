@@ -34,37 +34,58 @@
         <v-row>
           <v-col>
             <b>Koszt pracy:</b>
-            {{ data.workCost }} zł
             <DispalyTextField
               :data="{
                 data: data.workCost,
-                label: 'Koszt pracy',
+                label: '',
                 type: 'number',
+                appendText: 'zł',
               }"
               @changeData="changeWorkCost"
             />
           </v-col>
           <v-col>
             <b>Koszt części:</b>
-            {{ data.partCost }} zł
+            zł
+            <DispalyTextField
+              :data="{
+                data: data.partCost,
+                label: '',
+                type: 'number',
+                appendText: 'zł',
+              }"
+              @changeData="changePartCost"
+            />
           </v-col>
           <v-col>
             <b>Koszt całkowity:</b>
-            {{ Number(data.workCost) + Number(data.partCost) }} zł
+            <p>{{ Number(data.workCost) + Number(data.partCost) }} zł</p>
           </v-col>
         </v-row>
         <v-row>
           <v-col>
-            <v-textarea
-              label="Opis skrócony"
+            <b>Opis skrócony:</b>
+            <v-text-field
+              label=""
               :value="data.shortNotes"
               hint="Krótki opis naprawy"
-            ></v-textarea>
+            ></v-text-field>
           </v-col>
         </v-row>
         <v-row>
           <v-col>
-            {{ data.photos }}
+            <b>Zdjęcia:</b>
+            <v-row>
+              <v-col v-for="(item, index) in data.photos" :key="item + index">
+                {{ item }}
+
+                <v-img
+                  max-height="150"
+                  max-width="250"
+                  :src="'app://' + item"
+                ></v-img>
+              </v-col>
+            </v-row>
           </v-col>
         </v-row>
       </v-col>
@@ -155,7 +176,6 @@ export default {
       this.changeData(value, "registered");
     },
     changeReturnedDate(value) {
-      console.log(value);
       this.data.returned = value;
       this.changeData(value, "returned");
     },
@@ -173,9 +193,12 @@ export default {
         .write();
     },
     changeWorkCost(value) {
-      console.log(value);
       this.data.workCost = value;
-      this.changeData(value, "workCost");
+      this.changeData(Number(value), "workCost");
+    },
+    changePartCost(value) {
+      this.data.partCost = value;
+      this.changeData(Number(value), "partCost");
     },
   },
 };

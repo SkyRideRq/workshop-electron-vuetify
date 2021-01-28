@@ -83,6 +83,9 @@
                 <DisplayImageDialog :data="item" />
               </v-col>
             </v-row>
+            <v-row>
+              <v-col> </v-col>
+            </v-row>
           </v-col>
         </v-row>
       </v-col>
@@ -108,6 +111,7 @@ import DisplayData from "../components/display/DisplayData";
 import DispalyDatePicker from "../components/display/DisplayDatePicker";
 import DisplayTextField from "../components/display/DisplayTextField";
 import DisplayImageDialog from "../components/display/DisplayImageDialog";
+
 export default {
   name: "ProductPage",
   components: {
@@ -122,7 +126,6 @@ export default {
       type: "",
       owner: [],
       product: {},
-      c1: false,
     };
   },
   created() {
@@ -168,6 +171,9 @@ export default {
     };
   },
   methods: {
+    handleHide() {
+      this.visible = false;
+    },
     changeRegisteredDate(value) {
       this.data.registered = value;
       this.changeData(value, "registered");

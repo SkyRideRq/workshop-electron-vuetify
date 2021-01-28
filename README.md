@@ -36,17 +36,12 @@ See [Configuration Reference](https://cli.vuejs.org/config/).
 
 ### Used
 
-- ~~nedb-promises~~
-- ~~rxdb~~
-- ~~leveldown~~
-- ~~pouchdb-adapter-leveldb~~
-- ~~trilog~~
-- ~~sql.j~~
-- ~~mssq~~
-- ~~linvodb~~
-- ~~level-j~~
 - lowdb
-- electron-store
+- electron
+  <!-- - electron-store() -->
+- vuetify
+- vue-cli
+- vue-router
 
 ### DB faker code
 
@@ -110,7 +105,7 @@ See [Json Generator](https://next.json-generator.com/). https://next.json-genera
                     },
                     name: '{{random(["naprawa tłoka"], ["naprawa gaźnika"],["serwis"] )}}',
                     photos:[{
-                      'repeat(0, 3)': '{{random(["photo1stihl.jpg"], ["photo2stihl.jpg"], ["photo3stihl.jpg"] )}},'
+                      'repeat(0, 3)': '{{random(["photo1stihl.jpg"], ["photo2stihl.jpg"], ["photo3stihl.jpg"] )}}'
                     }],
                     shortNotes:'{{lorem([1]).toLowerCase()}}',
                     notes:'{{lorem([10]).toLowerCase()}}',
@@ -155,7 +150,7 @@ See [Json Generator](https://next.json-generator.com/). https://next.json-genera
                     },
                     name: '{{random(["wymiana dętki"], ["naprawa"],["serwis"] )}}',
                     photos:[{
-                      'repeat(0, 3)': '{{random(["photo1rower.jpg"], ["photo2rower.jpg"], ["photo3rower.jpg"] )}},'
+                      'repeat(0, 3)': '{{random(["photo1rower.jpg"], ["photo2rower.jpg"], ["photo3rower.jpg"] )}}'
                     }],
                     shortNotes:'{{lorem([1]).toLowerCase()}}',
                     notes:'{{lorem([10]).toLowerCase()}}',
@@ -199,7 +194,7 @@ See [Json Generator](https://next.json-generator.com/). https://next.json-genera
                     },
                     name: '{{random(["wymiana cylindra"], ["wymiana kółek"],["serwis"] )}}',
                     photos:[{
-                      'repeat(0, 3)': '{{random(["photo2kosiarka.jpg"], ["photo1kosiarka.jpg"], ["photo3kosiarka.jpg"] )}},'
+                      'repeat(0, 3)': '{{random(["photo2kosiarka.jpg"], ["photo1kosiarka.jpg"], ["photo3kosiarka.jpg"] )}}'
                     }],
                     shortNotes:'{{lorem([1]).toLowerCase()}}',
                     notes:'{{lorem([10]).toLowerCase()}}',

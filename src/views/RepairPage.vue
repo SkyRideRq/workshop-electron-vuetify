@@ -34,7 +34,7 @@
         <v-row>
           <v-col>
             <b>Koszt pracy:</b>
-            <DispalyTextField
+            <DisplayTextField
               :data="{
                 data: data.workCost,
                 label: '',
@@ -46,8 +46,7 @@
           </v-col>
           <v-col>
             <b>Koszt części:</b>
-            zł
-            <DispalyTextField
+            <DisplayTextField
               :data="{
                 data: data.partCost,
                 label: '',
@@ -59,17 +58,21 @@
           </v-col>
           <v-col>
             <b>Koszt całkowity:</b>
-            <p>{{ Number(data.workCost) + Number(data.partCost) }} zł</p>
+            <p class="mt-5">
+              {{ Number(data.workCost) + Number(data.partCost) }} zł
+            </p>
           </v-col>
         </v-row>
         <v-row>
           <v-col>
             <b>Opis skrócony:</b>
-            <v-text-field
-              label=""
-              :value="data.shortNotes"
-              hint="Krótki opis naprawy"
-            ></v-text-field>
+            <DisplayTextField
+              :data="{
+                data: data.shortNotes,
+                type: 'text',
+              }"
+              @changeData="changeShortNotes"
+            />
           </v-col>
         </v-row>
         <v-row>
@@ -77,13 +80,7 @@
             <b>Zdjęcia:</b>
             <v-row>
               <v-col v-for="(item, index) in data.photos" :key="item + index">
-                {{ item }}
-
-                <v-img
-                  max-height="150"
-                  max-width="250"
-                  :src="'app://' + item"
-                ></v-img>
+                <DisplayImageDialog :data="item" />
               </v-col>
             </v-row>
           </v-col>
@@ -108,16 +105,16 @@
 
 <script>
 import DisplayData from "../components/display/DisplayData";
-import DispalyDatePicker from "../components/display/DispalyDatePicker";
-
-import DispalyTextField from "../components/display/DisplayTextField";
-
+import DispalyDatePicker from "../components/display/DisplayDatePicker";
+import DisplayTextField from "../components/display/DisplayTextField";
+import DisplayImageDialog from "../components/display/DisplayImageDialog";
 export default {
   name: "ProductPage",
   components: {
     DisplayData,
     DispalyDatePicker,
-    DispalyTextField,
+    DisplayTextField,
+    DisplayImageDialog,
   },
   data: () => {
     return {
@@ -199,6 +196,10 @@ export default {
     changePartCost(value) {
       this.data.partCost = value;
       this.changeData(Number(value), "partCost");
+    },
+    changeShortNotes(value) {
+      this.data.shortNotes = value;
+      this.changeData(Number(value), "shortNotes");
     },
   },
 };

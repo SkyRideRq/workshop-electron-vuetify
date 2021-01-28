@@ -1,48 +1,39 @@
 <template>
-  <div class="d-flex">
+  <div class="d-flex confirm">
     <v-text-field
       :label="data.label"
       v-model="changeData"
       :disabled="controll"
       @input="showConfirm()"
       :type="data.type"
-    >
-      <template v-slot:append> </template>
-    </v-text-field>
+    ></v-text-field>
+    <v-expand-transition>
+      <div class="d-flex justify-end mt-3 ml-1 confirm-menu" v-if="confirm">
+        <v-btn
+          class="rounded-0 rounded-l pa-0"
+          color="success"
+          @click="saveData()"
+          height="30"
+          width="30"
+          fab
+        >
+          <v-icon>mdi-check</v-icon>
+        </v-btn>
+        <v-btn
+          class="rounded-0 rounded-r"
+          color="error"
+          height="30"
+          width="30"
+          fab
+          @click="reverseData()"
+        >
+          <v-icon>mdi-close</v-icon>
+        </v-btn>
+      </div>
+    </v-expand-transition>
     <p v-if="data.appendText" class="mb-0 mt-5 ml-1">{{ data.appendText }}</p>
-    <div class="d-flex justify-end mt-3 ml-1" v-if="confirm">
-      <v-btn
-        class="rounded-0 rounded-l pa-0"
-        color="success"
-        @click="saveData()"
-        height="40"
-        width="40"
-        fab
-      >
-        <v-icon>mdi-check</v-icon>
-      </v-btn>
-      <v-btn
-        class="rounded-0 rounded-r"
-        color="error"
-        height="40"
-        width="40"
-        fab
-        @click="reverseData()"
-      >
-        <v-icon>mdi-close</v-icon>
-      </v-btn>
-    </div>
-    <v-btn
-      width="80"
-      height="40"
-      text
-      fab
-      class="mt-3 rounded ml-1"
-      v-if="!confirm"
-      large
-      @click="controll = !controll"
-    >
-      <v-icon :color="controll ? '#757575' : 'primary'">mdi-pencil</v-icon>
+    <v-btn icon class="mt-3 rounded ml-1" large @click="controll = !controll">
+      <v-icon :color="controll ? '' : 'primary'">mdi-pencil</v-icon>
     </v-btn>
   </div>
 </template>
@@ -80,3 +71,13 @@ export default {
   },
 };
 </script>
+<style>
+.confirm {
+  position: relative;
+}
+.confirm-menu {
+  position: absolute;
+  top: 40px;
+  left: -5px;
+}
+</style>

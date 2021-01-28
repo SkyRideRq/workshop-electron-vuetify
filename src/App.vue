@@ -44,7 +44,7 @@ export default {
 /* Track */
 ::-webkit-scrollbar-track {
   -webkit-box-shadow: inset 0 0 1px rgba(0, 0, 0, 1);
-  margin-top: 75px;
+  /* margin-top: 75px; */
 }
 
 /* Handle */

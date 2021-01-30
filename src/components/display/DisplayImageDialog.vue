@@ -1,6 +1,6 @@
 <template>
   <div class="text-center">
-    <v-dialog v-model="dialog">
+    <v-dialog v-model="dialog" @click:outside="closeModal()">
       <template v-slot:activator="{ on, attrs }">
         <v-img
           max-width="200"
@@ -13,32 +13,46 @@
         </v-img>
       </template>
 
-      <v-card height="80vh">
+      <v-card class="image-dialog-box" height="80vh">
         <v-card-title
-          class="headline grey lighten-2 px-4"
+          class="headline grey lighten-2 px-4 image-dialog-header"
           id="draggable-header"
         >
           <!--  -->
           {{ data }}
           <v-btn
-            color="error"
-            fab
-            x-small
+            color="primary"
+            icon
+            x-large
             class="ml-auto"
-            @click="dialog = false"
+            @click="zoomMenuActive = !zoomMenuActive"
           >
+            <v-icon>mdi-magnify-plus-outline</v-icon>
+          </v-btn>
+          <v-btn color="error" fab x-small @click="closeModal()">
             <v-icon>mdi-close</v-icon>
           </v-btn>
+          <v-expand-transition>
+            <div class="zoom-menu" v-if="zoomMenuActive">
+              <v-slider
+                v-model="zoom"
+                hint="Im a hint"
+                max="10"
+                min="1"
+                step="0.1"
+                @change="zoomControll()"
+                hide-details
+              ></v-slider>
+            </div>
+          </v-expand-transition>
         </v-card-title>
         <div ref="draggableContainer" id="draggable-container">
-          <v-img
+          <img
             @mousedown="dragMouseDown"
-            contain
-            width="100%"
-            height="100%"
             :src="'../../pictures/' + data"
-          >
-          </v-img>
+            ref="imgToZoom"
+            @wheel.prevent="zoomWheel($event)"
+          />
         </div>
       </v-card>
     </v-dialog>
@@ -57,6 +71,8 @@ export default {
         movementX: 0,
         movementY: 0,
       },
+      zoom: 1,
+      zoomMenuActive: false,
     };
   },
   props: ["data"],
@@ -90,6 +106,26 @@ export default {
       document.onmouseup = null;
       document.onmousemove = null;
     },
+    closeModal() {
+      this.dialog = false;
+      this.$refs.draggableContainer.style.top = 0 + "px";
+      this.$refs.draggableContainer.style.left = 0 + "px";
+      this.zoom = 1;
+      this.$refs.imgToZoom.style.transform = "scale(" + this.zoom + ")";
+    },
+
+    zoomControll() {
+      this.$refs.imgToZoom.style.transform = "scale(" + this.zoom + ")";
+    },
+    zoomWheel(event) {
+      if (event.deltaY < 0) {
+        this.zoom += 0.1;
+        this.$refs.imgToZoom.style.transform = "scale(" + this.zoom + ")";
+      } else {
+        this.zoom -= 0.1;
+        this.$refs.imgToZoom.style.transform = "scale(" + this.zoom + ")";
+      }
+    },
   },
 };
 </script>
@@ -97,9 +133,27 @@ export default {
 .img-btn {
   cursor: pointer;
 }
+.image-dialog-box {
+  overflow: hidden;
+}
+.image-dialog-header {
+  position: relative;
+}
+.zoom-menu {
+  position: absolute;
+  width: 200px;
+  top: 78px;
+  right: 10px;
+  padding: 0 5px;
+  border-bottom-left-radius: 8px;
+  border-bottom-right-radius: 8px;
+  background-color: #e0e0e0 !important;
+}
 #draggable-container {
   position: absolute;
   z-index: 9;
+  width: 100%;
+  height: 100%;
 }
 #draggable-header {
   position: relative;

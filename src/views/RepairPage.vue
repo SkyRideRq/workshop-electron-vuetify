@@ -83,9 +83,6 @@
                 <DisplayImageDialog :data="item" />
               </v-col>
             </v-row>
-            <v-row>
-              <v-col> </v-col>
-            </v-row>
           </v-col>
         </v-row>
       </v-col>
@@ -120,12 +117,16 @@ export default {
     DisplayTextField,
     DisplayImageDialog,
   },
+
   data: () => {
     return {
       data: [],
       type: "",
       owner: [],
       product: {},
+      // visible: false,
+      index: 1,
+      pictures: [],
     };
   },
   created() {
@@ -169,6 +170,9 @@ export default {
       phone: this.owner.phone,
       mail: this.owner.mail,
     };
+    this.data.photos.forEach((element) => {
+      this.pictures.push("../../pictures/" + element);
+    });
   },
   methods: {
     handleHide() {

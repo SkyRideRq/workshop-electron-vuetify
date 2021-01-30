@@ -35,7 +35,9 @@
               "link": "d1a037c8-bcec-4318-8c0b-4fcc176091a3/29ce78d3-cc8e-4a3f-b4ab-6d84eff111e0/3e7132d9-3040-40ab-ab1f-8418f36e5f04",
               "parentLink": "d1a037c8-bcec-4318-8c0b-4fcc176091a3/29ce78d3-cc8e-4a3f-b4ab-6d84eff111e0",
               "name": "serwis",
-              "photos": ["photo3stihl.jpg"],
+              "photos": [
+                "photo3stihl.jpg"
+              ],
               "shortNotes": "veniam adipisicing irure dolor sunt lorem velit deserunt culpa mollit.",
               "notes": "ut excepteur nulla nulla cupidatat consectetur lorem cupidatat nisi. ea qui aute sint dolor voluptate non pariatur sit eu. do excepteur culpa reprehenderit ad est. ut esse exercitation velit est duis qui nisi aute. in minim proident sunt duis est in commodo. occaecat magna eu aliqua aliqua sunt eiusmod amet eiusmod. nulla dolore nostrud amet id cupidatat eu occaecat. consequat enim consectetur nostrud ad velit veniam cillum commodo qui minim sint quis aliquip amet. veniam nulla ad aliquip consequat magna cillum culpa ea cillum incididunt labore nisi. non incididunt sint officia lorem aute.",
               "partList": []
@@ -51,7 +53,9 @@
               "link": "d1a037c8-bcec-4318-8c0b-4fcc176091a3/29ce78d3-cc8e-4a3f-b4ab-6d84eff111e0/9dd12a7a-7407-46fc-9616-8aeceaae213a",
               "parentLink": "d1a037c8-bcec-4318-8c0b-4fcc176091a3/29ce78d3-cc8e-4a3f-b4ab-6d84eff111e0",
               "name": "naprawa gaźnika",
-              "photos": ["photo3stihl.jpg"],
+              "photos": [
+                "photo3stihl.jpg"
+              ],
               "shortNotes": "dolor cupidatat excepteur cupidatat laborum consequat cillum magna nisi laboris minim nostrud dolore exercitation.",
               "notes": "culpa consequat veniam voluptate eiusmod ex mollit. veniam est commodo nulla eu laboris fugiat minim quis excepteur sint ad duis nulla eiusmod. commodo aliqua sint nulla quis exercitation id magna amet officia nostrud eu commodo sunt eiusmod. officia ad minim mollit ipsum occaecat aute aliqua incididunt nulla dolor amet excepteur sit. id do ea velit nulla nostrud proident incididunt. elit laborum reprehenderit nostrud id officia deserunt anim. sunt fugiat ipsum sint eu cupidatat. officia aliqua in proident enim eu culpa dolor. ex sint deserunt adipisicing sunt dolore anim exercitation sit excepteur sit. id ea do proident cupidatat nulla ad laborum in eiusmod voluptate esse.",
               "partList": []
@@ -75,11 +79,13 @@
               "registered": "Thursday, May 1, 2014 3:43 AM",
               "returned": "Monday, August 10, 2015 5:07 AM",
               "partCost": 1182,
-              "workCost": 339,
+              "workCost": "3392",
               "link": "d1a037c8-bcec-4318-8c0b-4fcc176091a3/57afe661-66ab-43aa-b697-65a4113f30a1/cd3a291f-9283-4068-adeb-e89f0f564b76",
               "parentLink": "d1a037c8-bcec-4318-8c0b-4fcc176091a3/57afe661-66ab-43aa-b697-65a4113f30a1",
               "name": "naprawa gaźnika",
-              "photos": ["photo2stihl.jpg"],
+              "photos": [
+                "photo2stihl.jpg"
+              ],
               "shortNotes": "quis est sint aliqua aliquip dolor sint qui aliquip nostrud tempor eu.",
               "notes": "tempor aliqua incididunt ut enim tempor reprehenderit adipisicing. esse veniam cupidatat veniam consectetur ad in magna ullamco excepteur minim in do lorem. enim excepteur deserunt tempor adipisicing adipisicing culpa. non amet quis elit duis deserunt nulla veniam proident reprehenderit nostrud elit exercitation eu quis. consectetur labore commodo ex esse ea sint non ipsum proident irure nisi cillum. consectetur ad amet cupidatat nulla reprehenderit. amet ex occaecat laboris nisi veniam sint dolor anim officia voluptate laboris est. lorem reprehenderit eiusmod exercitation amet proident. eiusmod sit cupidatat aliquip labore duis eu ad exercitation ad. consequat proident nisi exercitation lorem.",
               "partList": []
@@ -95,7 +101,10 @@
               "link": "d1a037c8-bcec-4318-8c0b-4fcc176091a3/57afe661-66ab-43aa-b697-65a4113f30a1/03764fe2-f096-484f-a368-fa129d8d6ed3",
               "parentLink": "d1a037c8-bcec-4318-8c0b-4fcc176091a3/57afe661-66ab-43aa-b697-65a4113f30a1",
               "name": "naprawa gaźnika",
-              "photos": ["photo1stihl.jpg", "photo1stihl.jpg"],
+              "photos": [
+                "photo1stihl.jpg",
+                "photo1stihl.jpg"
+              ],
               "shortNotes": "ex sit ea excepteur laboris id sint exercitation nulla ea excepteur deserunt est laborum.",
               "notes": "aliqua sint in nisi et sit nostrud laborum irure ea ad et ipsum anim velit. in aute anim ad sit commodo aliqua eiusmod incididunt lorem quis eiusmod elit lorem. consectetur esse est elit occaecat adipisicing officia mollit sint quis enim occaecat quis. ad occaecat aliquip excepteur occaecat tempor aliqua sint. in irure ad irure dolore. esse ut duis cupidatat culpa culpa dolor officia mollit. reprehenderit commodo aliquip commodo tempor ex do minim. ipsum esse elit consectetur irure non dolor sit exercitation exercitation in anim occaecat excepteur. sint duis voluptate id mollit ad sint. minim laboris labore aliqua anim consectetur ex consequat sunt sit qui irure ullamco.",
               "partList": []
@@ -159,7 +168,9 @@
               "link": "d1a037c8-bcec-4318-8c0b-4fcc176091a3/008a5e8b-f801-49e9-acf8-72b35941b210/06c01308-959c-44ed-9de0-6bca910a87c4",
               "parentLink": "d1a037c8-bcec-4318-8c0b-4fcc176091a3/008a5e8b-f801-49e9-acf8-72b35941b210",
               "name": "serwis",
-              "photos": ["photo1stihl.jpg"],
+              "photos": [
+                "photo1stihl.jpg"
+              ],
               "shortNotes": "minim enim voluptate sit cupidatat id excepteur ipsum irure tempor ut.",
               "notes": "ex minim laborum proident cupidatat aute occaecat minim excepteur qui quis laborum. proident commodo duis et velit esse exercitation minim. anim id tempor nostrud qui nisi laborum. commodo dolore voluptate magna proident elit reprehenderit id nisi dolor in occaecat cillum ad. deserunt magna voluptate proident aliqua sit qui commodo. dolore consectetur eu elit proident sint duis occaecat esse magna exercitation voluptate duis eiusmod eiusmod. commodo consectetur pariatur ullamco nisi cillum dolor mollit lorem minim excepteur consequat eu laborum sint. pariatur eu enim consectetur proident consectetur adipisicing in id voluptate fugiat. est sit eiusmod ea tempor laboris ut. elit aute consectetur irure tempor proident excepteur labore ea amet excepteur.",
               "partList": []
@@ -187,7 +198,9 @@
               "link": "d1a037c8-bcec-4318-8c0b-4fcc176091a3/307ba62a-d894-4544-9a20-cf1d0561ca8b/c8a6c0d8-7356-477c-bd93-9a16bcf6e382",
               "parentLink": "d1a037c8-bcec-4318-8c0b-4fcc176091a3/307ba62a-d894-4544-9a20-cf1d0561ca8b",
               "name": "naprawa",
-              "photos": ["photo1rower.jpg"],
+              "photos": [
+                "photo1rower.jpg"
+              ],
               "shortNotes": "eiusmod aute ut dolore officia voluptate.",
               "notes": "deserunt fugiat sunt duis sint adipisicing esse do amet occaecat. elit incididunt do sit ut adipisicing laborum consequat. ex lorem sit proident officia voluptate pariatur cupidatat nulla eiusmod est incididunt. nulla magna ea deserunt ex proident cillum labore ex commodo culpa commodo exercitation. consectetur aliqua proident minim quis incididunt irure magna aute reprehenderit veniam occaecat eu. anim aute fugiat mollit lorem labore reprehenderit cillum est est proident. culpa ad incididunt anim aute do. dolor labore ad esse adipisicing ipsum officia laborum. sunt dolor velit reprehenderit aliqua magna nostrud reprehenderit eu esse nisi labore mollit dolore. occaecat velit duis ullamco eiusmod elit id in eu proident id lorem.",
               "partList": []
@@ -215,7 +228,9 @@
               "link": "d1a037c8-bcec-4318-8c0b-4fcc176091a3/eea03bfc-d1df-4618-a7d2-0fa592fca6c8/49622551-20a9-419f-864b-1db12713d79d",
               "parentLink": "d1a037c8-bcec-4318-8c0b-4fcc176091a3/eea03bfc-d1df-4618-a7d2-0fa592fca6c8",
               "name": "naprawa",
-              "photos": ["photo1rower.jpg"],
+              "photos": [
+                "photo1rower.jpg"
+              ],
               "shortNotes": "dolore laboris nulla elit nulla cupidatat et tempor elit ad magna aliquip fugiat exercitation ut.",
               "notes": "minim sint aute ullamco in occaecat esse magna duis excepteur officia magna sit sint. nostrud quis consequat aute minim aute consequat duis ad voluptate pariatur ullamco. exercitation in irure nostrud magna mollit id proident laboris sit elit veniam amet. consectetur consectetur enim excepteur ex fugiat et labore. commodo excepteur cillum labore id do consectetur aliqua nisi consequat proident occaecat elit nulla eu. officia enim eu voluptate ad laboris id non ut eu ex ut proident dolor minim. nostrud velit velit aliqua occaecat proident adipisicing in est occaecat officia irure. aliquip anim ullamco anim anim cupidatat proident qui do voluptate. tempor aute in labore duis. exercitation tempor sunt culpa ut nostrud labore voluptate exercitation.",
               "partList": []
@@ -231,7 +246,9 @@
               "link": "d1a037c8-bcec-4318-8c0b-4fcc176091a3/eea03bfc-d1df-4618-a7d2-0fa592fca6c8/7c830a52-a810-40a3-95ef-2642a71c211c",
               "parentLink": "d1a037c8-bcec-4318-8c0b-4fcc176091a3/eea03bfc-d1df-4618-a7d2-0fa592fca6c8",
               "name": "naprawa",
-              "photos": ["photo3rower.jpg"],
+              "photos": [
+                "photo3rower.jpg"
+              ],
               "shortNotes": "eu tempor deserunt veniam pariatur duis sint reprehenderit pariatur anim sunt in.",
               "notes": "magna sunt nulla occaecat et mollit id excepteur voluptate aliqua in eiusmod nisi. do pariatur officia ad aute qui ut velit irure laboris non. ea in anim laboris eiusmod mollit ut lorem aute eu nulla proident adipisicing id. duis nostrud non in non laborum irure exercitation voluptate. esse nisi est magna commodo lorem mollit minim sunt anim laborum. pariatur qui qui elit commodo enim culpa nostrud exercitation laboris. dolor occaecat id cupidatat mollit velit voluptate irure. exercitation reprehenderit fugiat ut id proident anim occaecat amet mollit est eu esse ad occaecat. duis incididunt nostrud sunt ipsum adipisicing amet elit lorem sint dolor commodo elit nulla quis. velit aliquip cillum qui occaecat tempor.",
               "partList": []
@@ -315,7 +332,10 @@
               "link": "d1a037c8-bcec-4318-8c0b-4fcc176091a3/2acb312e-e916-400d-b95f-04b44511a274/ed6cdd76-bbaf-4cf3-85ea-cb60d33bcfcc",
               "parentLink": "d1a037c8-bcec-4318-8c0b-4fcc176091a3/2acb312e-e916-400d-b95f-04b44511a274",
               "name": "serwis",
-              "photos": ["photo1rower.jpg", "photo1rower.jpg"],
+              "photos": [
+                "photo1rower.jpg",
+                "photo1rower.jpg"
+              ],
               "shortNotes": "magna exercitation sint commodo tempor.",
               "notes": "ullamco nostrud qui eiusmod commodo culpa deserunt quis incididunt commodo nisi magna labore. ex sit irure et qui velit qui esse esse nulla enim. incididunt enim enim nulla ipsum id do laborum cillum cillum id dolore qui fugiat nisi. commodo non adipisicing minim tempor ipsum officia eu ad exercitation amet laboris exercitation. adipisicing aliquip ut elit excepteur quis minim. ut magna deserunt deserunt minim eu nisi dolore magna consequat tempor. proident aute eu ad cupidatat magna nisi quis dolor proident incididunt ea. sunt cupidatat laboris esse dolore anim quis. occaecat in nisi enim elit id consectetur commodo occaecat magna quis ex non. aliqua culpa velit mollit dolore in laborum sint pariatur sit tempor officia commodo magna.",
               "partList": []
@@ -351,7 +371,9 @@
               "link": "d1a037c8-bcec-4318-8c0b-4fcc176091a3/2acb312e-e916-400d-b95f-04b44511a274/d99285c5-fc2c-4428-8ef3-9f3e6f39687a",
               "parentLink": "d1a037c8-bcec-4318-8c0b-4fcc176091a3/2acb312e-e916-400d-b95f-04b44511a274",
               "name": "wymiana dętki",
-              "photos": ["photo2rower.jpg"],
+              "photos": [
+                "photo2rower.jpg"
+              ],
               "shortNotes": "proident veniam culpa proident enim velit ad.",
               "notes": "dolor labore ipsum nulla sint veniam tempor. laborum deserunt excepteur amet pariatur culpa officia enim fugiat consectetur deserunt labore. enim nostrud eu duis nostrud anim voluptate laborum. ea dolor deserunt laborum laboris nostrud do. consequat aute tempor duis non nulla lorem voluptate ad aute id sint culpa. elit adipisicing anim reprehenderit ad. do exercitation in eiusmod nulla exercitation culpa in non mollit esse non irure exercitation qui. cupidatat ipsum mollit ea magna. deserunt commodo tempor laboris in nostrud veniam id quis cupidatat. aute eiusmod proident ullamco sint.",
               "partList": []
@@ -367,7 +389,9 @@
               "link": "d1a037c8-bcec-4318-8c0b-4fcc176091a3/2acb312e-e916-400d-b95f-04b44511a274/c055edc1-3f41-4425-91d0-90fadb6e99cd",
               "parentLink": "d1a037c8-bcec-4318-8c0b-4fcc176091a3/2acb312e-e916-400d-b95f-04b44511a274",
               "name": "serwis",
-              "photos": ["photo3rower.jpg"],
+              "photos": [
+                "photo3rower.jpg"
+              ],
               "shortNotes": "dolor elit culpa sit nulla consectetur deserunt occaecat pariatur laboris qui.",
               "notes": "nisi ut exercitation pariatur dolore velit fugiat irure. aute et officia dolor adipisicing. qui eu eiusmod fugiat aliqua anim cupidatat dolore sit duis do ipsum eu ex eiusmod. officia ipsum anim ut est irure nostrud eiusmod cillum consectetur. id in aute in minim deserunt sint quis cillum do minim pariatur. duis magna adipisicing cillum officia sint consequat dolor sint exercitation incididunt nisi. est anim cillum pariatur irure pariatur labore aliquip nisi mollit laborum fugiat labore. aliquip magna minim aute velit laboris elit. reprehenderit cupidatat est cupidatat nisi consequat consequat mollit laborum ex cupidatat. eu dolor ullamco occaecat nisi sunt adipisicing reprehenderit et laboris.",
               "partList": []
@@ -395,7 +419,10 @@
               "link": "d1a037c8-bcec-4318-8c0b-4fcc176091a3/0389841f-d6f5-4aca-82c6-2a038e20daa6/3c9f6f22-b856-4a2c-90a3-183a9ab082d2",
               "parentLink": "d1a037c8-bcec-4318-8c0b-4fcc176091a3/0389841f-d6f5-4aca-82c6-2a038e20daa6",
               "name": "serwis",
-              "photos": ["photo2kosiarka.jpg", "photo1kosiarka.jpg"],
+              "photos": [
+                "photo2kosiarka.jpg",
+                "photo1kosiarka.jpg"
+              ],
               "shortNotes": "elit velit laboris dolore magna est laboris reprehenderit pariatur cupidatat ullamco in minim.",
               "notes": "sit voluptate voluptate in consequat quis eiusmod nisi. adipisicing nostrud est deserunt deserunt labore. exercitation veniam labore qui cillum. consectetur culpa esse est dolor in culpa adipisicing nulla minim. proident est irure qui enim ex duis eu duis laborum aliquip. deserunt minim ex veniam sit et ullamco amet eiusmod minim. exercitation cupidatat fugiat eu ipsum exercitation velit nulla lorem esse dolor consectetur dolore proident voluptate. minim eiusmod laboris laborum reprehenderit reprehenderit quis minim pariatur irure cillum fugiat sunt non. culpa ullamco nisi eu minim consequat reprehenderit id ut eu dolore est ea minim consectetur. dolor in laboris ipsum velit.",
               "partList": []
@@ -559,7 +586,9 @@
               "link": "8a4cf9ac-b2c6-4c2d-a8b2-14f04d3b93e8/e415691f-7a2a-4b43-91a6-634a86f1ddd2/53b1f0de-3fd3-4a8b-a600-0216d8cb1ec1",
               "parentLink": "8a4cf9ac-b2c6-4c2d-a8b2-14f04d3b93e8/e415691f-7a2a-4b43-91a6-634a86f1ddd2",
               "name": "naprawa gaźnika",
-              "photos": ["photo3stihl.jpg"],
+              "photos": [
+                "photo3stihl.jpg"
+              ],
               "shortNotes": "exercitation consequat irure voluptate irure aliquip dolor eu consectetur quis anim ea.",
               "notes": "dolore eiusmod enim eiusmod enim sunt dolore duis incididunt magna magna ea consectetur sit do. ut ex fugiat laboris commodo ullamco ullamco. eiusmod irure ea qui ex sunt. et non eu pariatur ea ipsum culpa esse. et aute anim ex cupidatat ex minim proident sint in proident sint. amet deserunt ullamco mollit ea est. ex ad ullamco non esse aliquip ea reprehenderit ut. laboris quis officia dolor elit eu reprehenderit id. amet velit pariatur tempor amet eu ullamco ea magna velit in ullamco ut. ex dolore ut pariatur proident nulla aute velit reprehenderit quis anim.",
               "partList": []
@@ -575,7 +604,9 @@
               "link": "8a4cf9ac-b2c6-4c2d-a8b2-14f04d3b93e8/e415691f-7a2a-4b43-91a6-634a86f1ddd2/d3a21848-a508-4aaa-a307-be6e7090d8c0",
               "parentLink": "8a4cf9ac-b2c6-4c2d-a8b2-14f04d3b93e8/e415691f-7a2a-4b43-91a6-634a86f1ddd2",
               "name": "serwis",
-              "photos": ["photo1stihl.jpg"],
+              "photos": [
+                "photo1stihl.jpg"
+              ],
               "shortNotes": "aute veniam ad do irure ullamco duis aute magna quis in ea dolor.",
               "notes": "id consequat aliquip amet nostrud ea ullamco fugiat. pariatur eiusmod sint ex ut velit qui laborum sint est adipisicing incididunt. amet aliqua deserunt reprehenderit labore occaecat mollit do est reprehenderit culpa mollit. amet commodo dolore in et culpa ea tempor nisi. eu eiusmod esse laboris enim labore sunt eu non irure. aliquip do cillum aliquip nisi anim eu dolore dolore veniam id adipisicing qui in fugiat. irure velit sint dolor laboris excepteur. aliqua ea in id exercitation excepteur enim sunt ut occaecat non tempor commodo sit. minim eiusmod ad do pariatur in commodo nulla qui labore sit incididunt est. consequat officia voluptate magna ipsum.",
               "partList": []
@@ -619,7 +650,10 @@
               "link": "8a4cf9ac-b2c6-4c2d-a8b2-14f04d3b93e8/1c4d48a3-a76c-4c85-af39-bec6da353916/180404da-3771-491c-a1b5-24a474d28268",
               "parentLink": "8a4cf9ac-b2c6-4c2d-a8b2-14f04d3b93e8/1c4d48a3-a76c-4c85-af39-bec6da353916",
               "name": "naprawa",
-              "photos": ["photo2rower.jpg", "photo2rower.jpg"],
+              "photos": [
+                "photo2rower.jpg",
+                "photo2rower.jpg"
+              ],
               "shortNotes": "velit ullamco officia minim tempor cillum est anim aliquip velit minim culpa ad ut.",
               "notes": "anim adipisicing sunt deserunt sunt in minim eu lorem minim sunt non voluptate. ullamco aute minim excepteur anim ullamco. velit est ullamco laborum et aliquip ea sint officia enim anim cillum id. anim culpa sit irure sit ex aliquip voluptate sint lorem reprehenderit adipisicing velit. pariatur sit veniam incididunt officia veniam esse in velit quis do labore et minim. voluptate anim consectetur ipsum ullamco deserunt non ut et eu occaecat elit. mollit tempor in enim consectetur proident nulla sint aliquip in velit duis. irure commodo non dolore minim esse culpa officia do ut excepteur irure aliquip. aute voluptate lorem occaecat ea occaecat aliquip magna aute. aliqua et ex aliqua velit minim cillum qui mollit laboris incididunt amet do dolor proident.",
               "partList": []
@@ -647,7 +681,10 @@
               "link": "8a4cf9ac-b2c6-4c2d-a8b2-14f04d3b93e8/e8e202df-9c6e-4718-880a-5204e623e9bc/fcd67dbf-a839-4c6d-8579-642e426a59a1",
               "parentLink": "8a4cf9ac-b2c6-4c2d-a8b2-14f04d3b93e8/e8e202df-9c6e-4718-880a-5204e623e9bc",
               "name": "serwis",
-              "photos": ["photo3rower.jpg", "photo2rower.jpg"],
+              "photos": [
+                "photo3rower.jpg",
+                "photo2rower.jpg"
+              ],
               "shortNotes": "lorem occaecat culpa ea adipisicing cillum culpa mollit mollit.",
               "notes": "proident nostrud ut est culpa veniam consectetur enim adipisicing ad culpa tempor reprehenderit. veniam consectetur dolore magna in aliqua. laboris mollit enim qui mollit nostrud tempor non tempor. velit aliquip in nisi officia labore amet non. laboris excepteur nulla aliqua aliqua adipisicing aliquip consequat. aliqua eu id aute eu est do deserunt deserunt consectetur aliqua nostrud reprehenderit. quis deserunt ipsum eu aliquip sint consectetur adipisicing consequat cillum officia sunt. dolor voluptate nostrud et lorem reprehenderit sint mollit anim. nulla sunt id ullamco laboris esse aliqua enim ex fugiat duis labore ea commodo. ipsum amet cupidatat occaecat aliqua eu et nulla ad.",
               "partList": []
@@ -663,7 +700,9 @@
               "link": "8a4cf9ac-b2c6-4c2d-a8b2-14f04d3b93e8/e8e202df-9c6e-4718-880a-5204e623e9bc/000e08c8-0b05-4e50-bec7-614e3916e058",
               "parentLink": "8a4cf9ac-b2c6-4c2d-a8b2-14f04d3b93e8/e8e202df-9c6e-4718-880a-5204e623e9bc",
               "name": "naprawa",
-              "photos": ["photo2rower.jpg"],
+              "photos": [
+                "photo2rower.jpg"
+              ],
               "shortNotes": "mollit deserunt laborum magna tempor ullamco ex minim sint adipisicing fugiat sit.",
               "notes": "proident veniam cupidatat dolore fugiat. et ea amet elit magna esse nulla. cillum culpa tempor eiusmod voluptate qui non. cupidatat sit dolore consequat consequat incididunt amet. deserunt minim do eiusmod proident reprehenderit consectetur. voluptate adipisicing do dolore minim irure pariatur consequat ad. tempor reprehenderit sint magna aute culpa enim excepteur id dolor voluptate esse eiusmod veniam ut. commodo deserunt occaecat eu commodo consequat anim nostrud reprehenderit. consectetur pariatur consectetur ea ut dolore anim. nisi voluptate amet ad quis cillum sit esse irure ipsum ad ad ea minim.",
               "partList": []
@@ -691,7 +730,10 @@
               "link": "8a4cf9ac-b2c6-4c2d-a8b2-14f04d3b93e8/395f5357-b961-4bdd-abdf-047e04d2b792/bb99ee2a-8bad-424a-9ca5-9e61ae255c85",
               "parentLink": "8a4cf9ac-b2c6-4c2d-a8b2-14f04d3b93e8/395f5357-b961-4bdd-abdf-047e04d2b792",
               "name": "wymiana kółek",
-              "photos": ["photo1kosiarka.jpg", "photo3kosiarka.jpg"],
+              "photos": [
+                "photo1kosiarka.jpg",
+                "photo3kosiarka.jpg"
+              ],
               "shortNotes": "voluptate labore deserunt magna officia veniam mollit consectetur.",
               "notes": "in veniam eiusmod qui commodo irure esse tempor et cillum sint. quis proident do deserunt tempor sit. duis culpa excepteur esse tempor labore officia enim occaecat magna occaecat cillum nostrud velit duis. cupidatat amet aute id enim. duis commodo tempor consectetur exercitation eu velit mollit. reprehenderit pariatur enim culpa occaecat anim reprehenderit sint anim anim eu labore voluptate. voluptate do velit irure quis dolore voluptate duis tempor dolor pariatur adipisicing mollit. eiusmod excepteur anim nulla incididunt ex nisi proident tempor eiusmod quis nostrud minim. lorem consequat adipisicing cupidatat do occaecat duis voluptate magna deserunt do adipisicing. elit occaecat anim duis labore irure elit officia occaecat aliquip.",
               "partList": []
@@ -707,7 +749,10 @@
               "link": "8a4cf9ac-b2c6-4c2d-a8b2-14f04d3b93e8/395f5357-b961-4bdd-abdf-047e04d2b792/5158570d-76e8-4dd1-b9a5-e2b24c483167",
               "parentLink": "8a4cf9ac-b2c6-4c2d-a8b2-14f04d3b93e8/395f5357-b961-4bdd-abdf-047e04d2b792",
               "name": "serwis",
-              "photos": ["photo2kosiarka.jpg", "photo3kosiarka.jpg"],
+              "photos": [
+                "photo2kosiarka.jpg",
+                "photo3kosiarka.jpg"
+              ],
               "shortNotes": "ex est voluptate commodo aliqua nisi.",
               "notes": "anim non elit qui aliqua tempor. laborum eu sit excepteur eu cillum lorem id dolore. nostrud non commodo ex proident est sunt eiusmod dolor non dolore aliquip magna nulla fugiat. dolor consectetur eu dolor dolore lorem consequat pariatur exercitation in sint. occaecat amet in reprehenderit consectetur proident velit mollit cupidatat aliqua sint deserunt eiusmod do velit. adipisicing eu exercitation anim duis qui anim tempor adipisicing reprehenderit ullamco mollit. ipsum ad id deserunt amet ex anim sunt esse. nisi ea nisi excepteur adipisicing adipisicing in minim. ipsum qui do cupidatat minim nulla nostrud aliquip aliqua commodo. dolor pariatur nostrud esse irure aute tempor.",
               "partList": []
@@ -723,7 +768,10 @@
               "link": "8a4cf9ac-b2c6-4c2d-a8b2-14f04d3b93e8/395f5357-b961-4bdd-abdf-047e04d2b792/9d537474-ae9f-4711-8698-8a7c95802971",
               "parentLink": "8a4cf9ac-b2c6-4c2d-a8b2-14f04d3b93e8/395f5357-b961-4bdd-abdf-047e04d2b792",
               "name": "wymiana cylindra",
-              "photos": ["photo1kosiarka.jpg", "photo2kosiarka.jpg"],
+              "photos": [
+                "photo1kosiarka.jpg",
+                "photo2kosiarka.jpg"
+              ],
               "shortNotes": "culpa nisi consequat magna veniam ea cillum aliqua proident dolore ad reprehenderit proident.",
               "notes": "eiusmod consectetur non minim excepteur. veniam anim voluptate est ea occaecat cillum. amet fugiat nulla nisi officia. deserunt labore magna esse velit ullamco culpa ad cupidatat eiusmod in est. officia fugiat consectetur et officia qui deserunt labore amet exercitation deserunt nostrud deserunt fugiat. et occaecat adipisicing in proident. ut pariatur veniam ipsum consequat et qui magna aliquip ex ea incididunt occaecat eiusmod. sint duis qui deserunt sit labore enim eiusmod voluptate aliquip exercitation occaecat. sunt fugiat officia est laborum ullamco lorem consectetur aliquip nostrud sint dolore ad. sit qui aliquip pariatur sint velit lorem minim in ullamco consequat labore officia.",
               "partList": []
@@ -759,7 +807,9 @@
               "link": "8a4cf9ac-b2c6-4c2d-a8b2-14f04d3b93e8/395f5357-b961-4bdd-abdf-047e04d2b792/8f1ae112-8a48-471f-8561-5a972d095b31",
               "parentLink": "8a4cf9ac-b2c6-4c2d-a8b2-14f04d3b93e8/395f5357-b961-4bdd-abdf-047e04d2b792",
               "name": "wymiana kółek",
-              "photos": ["photo1kosiarka.jpg"],
+              "photos": [
+                "photo1kosiarka.jpg"
+              ],
               "shortNotes": "cillum irure tempor consequat nulla cillum.",
               "notes": "voluptate enim sit tempor laboris irure minim non deserunt qui irure deserunt veniam ullamco. adipisicing veniam occaecat enim labore voluptate fugiat nulla laboris ex commodo nulla. sint velit lorem minim elit sint ut qui quis do. minim id irure proident esse consectetur nulla anim magna nostrud ex magna elit tempor. laboris consequat minim ea sunt ad aliqua minim do ut. aute labore pariatur cillum eiusmod. ad sit non magna amet qui deserunt lorem excepteur cillum. enim esse labore duis nostrud ipsum sint do. voluptate ex dolore incididunt deserunt mollit laboris incididunt incididunt. voluptate incididunt laborum mollit ad nulla velit ipsum cupidatat aliqua officia.",
               "partList": []
@@ -867,7 +917,9 @@
               "link": "21129d94-5404-4ae3-a5c4-c30ebbc9e58c/340c516a-dcb2-488f-a464-30c4e15bf11b/d2be58fb-ef9a-40be-a0cf-487fb28907f2",
               "parentLink": "21129d94-5404-4ae3-a5c4-c30ebbc9e58c/340c516a-dcb2-488f-a464-30c4e15bf11b",
               "name": "serwis",
-              "photos": ["photo3rower.jpg"],
+              "photos": [
+                "photo3rower.jpg"
+              ],
               "shortNotes": "occaecat lorem est tempor duis id qui do sint qui laboris ex.",
               "notes": "deserunt incididunt nulla adipisicing commodo excepteur non cupidatat ad ullamco ullamco. aliquip do ad deserunt irure enim laboris laboris labore ut consectetur nostrud consequat qui. eu laborum anim ex eiusmod aliquip qui voluptate commodo commodo nostrud laborum magna deserunt. deserunt labore ea irure quis consequat nisi excepteur excepteur duis tempor cillum ad. velit commodo sint veniam consectetur veniam in officia. adipisicing adipisicing tempor ex lorem do aliquip laborum voluptate non magna dolore deserunt nostrud. ex enim fugiat quis occaecat aliqua aliqua dolor tempor commodo. do irure mollit id voluptate nisi ipsum officia in elit elit esse ipsum tempor lorem. cillum ex do laboris ea est exercitation nostrud enim sint. culpa irure occaecat lorem pariatur ut ea aute consequat.",
               "partList": []
@@ -883,7 +935,10 @@
               "link": "21129d94-5404-4ae3-a5c4-c30ebbc9e58c/340c516a-dcb2-488f-a464-30c4e15bf11b/7d965db2-5cdd-4680-ba34-e31deafa0b24",
               "parentLink": "21129d94-5404-4ae3-a5c4-c30ebbc9e58c/340c516a-dcb2-488f-a464-30c4e15bf11b",
               "name": "wymiana dętki",
-              "photos": ["photo3rower.jpg", "photo1rower.jpg"],
+              "photos": [
+                "photo3rower.jpg",
+                "photo1rower.jpg"
+              ],
               "shortNotes": "mollit nulla ipsum anim et magna enim velit eu dolor reprehenderit consectetur ipsum enim amet.",
               "notes": "mollit nulla veniam ut ipsum velit laborum elit ea duis et adipisicing officia. do voluptate aliqua aliqua excepteur dolore commodo ad exercitation consectetur. aliqua aliqua consectetur ad sint tempor cillum culpa in sit eiusmod dolore enim culpa. cillum officia ea ullamco deserunt labore irure quis. lorem qui eu occaecat nisi eiusmod irure. esse reprehenderit dolore ea nostrud lorem exercitation aute officia eiusmod. consectetur adipisicing culpa pariatur irure consectetur minim officia irure commodo. sit ullamco laborum do duis amet et aute lorem velit eiusmod laboris. cillum sunt eu nulla ut. cillum culpa deserunt dolor mollit reprehenderit anim aute occaecat in proident elit exercitation.",
               "partList": []
@@ -911,7 +966,9 @@
               "link": "21129d94-5404-4ae3-a5c4-c30ebbc9e58c/2a008094-0bd5-42e4-bc11-2d365b1da1e7/81bf0870-64cf-4a84-9c7d-70294cfac2ad",
               "parentLink": "21129d94-5404-4ae3-a5c4-c30ebbc9e58c/2a008094-0bd5-42e4-bc11-2d365b1da1e7",
               "name": "wymiana kółek",
-              "photos": ["photo1kosiarka.jpg"],
+              "photos": [
+                "photo1kosiarka.jpg"
+              ],
               "shortNotes": "aute do commodo cupidatat consequat in nostrud amet do incididunt ex.",
               "notes": "nisi id consectetur et dolor deserunt nulla ut tempor anim sit est esse laborum ea. tempor do lorem veniam do duis sit velit fugiat. dolor laboris anim velit ipsum irure dolore magna exercitation. sint minim ad nisi consectetur voluptate cupidatat tempor pariatur duis laborum velit laborum labore. ad et sit cupidatat ipsum tempor amet eu aute. cillum laborum adipisicing consequat sit ad esse proident mollit fugiat. lorem eiusmod id fugiat exercitation laboris labore pariatur culpa ipsum culpa adipisicing. ullamco ea laboris dolore sit sit do aliquip duis. adipisicing veniam eiusmod ipsum ut minim ea deserunt. occaecat aute in est reprehenderit amet duis ex consectetur laboris deserunt officia.",
               "partList": []
@@ -927,7 +984,10 @@
               "link": "21129d94-5404-4ae3-a5c4-c30ebbc9e58c/2a008094-0bd5-42e4-bc11-2d365b1da1e7/09a5920f-a416-43f0-9f16-7c16cdb2ce5e",
               "parentLink": "21129d94-5404-4ae3-a5c4-c30ebbc9e58c/2a008094-0bd5-42e4-bc11-2d365b1da1e7",
               "name": "wymiana kółek",
-              "photos": ["photo3kosiarka.jpg", "photo2kosiarka.jpg"],
+              "photos": [
+                "photo3kosiarka.jpg",
+                "photo2kosiarka.jpg"
+              ],
               "shortNotes": "dolor mollit duis cillum occaecat reprehenderit fugiat.",
               "notes": "occaecat tempor labore reprehenderit amet. quis labore excepteur cupidatat nisi sint sunt. minim et amet esse mollit et ex cillum labore occaecat. magna consectetur elit laboris nostrud qui magna fugiat et sunt dolor. voluptate tempor voluptate et dolor officia magna cillum eiusmod enim. qui culpa enim eiusmod cillum commodo magna deserunt laborum laboris enim quis mollit et amet. aliquip mollit ex ad pariatur eiusmod laboris ad officia esse et ipsum sunt. adipisicing excepteur laborum duis mollit irure non aute aute ex esse aute ad. ut excepteur nisi aliqua irure dolore consequat labore pariatur sint. incididunt anim et ea exercitation occaecat qui voluptate esse.",
               "partList": []
@@ -1007,7 +1067,10 @@
               "link": "21129d94-5404-4ae3-a5c4-c30ebbc9e58c/dab4e66c-5c94-4d5a-943e-6817ca3dc939/954f3fea-692b-4f82-9ab3-95efc4c94f44",
               "parentLink": "21129d94-5404-4ae3-a5c4-c30ebbc9e58c/dab4e66c-5c94-4d5a-943e-6817ca3dc939",
               "name": "wymiana kółek",
-              "photos": ["photo1kosiarka.jpg", "photo2kosiarka.jpg"],
+              "photos": [
+                "photo1kosiarka.jpg",
+                "photo2kosiarka.jpg"
+              ],
               "shortNotes": "veniam veniam nulla adipisicing dolore.",
               "notes": "sint tempor nostrud sunt irure reprehenderit et est officia laborum. duis cupidatat ad exercitation nisi. incididunt dolor anim irure in. voluptate reprehenderit exercitation consectetur et dolor eiusmod mollit deserunt eu nisi. nulla consectetur proident do officia laboris cupidatat dolore esse amet nostrud labore veniam. labore id laborum in ut nostrud. est esse do eiusmod ullamco minim esse consequat id culpa dolor officia quis quis et. eu magna nostrud enim fugiat. consectetur incididunt incididunt minim voluptate amet elit duis duis. non laborum nisi elit nostrud ut ut irure adipisicing aliqua.",
               "partList": []
@@ -1051,7 +1114,9 @@
               "link": "f54322c5-eff5-40cd-81c4-aabf8e01498c/0f14eaa1-3e8a-4d9d-87a9-b5374d77aa08/b78190b2-6598-4b4f-8ddf-8a57a0f2ab3c",
               "parentLink": "f54322c5-eff5-40cd-81c4-aabf8e01498c/0f14eaa1-3e8a-4d9d-87a9-b5374d77aa08",
               "name": "serwis",
-              "photos": ["photo1stihl.jpg"],
+              "photos": [
+                "photo1stihl.jpg"
+              ],
               "shortNotes": "nisi non ea sint est consequat in.",
               "notes": "do laboris eiusmod cillum velit nulla tempor in irure. sint quis mollit reprehenderit proident minim laboris irure. ut sint consectetur excepteur incididunt in. ullamco veniam ipsum esse deserunt incididunt velit. et laboris magna incididunt adipisicing incididunt culpa cupidatat esse proident quis irure labore ex. sunt cillum do qui esse do ex ad eu in ullamco commodo. elit consequat labore dolor nostrud exercitation occaecat. veniam fugiat ipsum nulla id labore. enim proident ex adipisicing occaecat eu proident lorem sint laborum. fugiat anim dolor adipisicing proident duis ipsum est aute culpa qui reprehenderit occaecat adipisicing.",
               "partList": []
@@ -1067,7 +1132,10 @@
               "link": "f54322c5-eff5-40cd-81c4-aabf8e01498c/0f14eaa1-3e8a-4d9d-87a9-b5374d77aa08/fe43d6ed-f1e7-42e4-9b7d-ff90ce5ebd08",
               "parentLink": "f54322c5-eff5-40cd-81c4-aabf8e01498c/0f14eaa1-3e8a-4d9d-87a9-b5374d77aa08",
               "name": "naprawa gaźnika",
-              "photos": ["photo2stihl.jpg", "photo2stihl.jpg"],
+              "photos": [
+                "photo2stihl.jpg",
+                "photo2stihl.jpg"
+              ],
               "shortNotes": "fugiat veniam minim cupidatat tempor cupidatat adipisicing ut anim.",
               "notes": "amet aliquip quis laborum est adipisicing ut dolore eu cillum fugiat lorem. culpa eu est enim anim laboris velit eiusmod. velit cupidatat et dolor eu. velit laboris cupidatat ullamco in enim fugiat. consectetur aliquip amet duis veniam et amet nisi velit consectetur ad pariatur qui. incididunt occaecat incididunt in non tempor dolore nulla pariatur pariatur irure officia. aliquip eu fugiat laborum dolore reprehenderit culpa in culpa deserunt. voluptate nostrud exercitation sint labore. minim minim fugiat officia labore cupidatat labore cupidatat proident excepteur laboris mollit duis et ad. nisi nulla eu non tempor ea tempor fugiat.",
               "partList": []
@@ -1131,7 +1199,9 @@
               "link": "f54322c5-eff5-40cd-81c4-aabf8e01498c/17115afb-378e-42bd-b7a3-0e8e979d807d/3d39aed3-e41b-4736-8986-ed0a15f3954b",
               "parentLink": "f54322c5-eff5-40cd-81c4-aabf8e01498c/17115afb-378e-42bd-b7a3-0e8e979d807d",
               "name": "naprawa tłoka",
-              "photos": ["photo2stihl.jpg"],
+              "photos": [
+                "photo2stihl.jpg"
+              ],
               "shortNotes": "est duis in irure non non eiusmod cillum aliquip.",
               "notes": "nostrud laborum eu deserunt labore ullamco laboris sunt ut. consectetur et sunt ad tempor non aute ut cupidatat eiusmod voluptate deserunt laborum officia. sunt veniam sint commodo lorem ea magna anim ad. in incididunt proident sunt et irure incididunt pariatur incididunt non. officia incididunt elit id ipsum. ut lorem velit ullamco laborum. ex laboris aliqua et in quis ullamco ea id tempor. aute in exercitation ea irure anim irure culpa voluptate. eu quis do nisi irure sit amet nisi culpa minim. cillum nostrud laborum reprehenderit et minim sit eiusmod proident.",
               "partList": []
@@ -1191,7 +1261,10 @@
               "link": "f54322c5-eff5-40cd-81c4-aabf8e01498c/83e594ad-b0a1-4d19-b7d1-e54703eeda0d/d63ed2a4-6531-4252-afe4-595437f77563",
               "parentLink": "f54322c5-eff5-40cd-81c4-aabf8e01498c/83e594ad-b0a1-4d19-b7d1-e54703eeda0d",
               "name": "naprawa",
-              "photos": ["photo3rower.jpg", "photo1rower.jpg"],
+              "photos": [
+                "photo3rower.jpg",
+                "photo1rower.jpg"
+              ],
               "shortNotes": "velit quis officia magna sunt irure deserunt cillum.",
               "notes": "pariatur mollit sint mollit enim velit duis fugiat officia consectetur quis commodo est mollit dolore. commodo ea et non consequat. dolore ut et incididunt elit ex do eiusmod nisi laboris. consectetur tempor mollit fugiat anim amet nisi proident veniam. consectetur ullamco dolore amet in esse aliqua nulla enim consectetur duis voluptate tempor est. dolor fugiat excepteur consectetur qui nulla laborum non excepteur id fugiat labore lorem esse aliqua. cillum cillum sunt fugiat ullamco ad ipsum. eu cillum sunt voluptate nisi proident. tempor duis proident excepteur ea dolor lorem. lorem consectetur est consequat excepteur nostrud magna.",
               "partList": []
@@ -1235,7 +1308,10 @@
               "link": "f54322c5-eff5-40cd-81c4-aabf8e01498c/df1671d7-7a70-42d1-93c0-b1a2ed28dac5/78fd6c64-fa86-47f8-a66a-163047f83821",
               "parentLink": "f54322c5-eff5-40cd-81c4-aabf8e01498c/df1671d7-7a70-42d1-93c0-b1a2ed28dac5",
               "name": "wymiana dętki",
-              "photos": ["photo3rower.jpg", "photo1rower.jpg"],
+              "photos": [
+                "photo3rower.jpg",
+                "photo1rower.jpg"
+              ],
               "shortNotes": "aute sunt nulla et tempor.",
               "notes": "nulla est anim pariatur labore cillum. tempor eiusmod elit aliqua exercitation ipsum fugiat tempor elit exercitation. veniam fugiat ea culpa anim nulla. culpa dolor consequat fugiat eiusmod sint do pariatur ipsum ut occaecat dolore proident deserunt. ad nulla ex minim aute officia. officia incididunt ut reprehenderit ipsum aute consequat ipsum ipsum sint. culpa dolore adipisicing quis tempor. ipsum aute quis duis pariatur cupidatat cupidatat non nisi culpa dolore aliqua proident consectetur. quis id ipsum occaecat cupidatat sint labore laborum dolore. et occaecat aute laboris aliquip aliqua do.",
               "partList": []
@@ -1295,7 +1371,10 @@
               "link": "f54322c5-eff5-40cd-81c4-aabf8e01498c/22c8c0a6-3660-4edf-a8ad-59845feac81d/df4cb609-317b-405d-b7cb-f16b8b5eedf3",
               "parentLink": "f54322c5-eff5-40cd-81c4-aabf8e01498c/22c8c0a6-3660-4edf-a8ad-59845feac81d",
               "name": "serwis",
-              "photos": ["photo1kosiarka.jpg", "photo2kosiarka.jpg"],
+              "photos": [
+                "photo1kosiarka.jpg",
+                "photo2kosiarka.jpg"
+              ],
               "shortNotes": "officia nostrud voluptate ipsum veniam amet proident.",
               "notes": "ut exercitation deserunt id officia veniam anim consequat ut. amet et id et non. excepteur dolor reprehenderit eu eu velit velit lorem laboris sit. enim occaecat quis sit cupidatat non aliquip. cupidatat adipisicing aute laboris labore dolore sunt anim. ullamco sunt eiusmod nulla nostrud ipsum. sint cupidatat ad culpa adipisicing culpa culpa pariatur irure minim. qui ut elit et ullamco culpa et ex proident nulla non quis. nisi irure reprehenderit occaecat lorem nostrud velit aliquip. amet esse laborum elit enim adipisicing id velit ipsum deserunt ad dolor.",
               "partList": []
@@ -1331,7 +1410,9 @@
               "link": "f54322c5-eff5-40cd-81c4-aabf8e01498c/22c8c0a6-3660-4edf-a8ad-59845feac81d/7b3a6629-245e-4df0-a9cd-b2099bf9283e",
               "parentLink": "f54322c5-eff5-40cd-81c4-aabf8e01498c/22c8c0a6-3660-4edf-a8ad-59845feac81d",
               "name": "wymiana kółek",
-              "photos": ["photo2kosiarka.jpg"],
+              "photos": [
+                "photo2kosiarka.jpg"
+              ],
               "shortNotes": "ea commodo nisi elit anim labore consequat cillum minim pariatur ullamco elit eu excepteur culpa.",
               "notes": "lorem non adipisicing nulla ut nostrud magna anim eu. ullamco officia minim in consectetur cupidatat magna adipisicing sunt exercitation cillum ea. veniam ut aute sunt consectetur labore incididunt id deserunt veniam ut. ipsum sint nostrud adipisicing consequat adipisicing quis do mollit magna id nisi cillum elit ea. id ea voluptate ad mollit veniam esse aliquip deserunt laboris sit deserunt minim eu cillum. commodo dolor in amet excepteur esse est commodo anim nisi. nisi aliqua culpa pariatur dolor elit culpa qui. id mollit officia eiusmod laboris pariatur anim amet. pariatur reprehenderit consectetur elit dolore esse. incididunt enim nisi reprehenderit ut nulla nisi nostrud esse fugiat non do.",
               "partList": []
@@ -1399,7 +1480,10 @@
               "link": "f54322c5-eff5-40cd-81c4-aabf8e01498c/e8a420f7-fe95-488a-8201-d69d376fd5fc/fba07512-b221-432c-a49e-846d2744e629",
               "parentLink": "f54322c5-eff5-40cd-81c4-aabf8e01498c/e8a420f7-fe95-488a-8201-d69d376fd5fc",
               "name": "serwis",
-              "photos": ["photo3kosiarka.jpg", "photo1kosiarka.jpg"],
+              "photos": [
+                "photo3kosiarka.jpg",
+                "photo1kosiarka.jpg"
+              ],
               "shortNotes": "magna do officia eiusmod do incididunt cillum est dolore sint laboris quis voluptate enim.",
               "notes": "enim occaecat sunt commodo mollit mollit et ullamco anim excepteur tempor ullamco officia magna. minim cupidatat nulla ea duis eiusmod sunt. consectetur irure in sunt excepteur culpa. cupidatat voluptate cupidatat officia lorem. aliqua qui sint incididunt consequat aliqua laborum enim aute nulla do in incididunt consectetur. ex consectetur consequat nisi id mollit. ea incididunt nulla do ullamco consectetur minim exercitation pariatur minim voluptate aute amet. et deserunt esse aute aute consequat dolor consectetur aliqua sunt. enim deserunt aliquip mollit ex incididunt nisi ullamco nisi officia laborum veniam. esse ullamco consectetur est amet.",
               "partList": []
@@ -1483,7 +1567,9 @@
               "link": "45dd7901-a138-4f6b-bb58-84b0f7f3e1cc/9620e585-3751-49d5-b5bf-f5af0e23d9da/c1cf9dd1-867e-4fad-a4be-6b175dc759f7",
               "parentLink": "45dd7901-a138-4f6b-bb58-84b0f7f3e1cc/9620e585-3751-49d5-b5bf-f5af0e23d9da",
               "name": "naprawa tłoka",
-              "photos": ["photo2stihl.jpg"],
+              "photos": [
+                "photo2stihl.jpg"
+              ],
               "shortNotes": "esse tempor nostrud anim proident excepteur cupidatat aute ut cillum ipsum.",
               "notes": "ex esse consectetur ullamco laborum incididunt anim sunt nulla tempor consectetur non. amet officia deserunt exercitation pariatur. sit dolor velit officia qui sit qui. ipsum laboris elit laboris est enim eu cupidatat lorem irure pariatur. aute qui deserunt do nostrud. proident fugiat ullamco dolore veniam. magna voluptate magna incididunt amet aliqua dolore. eu excepteur magna duis nostrud reprehenderit fugiat lorem minim enim. commodo duis fugiat occaecat minim minim ut incididunt. do sit consectetur esse pariatur labore do ut.",
               "partList": []
@@ -1531,7 +1617,9 @@
               "link": "45dd7901-a138-4f6b-bb58-84b0f7f3e1cc/b14e2e53-e7fb-4250-9c75-68ced797164c/be70eefd-39b5-4b00-a318-1a70aadb9cdb",
               "parentLink": "45dd7901-a138-4f6b-bb58-84b0f7f3e1cc/b14e2e53-e7fb-4250-9c75-68ced797164c",
               "name": "naprawa gaźnika",
-              "photos": ["photo2stihl.jpg"],
+              "photos": [
+                "photo2stihl.jpg"
+              ],
               "shortNotes": "et consectetur fugiat aliquip labore qui.",
               "notes": "quis amet incididunt esse commodo proident laborum ullamco in elit. anim nostrud minim proident nisi cillum dolor non esse aute occaecat cillum. adipisicing irure et exercitation consequat. reprehenderit non tempor ut excepteur consequat. laboris ipsum officia veniam sint dolore. fugiat id nisi eiusmod quis dolor voluptate lorem cupidatat aute. sint sit minim nisi id id est amet laboris consequat excepteur proident. voluptate est exercitation nulla ad ad esse tempor ad dolore irure aute qui incididunt id. eiusmod nisi officia lorem quis magna quis id. ad tempor ad mollit dolor voluptate esse cillum eiusmod.",
               "partList": []
@@ -1547,7 +1635,10 @@
               "link": "45dd7901-a138-4f6b-bb58-84b0f7f3e1cc/b14e2e53-e7fb-4250-9c75-68ced797164c/e917dec1-3d2c-4624-9f15-750680970375",
               "parentLink": "45dd7901-a138-4f6b-bb58-84b0f7f3e1cc/b14e2e53-e7fb-4250-9c75-68ced797164c",
               "name": "naprawa tłoka",
-              "photos": ["photo3stihl.jpg", "photo2stihl.jpg"],
+              "photos": [
+                "photo3stihl.jpg",
+                "photo2stihl.jpg"
+              ],
               "shortNotes": "velit ex laborum nisi sit labore dolore in laboris anim officia exercitation.",
               "notes": "officia cupidatat duis sit exercitation occaecat ullamco ut aliquip qui proident sit irure consequat. commodo minim voluptate in sit labore do dolore laboris. proident fugiat sunt duis aute qui non dolore voluptate. cupidatat proident voluptate eu reprehenderit aliquip. laboris eu lorem pariatur amet in consectetur ullamco ex magna nulla occaecat mollit ullamco incididunt. reprehenderit ipsum quis eiusmod consectetur nulla aliquip ut ipsum. nisi non anim lorem cillum commodo aliqua culpa exercitation do amet aliquip. ipsum aute elit irure in aute duis ex lorem commodo magna. dolore consequat id labore ad minim esse elit ea ex fugiat ullamco eiusmod magna. cupidatat laborum adipisicing eu non.",
               "partList": []
@@ -1591,7 +1682,10 @@
               "link": "45dd7901-a138-4f6b-bb58-84b0f7f3e1cc/3fa2f3f7-bd4d-45e0-9fcf-a3ff36e79570/01efa1f9-db05-400c-8c3f-68ae38eea55b",
               "parentLink": "45dd7901-a138-4f6b-bb58-84b0f7f3e1cc/3fa2f3f7-bd4d-45e0-9fcf-a3ff36e79570",
               "name": "serwis",
-              "photos": ["photo2rower.jpg", "photo3rower.jpg"],
+              "photos": [
+                "photo2rower.jpg",
+                "photo3rower.jpg"
+              ],
               "shortNotes": "ipsum proident amet culpa qui reprehenderit laboris sint aliqua ad quis ipsum laboris.",
               "notes": "irure et incididunt reprehenderit laborum duis irure cupidatat nostrud. ea nulla qui officia est anim nulla velit anim minim eu anim culpa. laboris enim incididunt pariatur et sit labore eiusmod ex voluptate sit. commodo sit ex tempor proident. aliqua aliqua amet nisi incididunt id sit quis nulla mollit non ut labore aliquip. aute cillum aute nisi dolor. eiusmod dolor pariatur sunt sint reprehenderit amet proident ipsum eiusmod commodo. pariatur magna pariatur dolore consequat commodo irure non eiusmod. quis officia adipisicing enim culpa cupidatat veniam. lorem nulla labore incididunt ad et minim mollit ea officia consectetur sunt veniam laboris eiusmod.",
               "partList": []
@@ -1607,7 +1701,9 @@
               "link": "45dd7901-a138-4f6b-bb58-84b0f7f3e1cc/3fa2f3f7-bd4d-45e0-9fcf-a3ff36e79570/f598c98c-1db8-4a94-99ac-5a6d847296a3",
               "parentLink": "45dd7901-a138-4f6b-bb58-84b0f7f3e1cc/3fa2f3f7-bd4d-45e0-9fcf-a3ff36e79570",
               "name": "serwis",
-              "photos": ["photo1rower.jpg"],
+              "photos": [
+                "photo1rower.jpg"
+              ],
               "shortNotes": "cupidatat laboris eu id reprehenderit duis excepteur dolore.",
               "notes": "enim et ea occaecat sunt dolore eu eu. exercitation labore ea occaecat eiusmod nostrud irure cillum. ea laborum adipisicing exercitation dolore. sunt excepteur ex consequat do cupidatat quis. non officia aute tempor cupidatat nulla exercitation consequat cupidatat anim. occaecat ea laboris mollit aliqua ut nulla cillum cupidatat. reprehenderit reprehenderit aliquip deserunt do ullamco magna. non ullamco consectetur lorem aute laborum tempor enim enim ipsum culpa. sint excepteur labore commodo officia mollit exercitation do esse officia occaecat id id velit eu. nulla mollit mollit fugiat nisi adipisicing enim consequat aute labore nostrud.",
               "partList": []
@@ -1623,7 +1719,10 @@
               "link": "45dd7901-a138-4f6b-bb58-84b0f7f3e1cc/3fa2f3f7-bd4d-45e0-9fcf-a3ff36e79570/68771854-3ac0-47a1-b22e-c50bb3d8f9c8",
               "parentLink": "45dd7901-a138-4f6b-bb58-84b0f7f3e1cc/3fa2f3f7-bd4d-45e0-9fcf-a3ff36e79570",
               "name": "naprawa",
-              "photos": ["photo2rower.jpg", "photo2rower.jpg"],
+              "photos": [
+                "photo2rower.jpg",
+                "photo2rower.jpg"
+              ],
               "shortNotes": "proident sit consequat nisi eu velit.",
               "notes": "ad dolor cupidatat aliqua laboris ad cupidatat nostrud exercitation consectetur minim sint consectetur elit sint. reprehenderit eiusmod ipsum eiusmod adipisicing ex magna minim cillum elit sint ipsum. commodo id elit sit laboris elit elit fugiat consequat elit do ex officia et. eu occaecat laboris nostrud non adipisicing excepteur ex culpa aute. et amet minim sunt do ullamco nisi ipsum consectetur consectetur commodo veniam adipisicing elit. proident mollit ipsum commodo dolor dolore amet ad excepteur elit amet mollit ad anim. amet duis nulla ea ipsum laborum voluptate cillum occaecat nisi ipsum duis labore officia qui. ipsum nisi sit ex tempor fugiat nulla ex deserunt incididunt laboris esse. eiusmod culpa veniam ad occaecat eiusmod nulla dolor laborum laborum ut. aliqua anim sint sunt cupidatat nostrud enim dolore velit consectetur.",
               "partList": []
@@ -1651,7 +1750,9 @@
               "link": "45dd7901-a138-4f6b-bb58-84b0f7f3e1cc/f21509da-f423-462a-b54b-ccb90db39864/33b3f2b2-1e13-4d91-ae4f-03a2e45a021f",
               "parentLink": "45dd7901-a138-4f6b-bb58-84b0f7f3e1cc/f21509da-f423-462a-b54b-ccb90db39864",
               "name": "wymiana kółek",
-              "photos": ["photo1kosiarka.jpg"],
+              "photos": [
+                "photo1kosiarka.jpg"
+              ],
               "shortNotes": "nostrud in et voluptate sit incididunt dolore quis ut velit.",
               "notes": "minim quis proident tempor ullamco proident nostrud. eu fugiat anim exercitation non velit commodo nisi aliqua culpa cupidatat adipisicing culpa. deserunt duis laboris nisi mollit nostrud id fugiat. consequat ipsum id veniam culpa enim sit irure in amet tempor. incididunt pariatur qui tempor occaecat consequat irure enim tempor pariatur et est incididunt. labore laboris in ullamco ipsum elit culpa nostrud. aute enim ea sit commodo elit occaecat ea duis. cupidatat reprehenderit cillum exercitation irure dolore ut commodo nisi. aliqua labore sunt sit ex excepteur irure qui sit ullamco. ex consequat tempor dolore pariatur aliquip deserunt officia sit qui aute aute veniam veniam esse.",
               "partList": []
@@ -1727,7 +1828,9 @@
               "link": "dc1c9ee2-18ed-4343-86ec-e852f8854f39/1d4ae3f9-bf5c-47a1-bd79-472fde52ab19/f716133b-c902-4c0f-80b7-4919af5fb94c",
               "parentLink": "dc1c9ee2-18ed-4343-86ec-e852f8854f39/1d4ae3f9-bf5c-47a1-bd79-472fde52ab19",
               "name": "naprawa gaźnika",
-              "photos": ["photo2stihl.jpg"],
+              "photos": [
+                "photo2stihl.jpg"
+              ],
               "shortNotes": "nisi proident nulla officia fugiat elit lorem sunt velit magna aute laboris cupidatat voluptate laborum.",
               "notes": "eiusmod nulla ut sit elit magna excepteur dolore elit nostrud officia amet nostrud non ea. aliquip laboris duis esse cupidatat aliqua. ut aliquip nostrud irure reprehenderit ipsum sint labore nostrud ipsum do officia do proident. laboris officia aliqua velit dolor officia. sunt ullamco quis sit dolor. labore id eu exercitation aliquip est. irure ad dolor sint nulla. quis velit consequat commodo fugiat. minim incididunt deserunt do laboris ad eiusmod consectetur amet. esse eiusmod id labore mollit sint aliqua ipsum cillum ea et ullamco veniam mollit eiusmod.",
               "partList": []
@@ -1755,7 +1858,10 @@
               "link": "dc1c9ee2-18ed-4343-86ec-e852f8854f39/6ddb5f01-22c3-4ad1-8ca2-029fb939d3f1/d8a117b6-9580-465a-a493-b27056bc1cee",
               "parentLink": "dc1c9ee2-18ed-4343-86ec-e852f8854f39/6ddb5f01-22c3-4ad1-8ca2-029fb939d3f1",
               "name": "naprawa gaźnika",
-              "photos": ["photo2stihl.jpg", "photo3stihl.jpg"],
+              "photos": [
+                "photo2stihl.jpg",
+                "photo3stihl.jpg"
+              ],
               "shortNotes": "enim magna enim ut adipisicing ipsum sit aute occaecat velit id dolor non reprehenderit.",
               "notes": "in ad laboris lorem nostrud esse officia labore. velit tempor ea pariatur id adipisicing ex officia sunt occaecat officia cillum. consequat ipsum velit incididunt sit. amet culpa id reprehenderit aliqua nisi adipisicing. do cupidatat cillum voluptate sint est ut nulla sunt qui tempor ea duis eiusmod. eiusmod nulla amet labore voluptate culpa do ut nulla minim enim consectetur. irure quis laborum mollit ut eiusmod minim sit. ea ullamco est quis in proident sit. do labore elit consectetur quis veniam est ad sunt labore. consequat aliquip voluptate occaecat dolore culpa aute voluptate adipisicing cillum deserunt officia.",
               "partList": []
@@ -1771,7 +1877,9 @@
               "link": "dc1c9ee2-18ed-4343-86ec-e852f8854f39/6ddb5f01-22c3-4ad1-8ca2-029fb939d3f1/77aff03a-fbab-42d6-9f24-7c9701f6f1a1",
               "parentLink": "dc1c9ee2-18ed-4343-86ec-e852f8854f39/6ddb5f01-22c3-4ad1-8ca2-029fb939d3f1",
               "name": "serwis",
-              "photos": ["photo2stihl.jpg"],
+              "photos": [
+                "photo2stihl.jpg"
+              ],
               "shortNotes": "veniam aliqua ea velit reprehenderit laboris do.",
               "notes": "anim ea tempor eiusmod eiusmod nulla adipisicing fugiat et voluptate tempor elit ullamco. nisi magna adipisicing ut fugiat aliquip adipisicing voluptate culpa commodo reprehenderit veniam. velit fugiat sit cupidatat nisi exercitation consectetur ullamco anim esse do eiusmod velit. amet in ut exercitation fugiat duis aute voluptate culpa nulla tempor velit cupidatat. id enim et occaecat non quis ullamco eiusmod culpa est. adipisicing nostrud cupidatat magna culpa eiusmod aliqua eiusmod mollit minim. excepteur adipisicing excepteur consequat labore tempor. dolore reprehenderit proident irure officia veniam enim et elit labore dolor ipsum consectetur deserunt. ex pariatur non do nulla officia enim. labore qui duis cupidatat sit anim cillum esse quis ut.",
               "partList": []
@@ -1831,7 +1939,9 @@
               "link": "dc1c9ee2-18ed-4343-86ec-e852f8854f39/f71688e3-760f-46f9-8d09-880fa5660094/8819adff-31b3-461d-8e3a-ecfb92fac2cd",
               "parentLink": "dc1c9ee2-18ed-4343-86ec-e852f8854f39/f71688e3-760f-46f9-8d09-880fa5660094",
               "name": "serwis",
-              "photos": ["photo2rower.jpg"],
+              "photos": [
+                "photo2rower.jpg"
+              ],
               "shortNotes": "dolore cillum esse reprehenderit nulla excepteur dolore pariatur quis.",
               "notes": "nulla in in ullamco voluptate. ullamco lorem culpa nostrud eiusmod sint lorem est minim dolore. occaecat sit duis voluptate sit et ea laborum culpa do cillum do magna. consequat sint dolore occaecat non aute veniam reprehenderit consectetur consequat incididunt reprehenderit. veniam dolore consequat aliqua ut sit cillum incididunt laboris deserunt ex laboris cupidatat. proident esse labore adipisicing mollit ipsum. consectetur fugiat id et labore ex nisi mollit labore labore fugiat dolor proident. deserunt voluptate anim occaecat reprehenderit labore deserunt fugiat sit eu eiusmod amet voluptate. consectetur tempor anim proident velit sint consequat pariatur pariatur excepteur tempor velit. voluptate nulla laboris do cillum enim laboris ullamco reprehenderit quis ut tempor veniam id culpa.",
               "partList": []
@@ -1847,7 +1957,10 @@
               "link": "dc1c9ee2-18ed-4343-86ec-e852f8854f39/f71688e3-760f-46f9-8d09-880fa5660094/2ca300cb-e89c-442e-9080-bf85be935858",
               "parentLink": "dc1c9ee2-18ed-4343-86ec-e852f8854f39/f71688e3-760f-46f9-8d09-880fa5660094",
               "name": "wymiana dętki",
-              "photos": ["photo2rower.jpg", "photo3rower.jpg"],
+              "photos": [
+                "photo2rower.jpg",
+                "photo3rower.jpg"
+              ],
               "shortNotes": "labore ut cillum deserunt proident aliquip sint sit pariatur occaecat ipsum irure.",
               "notes": "deserunt irure velit mollit nulla voluptate enim lorem ullamco nulla lorem amet. proident laborum laborum magna ex aliquip mollit laborum voluptate sit. velit cillum incididunt est ex occaecat duis magna. est commodo elit sit quis qui ea velit lorem deserunt sit. cupidatat et irure pariatur ut velit elit laboris et est pariatur. dolore occaecat amet laboris minim qui culpa non excepteur enim ipsum incididunt. ad aliquip reprehenderit aliqua elit eu. proident qui magna ad cillum nostrud id exercitation commodo et cupidatat enim ad non nisi. id ea aute ex in velit. occaecat anim laborum excepteur veniam proident sit qui.",
               "partList": []
@@ -1907,7 +2020,9 @@
               "link": "dc1c9ee2-18ed-4343-86ec-e852f8854f39/b19b461c-7c3f-4b89-be1c-0cba628026eb/29e3985b-8337-41d3-8927-effcfcf09cbd",
               "parentLink": "dc1c9ee2-18ed-4343-86ec-e852f8854f39/b19b461c-7c3f-4b89-be1c-0cba628026eb",
               "name": "wymiana dętki",
-              "photos": ["photo3rower.jpg"],
+              "photos": [
+                "photo3rower.jpg"
+              ],
               "shortNotes": "veniam in et proident veniam et nulla.",
               "notes": "eiusmod adipisicing veniam ipsum cupidatat id excepteur nisi laboris incididunt. duis sunt elit proident anim ad duis eiusmod irure aliqua consectetur. dolor occaecat in sint lorem commodo deserunt ullamco eu velit aliquip in duis commodo. nulla veniam fugiat eiusmod labore sunt tempor dolor dolore irure. voluptate aute eu dolor aliquip labore amet eiusmod. duis quis consectetur aute enim veniam anim quis aute lorem esse. elit fugiat nulla sunt sunt minim ullamco quis. eu et consectetur ad deserunt duis. consequat ullamco deserunt nulla dolore magna in. ullamco deserunt ipsum cupidatat eu fugiat nisi cillum nulla aliquip.",
               "partList": []
@@ -1959,7 +2074,9 @@
               "link": "dc1c9ee2-18ed-4343-86ec-e852f8854f39/b19b461c-7c3f-4b89-be1c-0cba628026eb/77ce228b-212e-4e31-8d22-a0703bfa9e75",
               "parentLink": "dc1c9ee2-18ed-4343-86ec-e852f8854f39/b19b461c-7c3f-4b89-be1c-0cba628026eb",
               "name": "serwis",
-              "photos": ["photo1rower.jpg"],
+              "photos": [
+                "photo1rower.jpg"
+              ],
               "shortNotes": "eiusmod pariatur ullamco pariatur velit est sunt aliquip culpa est.",
               "notes": "duis aute ad mollit pariatur nostrud esse occaecat nulla do. et labore laborum adipisicing dolore id proident elit pariatur occaecat tempor tempor. magna cupidatat consectetur nostrud magna eu non cupidatat occaecat ea id nostrud deserunt eiusmod lorem. consequat dolor ea exercitation dolore qui duis minim proident magna. officia labore nostrud ex lorem. officia sit anim officia ullamco. sunt qui voluptate in quis do ut deserunt dolore. proident fugiat ut ut eu mollit. occaecat duis aliqua minim eiusmod. non aliqua duis ex aute.",
               "partList": []
@@ -2003,7 +2120,10 @@
               "link": "dc1c9ee2-18ed-4343-86ec-e852f8854f39/c44bd3be-3938-4ae2-90aa-8958920ec7e3/87deed2e-b7f4-4705-8712-11386a0dcedc",
               "parentLink": "dc1c9ee2-18ed-4343-86ec-e852f8854f39/c44bd3be-3938-4ae2-90aa-8958920ec7e3",
               "name": "serwis",
-              "photos": ["photo1kosiarka.jpg", "photo2kosiarka.jpg"],
+              "photos": [
+                "photo1kosiarka.jpg",
+                "photo2kosiarka.jpg"
+              ],
               "shortNotes": "exercitation nisi nulla sit id aute non duis veniam enim.",
               "notes": "non et do incididunt anim cillum magna qui dolore amet culpa sint. anim laborum consectetur nulla dolore nostrud elit cillum veniam officia. nostrud eu eiusmod minim veniam et. ut veniam id adipisicing ea voluptate eiusmod excepteur lorem. pariatur enim et enim minim est qui do culpa dolore amet. dolore nostrud occaecat anim aliquip ut eiusmod. eu proident incididunt elit voluptate velit adipisicing aliquip. ipsum incididunt fugiat in quis laborum eu nisi velit irure eiusmod sunt cillum. consectetur aliquip culpa dolor elit qui sunt eu deserunt ad. cupidatat officia exercitation ex nisi ad.",
               "partList": []
@@ -2047,7 +2167,9 @@
               "link": "dc1c9ee2-18ed-4343-86ec-e852f8854f39/3e7d4759-1835-4cff-8562-297d4fbddb6f/52799462-4429-419a-a845-35207c556c6b",
               "parentLink": "dc1c9ee2-18ed-4343-86ec-e852f8854f39/3e7d4759-1835-4cff-8562-297d4fbddb6f",
               "name": "wymiana cylindra",
-              "photos": ["photo3kosiarka.jpg"],
+              "photos": [
+                "photo3kosiarka.jpg"
+              ],
               "shortNotes": "sunt consequat laboris culpa id quis ipsum quis ut.",
               "notes": "lorem velit voluptate esse elit id dolore. labore et aliqua ullamco occaecat voluptate amet fugiat. tempor quis dolor mollit ea officia sint fugiat est aliqua ex nisi adipisicing voluptate lorem. ex voluptate occaecat excepteur aute non in laboris culpa nisi voluptate ad nulla proident. quis ipsum excepteur officia ad ut sunt duis. sunt irure ipsum laboris est tempor excepteur tempor id velit. reprehenderit nostrud deserunt amet cillum commodo non nulla irure fugiat dolore magna sunt eu exercitation. pariatur amet et dolore ex pariatur esse. irure esse aliqua elit id ea esse nisi culpa mollit excepteur officia commodo adipisicing aute. laborum fugiat id laboris aliqua.",
               "partList": []
@@ -2063,7 +2185,10 @@
               "link": "dc1c9ee2-18ed-4343-86ec-e852f8854f39/3e7d4759-1835-4cff-8562-297d4fbddb6f/461b7388-5025-44a6-ae42-a1740c2b15ab",
               "parentLink": "dc1c9ee2-18ed-4343-86ec-e852f8854f39/3e7d4759-1835-4cff-8562-297d4fbddb6f",
               "name": "wymiana cylindra",
-              "photos": ["photo3kosiarka.jpg", "photo2kosiarka.jpg"],
+              "photos": [
+                "photo3kosiarka.jpg",
+                "photo2kosiarka.jpg"
+              ],
               "shortNotes": "mollit lorem sit nulla excepteur cillum veniam cupidatat mollit adipisicing cupidatat minim.",
               "notes": "ex ex consequat dolor sit pariatur excepteur. consectetur dolor enim tempor non et cillum tempor magna sit eiusmod. sit non laboris officia mollit do aute eiusmod commodo labore deserunt id aliquip occaecat pariatur. voluptate qui exercitation cupidatat ad irure nulla laboris et tempor irure reprehenderit. ex tempor consequat eiusmod excepteur duis cillum. anim anim laboris tempor sint tempor esse nisi aute id sit irure nostrud ad nisi. lorem veniam officia fugiat et ad aute id officia. in anim dolor ex excepteur esse fugiat. excepteur veniam id cupidatat exercitation eiusmod cupidatat laboris amet sint exercitation in. ex commodo magna lorem veniam pariatur elit velit et laboris.",
               "partList": []
@@ -2139,7 +2264,9 @@
               "link": "dc1c9ee2-18ed-4343-86ec-e852f8854f39/3e7d4759-1835-4cff-8562-297d4fbddb6f/65f87335-730d-4210-9303-2cdf0b2784cb",
               "parentLink": "dc1c9ee2-18ed-4343-86ec-e852f8854f39/3e7d4759-1835-4cff-8562-297d4fbddb6f",
               "name": "wymiana cylindra",
-              "photos": ["photo2kosiarka.jpg"],
+              "photos": [
+                "photo2kosiarka.jpg"
+              ],
               "shortNotes": "excepteur amet magna laboris excepteur.",
               "notes": "sit ullamco et exercitation id eu ipsum ea culpa ex veniam dolor dolor. anim officia nisi ea id aliqua labore aliqua. ipsum et quis qui deserunt non ipsum aliqua aliqua commodo mollit non. fugiat ut anim magna irure do pariatur. amet mollit esse proident occaecat voluptate aliquip magna ea duis. pariatur nostrud ipsum nisi nostrud aliqua aliquip. eiusmod lorem reprehenderit elit adipisicing anim anim anim duis sit nostrud. nostrud nulla commodo est veniam aliqua ullamco laborum sint sit laboris. ad ipsum dolore do mollit sint ex amet ea eu nisi. tempor veniam sit qui ipsum tempor et commodo consequat labore in quis.",
               "partList": []
@@ -2167,7 +2294,9 @@
               "link": "dc1c9ee2-18ed-4343-86ec-e852f8854f39/58390102-2011-4643-9bdf-6deb06fc1dbd/2ab56c98-38ce-4b35-8aec-6877d79a27cd",
               "parentLink": "dc1c9ee2-18ed-4343-86ec-e852f8854f39/58390102-2011-4643-9bdf-6deb06fc1dbd",
               "name": "wymiana kółek",
-              "photos": ["photo3kosiarka.jpg"],
+              "photos": [
+                "photo3kosiarka.jpg"
+              ],
               "shortNotes": "velit aliqua laborum deserunt minim exercitation nostrud ea exercitation qui ex.",
               "notes": "fugiat eiusmod et commodo nostrud in magna pariatur excepteur pariatur. aute id enim elit elit irure cupidatat tempor. excepteur fugiat excepteur ut minim eiusmod ullamco. labore excepteur fugiat irure mollit quis magna exercitation. laborum est ad amet elit veniam esse ipsum aliqua dolor cillum. sunt pariatur voluptate qui nulla. pariatur duis cillum eu incididunt. dolore irure consequat minim est nisi. ullamco nostrud nostrud ex voluptate esse esse amet nulla tempor. ipsum excepteur mollit est eu lorem nisi ad nostrud eu aliquip.",
               "partList": []
@@ -2183,7 +2312,10 @@
               "link": "dc1c9ee2-18ed-4343-86ec-e852f8854f39/58390102-2011-4643-9bdf-6deb06fc1dbd/e4ecb062-20f5-4d48-92c5-f955cc256c69",
               "parentLink": "dc1c9ee2-18ed-4343-86ec-e852f8854f39/58390102-2011-4643-9bdf-6deb06fc1dbd",
               "name": "wymiana kółek",
-              "photos": ["photo3kosiarka.jpg", "photo1kosiarka.jpg"],
+              "photos": [
+                "photo3kosiarka.jpg",
+                "photo1kosiarka.jpg"
+              ],
               "shortNotes": "minim adipisicing in proident esse cupidatat irure do.",
               "notes": "labore duis ad adipisicing qui ut et fugiat laborum ad est labore. eiusmod velit laboris quis culpa officia laboris. proident excepteur duis ea cupidatat deserunt est laborum proident aliquip ex culpa excepteur eu reprehenderit. deserunt lorem nulla id fugiat duis aliqua pariatur occaecat elit dolor. proident ut proident ea ipsum. eu fugiat aliquip sit sit do lorem minim quis eiusmod do. consectetur aute adipisicing occaecat commodo mollit minim officia occaecat minim do occaecat exercitation eu. dolore aliquip tempor minim ad qui in et culpa. eiusmod in ut irure adipisicing excepteur nostrud amet exercitation tempor voluptate. laborum tempor qui sit ut cupidatat deserunt adipisicing anim.",
               "partList": []
@@ -2199,7 +2331,10 @@
               "link": "dc1c9ee2-18ed-4343-86ec-e852f8854f39/58390102-2011-4643-9bdf-6deb06fc1dbd/912c8bd3-07aa-478a-8cd3-7c85a97e6bf5",
               "parentLink": "dc1c9ee2-18ed-4343-86ec-e852f8854f39/58390102-2011-4643-9bdf-6deb06fc1dbd",
               "name": "wymiana cylindra",
-              "photos": ["photo2kosiarka.jpg", "photo3kosiarka.jpg"],
+              "photos": [
+                "photo2kosiarka.jpg",
+                "photo3kosiarka.jpg"
+              ],
               "shortNotes": "enim labore minim sunt dolor officia magna quis culpa et aute enim excepteur.",
               "notes": "cupidatat labore ut laborum amet commodo officia ex fugiat id deserunt velit. occaecat ad sint occaecat excepteur dolore. aute occaecat ullamco duis pariatur dolor elit adipisicing sit magna consequat. ad cillum id laborum sint officia ipsum eu elit. veniam dolor amet ipsum est culpa. aliquip enim ex sit minim eu cupidatat lorem laboris fugiat irure. velit elit irure tempor lorem magna ipsum tempor exercitation tempor voluptate amet anim esse non. do amet veniam et mollit proident anim amet enim cillum aute. non duis cillum velit laborum nulla laborum. magna sit culpa proident culpa ut ut consectetur qui do officia aliquip irure aliquip.",
               "partList": []
@@ -2283,7 +2418,10 @@
               "link": "20140d86-07f4-4c46-9a6d-b85553947a9f/c4d6eeeb-f0d8-4411-9edc-ff6b3cf8f7bc/a0024f40-3f96-460a-a340-27832e719d98",
               "parentLink": "20140d86-07f4-4c46-9a6d-b85553947a9f/c4d6eeeb-f0d8-4411-9edc-ff6b3cf8f7bc",
               "name": "naprawa tłoka",
-              "photos": ["photo2stihl.jpg", "photo2stihl.jpg"],
+              "photos": [
+                "photo2stihl.jpg",
+                "photo2stihl.jpg"
+              ],
               "shortNotes": "ut quis occaecat et enim eiusmod proident.",
               "notes": "excepteur dolore anim proident irure incididunt do duis quis cupidatat id laborum do consequat. non velit consequat adipisicing exercitation minim lorem nisi proident. laboris sit incididunt exercitation exercitation deserunt duis. consequat est ad cillum id ea lorem proident est magna pariatur qui. cillum aliqua consectetur anim cillum pariatur esse ad cupidatat pariatur. consequat incididunt duis voluptate ullamco non sint qui non elit amet ullamco fugiat officia. amet in cupidatat sit consequat adipisicing dolore. pariatur dolore do fugiat veniam. occaecat culpa anim excepteur in minim quis tempor esse laboris amet nisi sunt. sit est ea aliqua non officia.",
               "partList": []
@@ -2299,7 +2437,9 @@
               "link": "20140d86-07f4-4c46-9a6d-b85553947a9f/c4d6eeeb-f0d8-4411-9edc-ff6b3cf8f7bc/64b1a59e-af8e-4f14-a8da-751b0eef11c6",
               "parentLink": "20140d86-07f4-4c46-9a6d-b85553947a9f/c4d6eeeb-f0d8-4411-9edc-ff6b3cf8f7bc",
               "name": "serwis",
-              "photos": ["photo2stihl.jpg"],
+              "photos": [
+                "photo2stihl.jpg"
+              ],
               "shortNotes": "ipsum eu quis velit eiusmod.",
               "notes": "anim commodo proident ea est ad sint anim minim consequat elit esse. sunt magna excepteur laborum ea sit mollit consequat esse ipsum sit eiusmod laboris consectetur excepteur. commodo consectetur commodo excepteur et incididunt sunt ipsum minim. pariatur magna ea velit enim esse ea velit aliqua. exercitation ullamco consequat eiusmod cillum dolore nulla aliquip minim laborum elit in proident. eu reprehenderit sit sit minim qui est incididunt commodo fugiat sunt sunt. eu in ex nisi deserunt ea velit officia tempor qui sint elit. voluptate sit dolor in aliquip excepteur nulla qui aliqua duis consectetur lorem cupidatat minim. adipisicing voluptate fugiat labore mollit do qui lorem aliquip nostrud quis quis. nostrud non ad deserunt magna.",
               "partList": []
@@ -2447,7 +2587,10 @@
               "link": "20140d86-07f4-4c46-9a6d-b85553947a9f/a7374f59-bb1b-4eb1-b15a-ff4fd7b0d727/66d9ddb7-c499-4d92-8dea-365ad226df93",
               "parentLink": "20140d86-07f4-4c46-9a6d-b85553947a9f/a7374f59-bb1b-4eb1-b15a-ff4fd7b0d727",
               "name": "wymiana dętki",
-              "photos": ["photo1rower.jpg", "photo2rower.jpg"],
+              "photos": [
+                "photo1rower.jpg",
+                "photo2rower.jpg"
+              ],
               "shortNotes": "aute amet elit ullamco fugiat pariatur non incididunt.",
               "notes": "pariatur elit et fugiat et nostrud cupidatat laboris veniam. deserunt in tempor ipsum ea magna ea nulla ad sunt elit laboris commodo sit. pariatur aliquip sit dolor mollit reprehenderit minim commodo pariatur do minim. elit amet eiusmod laborum laboris culpa fugiat. reprehenderit laborum elit exercitation commodo aliqua sint mollit aute fugiat ipsum dolore. consequat occaecat id anim adipisicing ut reprehenderit. nulla duis do aute incididunt non excepteur id qui qui anim. exercitation velit deserunt cupidatat sint velit minim pariatur fugiat amet anim duis. minim excepteur tempor cupidatat dolor do non dolore magna aliquip. eiusmod sint laborum velit fugiat anim veniam proident nostrud excepteur.",
               "partList": []
@@ -2567,7 +2710,10 @@
               "link": "20140d86-07f4-4c46-9a6d-b85553947a9f/2f12391f-d38f-4a5f-a318-afb00d47bc0b/5cc3653e-0402-425f-85af-1d3b44c2bdc2",
               "parentLink": "20140d86-07f4-4c46-9a6d-b85553947a9f/2f12391f-d38f-4a5f-a318-afb00d47bc0b",
               "name": "serwis",
-              "photos": ["photo1rower.jpg", "photo2rower.jpg"],
+              "photos": [
+                "photo1rower.jpg",
+                "photo2rower.jpg"
+              ],
               "shortNotes": "quis veniam ullamco veniam ea voluptate eu mollit ut.",
               "notes": "dolor dolore et ipsum velit dolor fugiat fugiat sunt elit dolor. mollit culpa commodo est do deserunt ut officia dolor ea exercitation reprehenderit ut. magna ad nostrud eiusmod voluptate pariatur est reprehenderit. anim commodo nostrud est ullamco amet esse consequat excepteur. aliqua laborum mollit elit sunt in aliquip officia eiusmod. ea elit eu officia eiusmod officia et reprehenderit nisi et culpa. id fugiat laboris laborum mollit id culpa laborum. minim ea magna sit ex cillum pariatur laborum irure eiusmod deserunt tempor aliqua deserunt culpa. et magna fugiat anim lorem do. aute deserunt consectetur officia ipsum minim veniam eiusmod dolor.",
               "partList": []
@@ -2595,7 +2741,10 @@
               "link": "20140d86-07f4-4c46-9a6d-b85553947a9f/2120b132-31e0-4792-a9fc-410cd5b0a177/76b4e855-d2c2-41b9-a50e-0114f54ad4b6",
               "parentLink": "20140d86-07f4-4c46-9a6d-b85553947a9f/2120b132-31e0-4792-a9fc-410cd5b0a177",
               "name": "wymiana kółek",
-              "photos": ["photo2kosiarka.jpg", "photo1kosiarka.jpg"],
+              "photos": [
+                "photo2kosiarka.jpg",
+                "photo1kosiarka.jpg"
+              ],
               "shortNotes": "aute occaecat deserunt in amet deserunt proident duis proident.",
               "notes": "cupidatat tempor proident dolor magna ut duis reprehenderit adipisicing incididunt lorem ea laborum incididunt. cupidatat esse commodo irure do veniam labore reprehenderit anim est. ex fugiat labore reprehenderit consectetur voluptate do elit sunt cupidatat. ex sunt culpa aliqua aliqua ea amet amet sunt. occaecat elit magna incididunt culpa ea qui officia. et laboris laborum sit veniam et aute non veniam dolor duis exercitation incididunt esse enim. consequat eu do voluptate veniam sint quis. consectetur commodo mollit eu mollit laborum eu occaecat excepteur deserunt enim dolore ullamco. duis nisi amet excepteur reprehenderit voluptate in lorem amet incididunt esse dolor deserunt. nostrud minim esse incididunt cillum tempor lorem.",
               "partList": []
@@ -2711,7 +2860,10 @@
               "link": "f020f72e-a2f7-40c5-81fb-505fcaa42c11/7ea419ab-dbc0-4ce4-b5f5-e36e784f163a/d81bb807-0e8e-449f-9414-ea8824f3c9ed",
               "parentLink": "f020f72e-a2f7-40c5-81fb-505fcaa42c11/7ea419ab-dbc0-4ce4-b5f5-e36e784f163a",
               "name": "naprawa tłoka",
-              "photos": ["photo2stihl.jpg", "photo1stihl.jpg"],
+              "photos": [
+                "photo2stihl.jpg",
+                "photo1stihl.jpg"
+              ],
               "shortNotes": "nisi sint mollit dolor elit sunt.",
               "notes": "laborum reprehenderit sunt id mollit incididunt culpa culpa id. sit amet ea aute fugiat ullamco aliquip adipisicing consectetur est aute ullamco exercitation minim in. dolore exercitation duis quis qui eiusmod officia commodo veniam esse esse enim laborum. aliquip aliqua do cillum reprehenderit consequat irure mollit voluptate. laborum nulla adipisicing anim et esse proident id velit. lorem voluptate laboris ad adipisicing officia occaecat exercitation nostrud. et deserunt laborum pariatur exercitation in et laborum eiusmod laboris nisi quis consectetur elit mollit. sit sunt exercitation dolor aliquip pariatur officia in nulla minim qui magna proident ea. ex nisi laborum ad dolor dolore elit eiusmod proident ipsum. incididunt reprehenderit qui voluptate commodo in occaecat nisi anim labore dolore sint est deserunt exercitation.",
               "partList": []
@@ -2739,7 +2891,9 @@
               "link": "f020f72e-a2f7-40c5-81fb-505fcaa42c11/81fe7c78-11ee-4ec3-8aca-85987fbee71a/ba784c73-706e-40f2-8a5e-3eab751d3f91",
               "parentLink": "f020f72e-a2f7-40c5-81fb-505fcaa42c11/81fe7c78-11ee-4ec3-8aca-85987fbee71a",
               "name": "wymiana dętki",
-              "photos": ["photo2rower.jpg"],
+              "photos": [
+                "photo2rower.jpg"
+              ],
               "shortNotes": "ex cupidatat ullamco sunt nisi sit mollit.",
               "notes": "aliqua ut sunt id ullamco ut excepteur proident non culpa est enim. reprehenderit mollit voluptate anim anim commodo. eu non pariatur deserunt culpa laboris est. enim amet mollit exercitation deserunt reprehenderit quis esse est. nisi elit cupidatat aliquip cillum excepteur eiusmod velit culpa proident. sunt voluptate nostrud nostrud ex mollit ipsum dolor dolore. do deserunt est id occaecat incididunt commodo exercitation enim et fugiat in sint aliquip amet. duis sit eiusmod et in laboris ad labore ipsum reprehenderit enim culpa deserunt. est ut amet ut consequat ipsum lorem laborum aute in. tempor eu incididunt minim cupidatat tempor aute lorem laborum amet aliquip minim incididunt adipisicing enim.",
               "partList": []
@@ -2755,7 +2909,9 @@
               "link": "f020f72e-a2f7-40c5-81fb-505fcaa42c11/81fe7c78-11ee-4ec3-8aca-85987fbee71a/cf284b13-7acd-48dc-b031-34f0695b3969",
               "parentLink": "f020f72e-a2f7-40c5-81fb-505fcaa42c11/81fe7c78-11ee-4ec3-8aca-85987fbee71a",
               "name": "serwis",
-              "photos": ["photo3rower.jpg"],
+              "photos": [
+                "photo3rower.jpg"
+              ],
               "shortNotes": "consectetur ad consequat enim culpa anim aute occaecat et irure sunt magna.",
               "notes": "dolor aute sunt in laboris eu voluptate aliquip amet velit elit enim id. amet velit velit amet adipisicing esse occaecat do ut. velit veniam fugiat commodo commodo qui cupidatat laborum elit incididunt laborum anim ullamco. do lorem consequat et eiusmod incididunt eiusmod sunt ad. ut ex eiusmod magna commodo fugiat nostrud laborum ut id id incididunt amet ullamco magna. ex magna enim labore cillum cillum velit est cillum laborum enim adipisicing proident deserunt deserunt. anim esse ex ex in sit id dolor et. aute adipisicing adipisicing sit dolor. mollit elit labore fugiat incididunt deserunt occaecat qui ut sunt nostrud consectetur id culpa labore. aute adipisicing in irure occaecat irure ullamco tempor labore id ad.",
               "partList": []
@@ -2811,7 +2967,10 @@
               "link": "f020f72e-a2f7-40c5-81fb-505fcaa42c11/81fe7c78-11ee-4ec3-8aca-85987fbee71a/3f87c49d-eebc-4f44-84f4-dde20f9ca7c5",
               "parentLink": "f020f72e-a2f7-40c5-81fb-505fcaa42c11/81fe7c78-11ee-4ec3-8aca-85987fbee71a",
               "name": "serwis",
-              "photos": ["photo3rower.jpg", "photo2rower.jpg"],
+              "photos": [
+                "photo3rower.jpg",
+                "photo2rower.jpg"
+              ],
               "shortNotes": "fugiat reprehenderit exercitation sit excepteur ex adipisicing adipisicing.",
               "notes": "minim pariatur cillum lorem consequat lorem laborum culpa mollit. cupidatat officia eu ipsum do commodo minim pariatur velit sunt lorem cillum minim elit et. ex officia lorem aliquip quis proident minim nisi. enim quis cillum commodo ea minim sit sunt eiusmod ipsum eiusmod dolor cillum cillum ex. exercitation reprehenderit ad dolore reprehenderit cillum. elit nostrud anim ea labore minim aute. fugiat nostrud veniam ea eiusmod non consectetur dolor labore culpa nisi nostrud velit. nulla aliqua laborum commodo exercitation consequat voluptate qui velit non minim dolore anim aute officia. dolore aliqua sunt ut non qui dolore ipsum voluptate officia. laboris esse consequat commodo non veniam.",
               "partList": []
@@ -2899,7 +3058,10 @@
               "link": "f020f72e-a2f7-40c5-81fb-505fcaa42c11/c26cba07-4bf8-4b8d-a778-31cf855d1837/bb88adb1-db8f-432a-94ac-5fea30c429c9",
               "parentLink": "f020f72e-a2f7-40c5-81fb-505fcaa42c11/c26cba07-4bf8-4b8d-a778-31cf855d1837",
               "name": "serwis",
-              "photos": ["photo2rower.jpg", "photo3rower.jpg"],
+              "photos": [
+                "photo2rower.jpg",
+                "photo3rower.jpg"
+              ],
               "shortNotes": "commodo do dolor aliqua nisi fugiat nostrud.",
               "notes": "eiusmod duis non ex lorem adipisicing laborum voluptate sint. cillum pariatur sit adipisicing dolor aute deserunt consequat aliqua amet elit veniam ullamco reprehenderit. enim incididunt cillum consectetur aute ea ad. elit ea velit sunt consectetur aliquip nulla. ut eu quis excepteur aute commodo ullamco consectetur esse non non consectetur. nulla est qui eiusmod esse fugiat nostrud ad quis est ipsum cupidatat excepteur ea consequat. sit enim anim elit adipisicing cillum voluptate magna lorem consectetur in. eiusmod ullamco incididunt officia cupidatat reprehenderit lorem in anim. nisi incididunt amet eu id commodo cupidatat fugiat sit. irure incididunt lorem laboris nisi sunt ullamco.",
               "partList": []
@@ -2947,7 +3109,9 @@
               "link": "f020f72e-a2f7-40c5-81fb-505fcaa42c11/407a26e8-1a4a-4b9d-ae30-4a865353f922/46e29e28-9a1a-4a04-9ebe-7d326a59eede",
               "parentLink": "f020f72e-a2f7-40c5-81fb-505fcaa42c11/407a26e8-1a4a-4b9d-ae30-4a865353f922",
               "name": "wymiana cylindra",
-              "photos": ["photo3kosiarka.jpg"],
+              "photos": [
+                "photo3kosiarka.jpg"
+              ],
               "shortNotes": "nisi elit deserunt id dolore qui lorem.",
               "notes": "mollit sint ea tempor nulla enim adipisicing in dolore cillum tempor. exercitation qui fugiat qui amet sit duis aliquip occaecat. est anim ullamco tempor ex ut ad ut ea non occaecat veniam officia aute labore. et pariatur tempor pariatur mollit adipisicing nostrud eiusmod. excepteur aliqua consectetur id qui anim consequat ex reprehenderit sint consequat. id aute consectetur sit sunt consectetur officia do tempor amet occaecat. qui do nulla consectetur adipisicing nulla nulla officia duis aute deserunt eu aliquip. nulla magna incididunt voluptate quis in sit exercitation exercitation nostrud lorem non. nostrud dolore nulla qui amet consectetur reprehenderit ullamco. fugiat tempor sunt magna et est mollit culpa esse excepteur aliqua elit et et.",
               "partList": []
@@ -2963,7 +3127,10 @@
               "link": "f020f72e-a2f7-40c5-81fb-505fcaa42c11/407a26e8-1a4a-4b9d-ae30-4a865353f922/4c11cd88-493a-4de5-baf9-c9b0e9fa54f1",
               "parentLink": "f020f72e-a2f7-40c5-81fb-505fcaa42c11/407a26e8-1a4a-4b9d-ae30-4a865353f922",
               "name": "wymiana kółek",
-              "photos": ["photo3kosiarka.jpg", "photo2kosiarka.jpg"],
+              "photos": [
+                "photo3kosiarka.jpg",
+                "photo2kosiarka.jpg"
+              ],
               "shortNotes": "eu velit aliquip officia eiusmod incididunt sint.",
               "notes": "excepteur in nisi ullamco nulla nostrud ex irure. proident proident non lorem ipsum sint nisi nostrud commodo laboris et ex cillum. eiusmod minim et aute cupidatat pariatur dolor id nisi veniam. nostrud sit pariatur enim magna. id amet ea ea reprehenderit amet laborum sit cupidatat ad commodo. duis sint nostrud tempor reprehenderit velit ex incididunt est tempor pariatur magna est laborum veniam. ipsum culpa nostrud qui id sunt ad amet et veniam incididunt. laboris est magna excepteur magna aliqua ad est. consectetur consequat dolor reprehenderit non labore eiusmod irure amet elit. ut voluptate veniam occaecat lorem ut id et minim qui exercitation.",
               "partList": []
@@ -3047,7 +3214,9 @@
               "link": "f020f72e-a2f7-40c5-81fb-505fcaa42c11/d27f2316-09dc-46ef-a7a4-432d997f987c/941c4807-2551-42bd-ac8d-aebf50511b8a",
               "parentLink": "f020f72e-a2f7-40c5-81fb-505fcaa42c11/d27f2316-09dc-46ef-a7a4-432d997f987c",
               "name": "serwis",
-              "photos": ["photo3kosiarka.jpg"],
+              "photos": [
+                "photo3kosiarka.jpg"
+              ],
               "shortNotes": "aliquip aute nulla culpa id commodo in id anim ex tempor magna id velit laboris.",
               "notes": "minim ut ullamco id ea nulla aliquip voluptate ad dolor ad ea do in veniam. adipisicing cupidatat voluptate labore et adipisicing cupidatat aute quis. id eiusmod dolor sint nostrud enim adipisicing ut aliquip voluptate nisi aute mollit. anim adipisicing sunt magna deserunt. aliqua velit deserunt sunt elit duis magna. esse anim duis mollit sit magna ea officia sit. ex occaecat consectetur minim qui. incididunt duis ea aute magna eiusmod reprehenderit. in mollit magna aute consectetur dolor id deserunt occaecat nostrud lorem consectetur occaecat. in ad pariatur labore excepteur nisi reprehenderit consectetur voluptate laboris.",
               "partList": []
@@ -3075,7 +3244,10 @@
               "link": "f020f72e-a2f7-40c5-81fb-505fcaa42c11/addece62-9067-4286-816e-17ef2334ec2d/c6ac3638-8b26-4f49-beb7-713066b08dff",
               "parentLink": "f020f72e-a2f7-40c5-81fb-505fcaa42c11/addece62-9067-4286-816e-17ef2334ec2d",
               "name": "serwis",
-              "photos": ["photo1kosiarka.jpg", "photo1kosiarka.jpg"],
+              "photos": [
+                "photo1kosiarka.jpg",
+                "photo1kosiarka.jpg"
+              ],
               "shortNotes": "ea ipsum occaecat velit aliqua labore fugiat ad consequat lorem deserunt.",
               "notes": "fugiat et eu nostrud nulla lorem eu eu mollit adipisicing nulla enim tempor proident. duis cillum quis exercitation veniam. enim enim in ea lorem ullamco sunt eiusmod consectetur ad. anim esse id deserunt enim eu ex ea nulla exercitation lorem fugiat incididunt et elit. veniam lorem lorem adipisicing nostrud consectetur tempor deserunt nostrud adipisicing do. velit anim consequat reprehenderit ipsum dolor magna fugiat et qui mollit elit lorem aliqua. lorem culpa officia et velit duis aute officia nostrud ea consequat nulla labore. et est ut ullamco laboris minim id do cillum duis ut non eu et esse. voluptate excepteur pariatur exercitation ea elit elit non quis culpa laboris dolor. amet cillum sunt labore voluptate est enim non reprehenderit fugiat pariatur laboris.",
               "partList": []
@@ -3091,7 +3263,9 @@
               "link": "f020f72e-a2f7-40c5-81fb-505fcaa42c11/addece62-9067-4286-816e-17ef2334ec2d/5c77d33c-d355-4ed4-bd73-94fead09a137",
               "parentLink": "f020f72e-a2f7-40c5-81fb-505fcaa42c11/addece62-9067-4286-816e-17ef2334ec2d",
               "name": "serwis",
-              "photos": ["photo3kosiarka.jpg"],
+              "photos": [
+                "photo3kosiarka.jpg"
+              ],
               "shortNotes": "magna exercitation nulla id anim.",
               "notes": "consectetur sint do exercitation exercitation non tempor proident fugiat. sunt nulla est excepteur laborum reprehenderit elit ex reprehenderit quis amet. consectetur non est anim commodo. proident non veniam magna do voluptate enim id sit ex non enim sunt ullamco. sint anim exercitation qui est laboris amet consequat aute in commodo aliquip. nulla duis et est qui ullamco quis deserunt irure qui adipisicing excepteur cupidatat adipisicing aliquip. sit sunt ad laboris amet magna. quis est nulla laboris nostrud enim ad nulla qui ea. do aute in labore velit consectetur. enim dolor sunt aute do nostrud dolore aliquip nulla consectetur ex esse ut in anim.",
               "partList": []
@@ -3127,7 +3301,10 @@
               "link": "f020f72e-a2f7-40c5-81fb-505fcaa42c11/addece62-9067-4286-816e-17ef2334ec2d/af2089a0-63c2-4cd8-a056-4e5f84473c0b",
               "parentLink": "f020f72e-a2f7-40c5-81fb-505fcaa42c11/addece62-9067-4286-816e-17ef2334ec2d",
               "name": "serwis",
-              "photos": ["photo2kosiarka.jpg", "photo2kosiarka.jpg"],
+              "photos": [
+                "photo2kosiarka.jpg",
+                "photo2kosiarka.jpg"
+              ],
               "shortNotes": "nostrud sit nostrud lorem et occaecat velit minim excepteur anim sit dolore exercitation ex id.",
               "notes": "magna fugiat ipsum minim dolore voluptate ipsum commodo incididunt commodo consectetur pariatur ipsum. ullamco culpa aliquip nisi consequat amet nulla incididunt. et velit voluptate ullamco incididunt culpa ullamco esse labore lorem adipisicing aliquip irure. adipisicing nisi proident veniam dolor mollit do. ut cillum mollit velit sit ex dolor duis minim officia exercitation et. consectetur ut eiusmod ex ut aliquip minim minim labore do dolore. laboris duis et et sunt velit nulla aliquip magna amet veniam nostrud ut lorem. ad tempor qui quis labore laboris. consequat et consequat cupidatat laborum lorem officia labore ullamco duis. laborum labore esse exercitation sunt cillum sunt elit in sint magna ea.",
               "partList": []
@@ -3143,7 +3320,9 @@
               "link": "f020f72e-a2f7-40c5-81fb-505fcaa42c11/addece62-9067-4286-816e-17ef2334ec2d/4596109f-8bc1-48a6-8e52-fb3f19f05a7b",
               "parentLink": "f020f72e-a2f7-40c5-81fb-505fcaa42c11/addece62-9067-4286-816e-17ef2334ec2d",
               "name": "wymiana kółek",
-              "photos": ["photo2kosiarka.jpg"],
+              "photos": [
+                "photo2kosiarka.jpg"
+              ],
               "shortNotes": "velit cupidatat tempor occaecat culpa dolor exercitation mollit ut quis laboris anim dolor tempor amet.",
               "notes": "ea non aliquip laboris tempor consequat. amet aute proident deserunt deserunt sunt. qui veniam adipisicing do duis ex dolore ipsum exercitation ex id. laborum ad id quis labore consequat ipsum tempor non esse est ut magna non. et non consequat minim ullamco eiusmod. nostrud fugiat aliqua eu laborum cupidatat consectetur labore ea laborum culpa pariatur proident dolore. labore cillum est eu aute exercitation occaecat magna qui exercitation. quis occaecat voluptate sunt occaecat ex ad mollit in sint consequat eiusmod. consequat do non esse dolore aliqua ad fugiat lorem nisi dolore reprehenderit ex occaecat. amet do reprehenderit sunt laborum magna ullamco cillum excepteur consectetur.",
               "partList": []
@@ -3187,7 +3366,9 @@
               "link": "613f3c5f-c957-4ed1-aab4-38841a669400/d1318c65-7179-46c8-8ecd-b402eb806738/fbc01c2a-f1d7-47c2-9004-36943d0903ff",
               "parentLink": "613f3c5f-c957-4ed1-aab4-38841a669400/d1318c65-7179-46c8-8ecd-b402eb806738",
               "name": "serwis",
-              "photos": ["photo3stihl.jpg"],
+              "photos": [
+                "photo3stihl.jpg"
+              ],
               "shortNotes": "exercitation ut irure proident velit in eiusmod velit labore deserunt incididunt non eiusmod irure excepteur.",
               "notes": "excepteur cillum reprehenderit voluptate eu commodo commodo ad culpa. fugiat lorem veniam qui duis. fugiat excepteur quis ipsum eu voluptate magna ea do esse tempor. sunt reprehenderit eu duis magna ut voluptate laboris duis esse occaecat dolore ut. in est cillum pariatur ad ullamco. adipisicing incididunt cupidatat veniam occaecat esse ullamco nulla commodo magna deserunt voluptate. laboris et id eu occaecat tempor exercitation dolor elit. qui fugiat dolore laborum ipsum aliquip qui occaecat aliqua anim esse cillum. quis reprehenderit officia sunt ullamco veniam anim aliqua ex cillum. ut enim culpa velit aliquip laboris sint qui voluptate sint.",
               "partList": []
@@ -3235,7 +3416,9 @@
               "link": "613f3c5f-c957-4ed1-aab4-38841a669400/3a3f1a27-86d5-46b8-b2ed-edff0378710e/0adf5967-a36a-460f-b07b-1874e917eec2",
               "parentLink": "613f3c5f-c957-4ed1-aab4-38841a669400/3a3f1a27-86d5-46b8-b2ed-edff0378710e",
               "name": "naprawa",
-              "photos": ["photo1rower.jpg"],
+              "photos": [
+                "photo1rower.jpg"
+              ],
               "shortNotes": "do excepteur ex tempor exercitation sunt cupidatat deserunt.",
               "notes": "consequat sunt qui exercitation ex aliqua voluptate pariatur deserunt dolore mollit ex voluptate. aliqua cupidatat proident exercitation aliquip. dolore aliquip minim et nisi in nisi proident consequat lorem sunt minim anim cillum excepteur. exercitation pariatur quis fugiat ex consequat reprehenderit commodo et amet excepteur. qui veniam sit aute elit esse sit eu magna excepteur ut est cupidatat. in ullamco voluptate commodo adipisicing aliquip enim velit qui ea duis adipisicing laborum laboris tempor. cillum consequat anim id anim. id qui labore deserunt ut consectetur velit aliquip dolor anim reprehenderit. esse id non deserunt dolor esse minim sunt quis. tempor sunt elit velit lorem laboris.",
               "partList": []
@@ -3271,7 +3454,9 @@
               "link": "613f3c5f-c957-4ed1-aab4-38841a669400/3a3f1a27-86d5-46b8-b2ed-edff0378710e/25debde2-6d80-42ef-ac13-1b6f8578c272",
               "parentLink": "613f3c5f-c957-4ed1-aab4-38841a669400/3a3f1a27-86d5-46b8-b2ed-edff0378710e",
               "name": "serwis",
-              "photos": ["photo3rower.jpg"],
+              "photos": [
+                "photo3rower.jpg"
+              ],
               "shortNotes": "cupidatat do esse ea lorem lorem dolore non voluptate aute elit.",
               "notes": "est sint do officia consectetur est magna id in exercitation ad. nisi qui ad nulla duis ipsum proident id pariatur. non in culpa cupidatat sit sunt voluptate aute nulla adipisicing. anim aliquip quis quis mollit laborum id. officia ipsum ex cillum ex velit anim consectetur do enim eu ullamco. duis occaecat velit aliquip anim aute dolore. proident esse aliquip ut aliqua veniam ea labore quis reprehenderit sit nisi ea. non do nulla cupidatat voluptate reprehenderit. excepteur irure et consequat aliquip. cupidatat id do id commodo exercitation.",
               "partList": []
@@ -3287,7 +3472,10 @@
               "link": "613f3c5f-c957-4ed1-aab4-38841a669400/3a3f1a27-86d5-46b8-b2ed-edff0378710e/57e56b99-64b2-47a8-a53f-9de8ab0e7875",
               "parentLink": "613f3c5f-c957-4ed1-aab4-38841a669400/3a3f1a27-86d5-46b8-b2ed-edff0378710e",
               "name": "wymiana dętki",
-              "photos": ["photo1rower.jpg", "photo2rower.jpg"],
+              "photos": [
+                "photo1rower.jpg",
+                "photo2rower.jpg"
+              ],
               "shortNotes": "ea esse commodo sit dolor id pariatur laboris esse excepteur amet.",
               "notes": "ad irure dolore magna id veniam eu veniam cupidatat amet laborum sint deserunt. veniam voluptate id do dolor elit. eu sint commodo excepteur eu voluptate labore ex proident consectetur veniam sit. officia occaecat ad aliqua ex anim mollit nulla lorem dolor sunt mollit nulla excepteur ut. ex esse ut quis cupidatat occaecat voluptate veniam. tempor eiusmod ad quis ex tempor laborum anim pariatur nulla. mollit proident exercitation irure irure consectetur duis et duis nisi enim. sit in excepteur nulla officia cupidatat occaecat anim pariatur occaecat. sint exercitation do consequat culpa occaecat magna deserunt cupidatat. enim dolore dolore aute et laboris.",
               "partList": []
@@ -3315,7 +3503,9 @@
               "link": "613f3c5f-c957-4ed1-aab4-38841a669400/595b386d-9c0f-48ec-bd60-99f076380717/d505aa55-7f97-4b50-a030-0d080c70c39f",
               "parentLink": "613f3c5f-c957-4ed1-aab4-38841a669400/595b386d-9c0f-48ec-bd60-99f076380717",
               "name": "naprawa",
-              "photos": ["photo2rower.jpg"],
+              "photos": [
+                "photo2rower.jpg"
+              ],
               "shortNotes": "nisi sint elit pariatur eiusmod aliquip nisi esse irure.",
               "notes": "non consequat consectetur lorem elit adipisicing. ut tempor fugiat ullamco in non. eu dolor sunt laborum cupidatat veniam veniam occaecat duis non fugiat labore. culpa culpa adipisicing incididunt dolor cupidatat reprehenderit exercitation nulla. sint est labore consectetur minim reprehenderit commodo et lorem laborum officia proident. do laboris fugiat non ea aute ad cupidatat lorem reprehenderit. cillum sit laborum sunt ut nostrud. veniam excepteur minim aute sunt sint veniam ad fugiat eu ullamco. dolor enim consectetur ipsum aute dolore est. elit aliqua ex reprehenderit ullamco esse et velit eu deserunt.",
               "partList": []
@@ -3439,7 +3629,10 @@
               "link": "9d521f57-9f2c-44b6-a585-70fd8adb7860/20a5b4e0-32b1-4f83-9b27-ff474db50ecb/69d79110-de70-44fe-84d4-9ab2c0d263e3",
               "parentLink": "9d521f57-9f2c-44b6-a585-70fd8adb7860/20a5b4e0-32b1-4f83-9b27-ff474db50ecb",
               "name": "naprawa tłoka",
-              "photos": ["photo1stihl.jpg", "photo2stihl.jpg"],
+              "photos": [
+                "photo1stihl.jpg",
+                "photo2stihl.jpg"
+              ],
               "shortNotes": "in incididunt cillum veniam aliquip quis excepteur officia dolor elit do adipisicing.",
               "notes": "sunt quis velit proident qui. ad id labore nostrud laboris esse excepteur. sint consectetur non commodo nulla cillum magna aute cillum in ut consectetur. ad proident elit ex excepteur duis in aliquip incididunt. cillum elit occaecat velit cupidatat sit in velit. cupidatat magna anim duis veniam do officia culpa ullamco laborum fugiat exercitation dolore. tempor anim est proident esse occaecat nisi anim. cupidatat ex consequat labore eiusmod enim veniam ut laboris culpa qui eiusmod. nisi culpa minim labore aute cupidatat consequat minim deserunt elit duis laborum. officia ullamco dolor elit nostrud.",
               "partList": []
@@ -3455,7 +3648,9 @@
               "link": "9d521f57-9f2c-44b6-a585-70fd8adb7860/20a5b4e0-32b1-4f83-9b27-ff474db50ecb/0c64cf08-098a-49c5-803d-7fe1193b1ac0",
               "parentLink": "9d521f57-9f2c-44b6-a585-70fd8adb7860/20a5b4e0-32b1-4f83-9b27-ff474db50ecb",
               "name": "naprawa tłoka",
-              "photos": ["photo1stihl.jpg"],
+              "photos": [
+                "photo1stihl.jpg"
+              ],
               "shortNotes": "minim duis ut velit elit labore aute minim adipisicing.",
               "notes": "adipisicing labore elit non ut ea consequat reprehenderit esse labore ullamco. cupidatat nisi consectetur minim tempor. adipisicing sit tempor nostrud magna aliquip quis aliqua commodo culpa excepteur. commodo adipisicing reprehenderit anim qui proident esse laborum esse. enim anim consequat laborum lorem id exercitation magna amet lorem veniam enim labore. exercitation mollit duis ipsum dolore consequat nostrud eu enim excepteur consequat elit eiusmod id duis. sint proident labore mollit quis amet aute excepteur. nulla excepteur proident mollit exercitation. ad sunt mollit amet cillum duis commodo. dolor exercitation officia labore sint et dolore.",
               "partList": []
@@ -3499,7 +3694,10 @@
               "link": "9d521f57-9f2c-44b6-a585-70fd8adb7860/26f2263a-36c0-479e-8c10-4d7373dc4981/d3781aab-f215-4b4d-a7ba-e67f6608be98",
               "parentLink": "9d521f57-9f2c-44b6-a585-70fd8adb7860/26f2263a-36c0-479e-8c10-4d7373dc4981",
               "name": "serwis",
-              "photos": ["photo3stihl.jpg", "photo1stihl.jpg"],
+              "photos": [
+                "photo3stihl.jpg",
+                "photo1stihl.jpg"
+              ],
               "shortNotes": "ex lorem consectetur incididunt do magna ex consectetur.",
               "notes": "consectetur sint magna fugiat laborum lorem ipsum anim dolore enim qui. excepteur pariatur ullamco do eu consequat anim excepteur eiusmod ea. duis non pariatur occaecat anim nulla laborum sint ipsum consectetur occaecat. exercitation qui commodo qui consequat labore consectetur tempor irure dolore incididunt dolor. nisi elit sint elit ad ad culpa excepteur qui eiusmod nulla duis. eiusmod aliqua non et consequat. in et ullamco minim incididunt aliquip aliqua eiusmod ex id amet voluptate. duis ullamco laboris pariatur veniam. deserunt excepteur tempor ad sunt velit id ut veniam eu laborum minim culpa commodo nisi. irure eu exercitation exercitation do id.",
               "partList": []
@@ -3515,7 +3713,9 @@
               "link": "9d521f57-9f2c-44b6-a585-70fd8adb7860/26f2263a-36c0-479e-8c10-4d7373dc4981/fb603488-4c9e-4a04-a852-041554a8e13d",
               "parentLink": "9d521f57-9f2c-44b6-a585-70fd8adb7860/26f2263a-36c0-479e-8c10-4d7373dc4981",
               "name": "naprawa tłoka",
-              "photos": ["photo3stihl.jpg"],
+              "photos": [
+                "photo3stihl.jpg"
+              ],
               "shortNotes": "est deserunt aute ut sit et labore nisi magna ut.",
               "notes": "in deserunt velit cillum fugiat et laboris consectetur dolor ea nisi duis fugiat exercitation. officia commodo cupidatat amet ea laborum aliquip velit est adipisicing duis. incididunt non eiusmod ipsum reprehenderit cupidatat nulla amet culpa ad cillum qui eu. quis non labore enim commodo elit nisi exercitation nisi ipsum aliquip voluptate reprehenderit exercitation cillum. eu exercitation proident proident voluptate adipisicing cillum commodo enim eu qui excepteur minim cupidatat ipsum. proident exercitation ex ullamco esse aliquip sunt aliqua reprehenderit. reprehenderit eiusmod fugiat dolor id pariatur. qui culpa qui pariatur mollit nostrud duis esse elit cupidatat do ex sint. eiusmod ullamco incididunt occaecat reprehenderit aute magna qui anim. elit velit adipisicing ea voluptate nostrud cupidatat cillum.",
               "partList": []
@@ -3587,7 +3787,10 @@
               "link": "9d521f57-9f2c-44b6-a585-70fd8adb7860/c9a459f4-52f5-443c-8565-2e26cf0e8979/c40dfaeb-61e3-45f7-86b2-b05c211098da",
               "parentLink": "9d521f57-9f2c-44b6-a585-70fd8adb7860/c9a459f4-52f5-443c-8565-2e26cf0e8979",
               "name": "naprawa",
-              "photos": ["photo3rower.jpg", "photo2rower.jpg"],
+              "photos": [
+                "photo3rower.jpg",
+                "photo2rower.jpg"
+              ],
               "shortNotes": "minim excepteur ex nulla id commodo.",
               "notes": "occaecat aliquip nostrud ex ad pariatur dolore est labore fugiat magna. labore nisi dolore occaecat laborum non consectetur id elit. ullamco ut ea lorem cupidatat occaecat culpa dolore laboris nulla commodo enim consequat aute. minim aliquip et nulla voluptate dolor ullamco fugiat commodo magna aute labore. irure labore reprehenderit irure magna. quis lorem ut est elit lorem dolore pariatur officia duis. voluptate in irure anim labore incididunt aliqua cupidatat aute commodo sunt. pariatur ut sunt eiusmod veniam nisi. commodo tempor irure elit dolore cillum ullamco pariatur fugiat. nostrud enim dolor sunt aliqua est.",
               "partList": []
@@ -3639,7 +3842,10 @@
               "link": "9d521f57-9f2c-44b6-a585-70fd8adb7860/c9a459f4-52f5-443c-8565-2e26cf0e8979/85d3ff2e-4b18-4548-9ba3-4bf1b469ca13",
               "parentLink": "9d521f57-9f2c-44b6-a585-70fd8adb7860/c9a459f4-52f5-443c-8565-2e26cf0e8979",
               "name": "wymiana dętki",
-              "photos": ["photo3rower.jpg", "photo3rower.jpg"],
+              "photos": [
+                "photo3rower.jpg",
+                "photo3rower.jpg"
+              ],
               "shortNotes": "velit aliqua labore do ad.",
               "notes": "dolor duis nostrud ad occaecat ea mollit velit mollit reprehenderit dolor sunt nostrud. cupidatat sint aliqua incididunt minim do amet cillum voluptate minim voluptate culpa sunt nulla. proident anim mollit id officia ex cupidatat ea consequat aliqua sit elit lorem eiusmod. veniam est officia velit sit ea sint proident. pariatur consequat ipsum consequat ut magna laboris eiusmod ipsum commodo sint sint. magna aliquip ipsum id amet nisi voluptate anim. nostrud laboris laboris ipsum enim sit. mollit aliquip consequat do laboris laboris ut pariatur nulla non aliquip. duis esse consectetur esse ad minim. ex excepteur qui dolore culpa exercitation ea enim occaecat aute aliqua amet in aliqua labore.",
               "partList": []
@@ -3667,7 +3873,9 @@
               "link": "9d521f57-9f2c-44b6-a585-70fd8adb7860/723ae875-e9a9-465f-8252-6594d2631758/c11b476d-22f0-4bec-a7d3-96833c587178",
               "parentLink": "9d521f57-9f2c-44b6-a585-70fd8adb7860/723ae875-e9a9-465f-8252-6594d2631758",
               "name": "serwis",
-              "photos": ["photo3rower.jpg"],
+              "photos": [
+                "photo3rower.jpg"
+              ],
               "shortNotes": "consectetur pariatur esse pariatur tempor irure ad quis adipisicing.",
               "notes": "tempor consequat nulla laborum amet labore cillum. commodo amet laborum veniam consectetur est laboris. qui labore lorem voluptate et exercitation mollit commodo. ullamco est cillum officia laboris magna sunt proident tempor reprehenderit id dolore. aute aute velit tempor magna incididunt est. adipisicing sit laborum deserunt mollit non veniam amet veniam lorem mollit duis. mollit do exercitation tempor in laborum proident mollit id pariatur. labore excepteur dolore ipsum amet esse. pariatur reprehenderit incididunt occaecat proident proident elit esse ad sit officia est velit quis. reprehenderit voluptate eiusmod consequat officia sit nostrud fugiat cupidatat veniam anim mollit esse.",
               "partList": []
@@ -3683,7 +3891,9 @@
               "link": "9d521f57-9f2c-44b6-a585-70fd8adb7860/723ae875-e9a9-465f-8252-6594d2631758/7c03ae6c-598e-438e-aaaa-77498ce9280c",
               "parentLink": "9d521f57-9f2c-44b6-a585-70fd8adb7860/723ae875-e9a9-465f-8252-6594d2631758",
               "name": "serwis",
-              "photos": ["photo2rower.jpg"],
+              "photos": [
+                "photo2rower.jpg"
+              ],
               "shortNotes": "irure incididunt non ullamco eiusmod minim.",
               "notes": "adipisicing tempor lorem tempor culpa in incididunt aliqua consequat irure dolore et ullamco anim sint. ipsum tempor aliqua ea adipisicing nulla consequat culpa laborum duis minim adipisicing nostrud mollit consequat. reprehenderit nulla quis et cillum ipsum mollit ad in in deserunt. minim eu mollit lorem enim cupidatat dolor proident id nostrud. esse in ullamco duis proident fugiat commodo anim dolor. anim aliqua tempor nulla mollit nulla. anim incididunt eiusmod ullamco esse ut labore ad culpa. incididunt elit esse sint qui fugiat nostrud pariatur. nulla mollit mollit incididunt elit et. voluptate et duis amet nostrud nisi irure incididunt est ad minim mollit consequat qui.",
               "partList": []
@@ -3719,7 +3929,10 @@
               "link": "9d521f57-9f2c-44b6-a585-70fd8adb7860/723ae875-e9a9-465f-8252-6594d2631758/a65be53b-a436-4256-be3f-a3c80d7197da",
               "parentLink": "9d521f57-9f2c-44b6-a585-70fd8adb7860/723ae875-e9a9-465f-8252-6594d2631758",
               "name": "wymiana dętki",
-              "photos": ["photo2rower.jpg", "photo3rower.jpg"],
+              "photos": [
+                "photo2rower.jpg",
+                "photo3rower.jpg"
+              ],
               "shortNotes": "ex labore ea occaecat do do dolor.",
               "notes": "sit cupidatat labore reprehenderit incididunt deserunt minim ipsum commodo ullamco minim velit tempor anim minim. exercitation pariatur exercitation non deserunt elit veniam nisi dolor aliqua proident ullamco qui aliqua. veniam non consequat laboris eu officia amet id ut eiusmod voluptate elit. proident aute tempor nulla duis in est excepteur magna in consectetur ad esse deserunt. irure eiusmod tempor voluptate aliqua anim ut aliquip cillum id ex sint amet aliqua. do aute voluptate ad voluptate duis aliqua eu. sit cillum aliqua dolore nostrud enim. adipisicing incididunt id aliquip officia ea eu sint et id minim nulla aliquip eiusmod. qui consectetur et cillum tempor reprehenderit. lorem fugiat aliqua laboris nostrud adipisicing amet anim cillum aute ullamco consequat ullamco anim exercitation.",
               "partList": []
@@ -3735,7 +3948,10 @@
               "link": "9d521f57-9f2c-44b6-a585-70fd8adb7860/723ae875-e9a9-465f-8252-6594d2631758/fd4c5516-0d24-4940-9920-ecd74183abe6",
               "parentLink": "9d521f57-9f2c-44b6-a585-70fd8adb7860/723ae875-e9a9-465f-8252-6594d2631758",
               "name": "wymiana dętki",
-              "photos": ["photo3rower.jpg", "photo3rower.jpg"],
+              "photos": [
+                "photo3rower.jpg",
+                "photo3rower.jpg"
+              ],
               "shortNotes": "incididunt tempor aliqua ea duis eiusmod exercitation et occaecat fugiat ullamco laboris occaecat et.",
               "notes": "dolore ad sit in consequat eiusmod adipisicing nulla culpa nulla laborum dolore culpa exercitation amet. cillum dolore lorem lorem dolor lorem nulla et. eu nulla commodo lorem ut non minim pariatur ea sunt tempor ea cillum exercitation. sint excepteur consectetur esse officia aliquip. nisi qui adipisicing culpa laborum cupidatat dolor cillum ad. dolore anim ipsum enim consequat labore. in culpa eiusmod dolor veniam. adipisicing ad sit labore culpa tempor consectetur est aliquip aliqua aute. irure in tempor enim ea est. qui voluptate culpa ex nulla adipisicing sit officia.",
               "partList": []
@@ -3763,7 +3979,9 @@
               "link": "9d521f57-9f2c-44b6-a585-70fd8adb7860/d891a095-e294-4dc4-8277-76525ffb3896/f0a6ccfe-37e8-4fda-8ed1-16183a4210cf",
               "parentLink": "9d521f57-9f2c-44b6-a585-70fd8adb7860/d891a095-e294-4dc4-8277-76525ffb3896",
               "name": "wymiana cylindra",
-              "photos": ["photo3kosiarka.jpg"],
+              "photos": [
+                "photo3kosiarka.jpg"
+              ],
               "shortNotes": "minim ipsum ullamco velit minim.",
               "notes": "deserunt nulla aute veniam officia exercitation dolor non sint occaecat. pariatur culpa anim qui enim labore. irure eiusmod quis voluptate cupidatat. ad quis aliquip et ea non non esse eiusmod irure est id. proident minim aute eiusmod laborum officia non eu ad aliqua sunt veniam. ut minim adipisicing commodo elit id et laboris. laboris laborum magna dolor aute fugiat culpa. eiusmod aliquip adipisicing consequat voluptate lorem sint. sunt ullamco velit ipsum irure laboris tempor nisi duis eu velit pariatur. adipisicing tempor eiusmod proident cillum laborum.",
               "partList": []
@@ -3827,7 +4045,9 @@
               "link": "9d521f57-9f2c-44b6-a585-70fd8adb7860/d891a095-e294-4dc4-8277-76525ffb3896/40cdeff0-7942-4480-8f11-19a54a935d3d",
               "parentLink": "9d521f57-9f2c-44b6-a585-70fd8adb7860/d891a095-e294-4dc4-8277-76525ffb3896",
               "name": "serwis",
-              "photos": ["photo1kosiarka.jpg"],
+              "photos": [
+                "photo1kosiarka.jpg"
+              ],
               "shortNotes": "cupidatat velit nulla ea elit duis voluptate occaecat cillum do.",
               "notes": "excepteur duis sint eiusmod sunt consectetur lorem non. in cupidatat elit velit dolor exercitation excepteur ea laborum officia anim incididunt ut nulla consectetur. eu excepteur do et officia occaecat ea elit tempor eu. dolor anim velit adipisicing ipsum elit consequat deserunt. duis non dolor ipsum eiusmod incididunt enim quis. veniam dolor nostrud qui nisi culpa ad aliqua veniam cillum enim. est ad est sint consectetur ea occaecat magna officia consequat labore. laborum sint aliquip minim magna pariatur dolor ea qui tempor incididunt. officia commodo occaecat elit ad commodo labore amet quis voluptate aliqua deserunt veniam deserunt eu. velit anim proident cupidatat ea in commodo eiusmod non.",
               "partList": []
@@ -3898,6 +4118,50 @@
               "photos": [],
               "shortNotes": "minim nostrud sunt amet qui nisi cillum voluptate eu adipisicing tempor nostrud.",
               "notes": "tempor excepteur minim est laborum minim aute magna occaecat tempor nisi cupidatat cupidatat eu labore. officia nisi deserunt non eu consequat incididunt ad eu est adipisicing consectetur excepteur quis amet. ex ut consectetur magna anim. ipsum nostrud proident velit laboris deserunt in deserunt dolor adipisicing lorem ea in laboris duis. do do qui officia labore adipisicing culpa anim eiusmod reprehenderit. consectetur quis ea labore officia. cupidatat nostrud deserunt occaecat duis ea tempor anim duis est veniam nostrud sunt qui. sint nulla sint dolor magna nisi tempor sunt enim. incididunt deserunt pariatur incididunt mollit ad exercitation aliquip ea ea aute duis deserunt. nisi deserunt qui nulla enim sint esse in laboris ex.",
+              "partList": []
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "guid": "a860acfc-7aa4-47eb-bf32-fa7a4aabb558",
+      "id": "6012d7c9333ebe719acf9cb4",
+      "first": "esr",
+      "last": "3",
+      "name": "3 esr",
+      "company": "ers",
+      "phone": "esr",
+      "mail": "esr",
+      "type": "user",
+      "adress": "ser",
+      "registered": "2021-01-28T15:27:05.845Z",
+      "link": "a860acfc-7aa4-47eb-bf32-fa7a4aabb558",
+      "children": [
+        {
+          "id": "6012d7d580187a5b1bd90f00",
+          "guid": "685d7372-486e-4b4a-887c-478fd0e45a16",
+          "name": "45ws",
+          "type": "bike",
+          "serialNumber": "rerwrew",
+          "registered": "2021-01-28T15:27:17.239Z",
+          "link": "a860acfc-7aa4-47eb-bf32-fa7a4aabb558/685d7372-486e-4b4a-887c-478fd0e45a16",
+          "parentLink": "a860acfc-7aa4-47eb-bf32-fa7a4aabb558",
+          "children": [
+            {
+              "id": "6012d7dffc0c54c5fcce46e7",
+              "guid": "4170adc6-e498-4a40-bdfc-f5496edbc334",
+              "type": "repair",
+              "registered": "2021-01-29",
+              "returned": "2021-01-29",
+              "partCost": "234",
+              "workCost": "3243",
+              "link": "a860acfc-7aa4-47eb-bf32-fa7a4aabb558/685d7372-486e-4b4a-887c-478fd0e45a16/4170adc6-e498-4a40-bdfc-f5496edbc334",
+              "parentLink": "a860acfc-7aa4-47eb-bf32-fa7a4aabb558/685d7372-486e-4b4a-887c-478fd0e45a16",
+              "name": "",
+              "photos": [],
+              "shortNotes": "waewaeaw",
+              "notes": "",
               "partList": []
             }
           ]

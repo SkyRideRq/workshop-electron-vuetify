@@ -13,10 +13,11 @@
         </v-img>
       </template>
 
-      <v-card class="image-dialog-box" height="80vh">
+      <v-card class="image-dialog-box" height="80vh" ref="dragWindow">
         <v-card-title
           class="headline grey lighten-2 px-4 image-dialog-header"
           id="draggable-header"
+          ref="draggableHeader"
         >
           <!--  -->
           {{ data }}
@@ -46,12 +47,17 @@
             </div>
           </v-expand-transition>
         </v-card-title>
-        <div ref="draggableContainer" id="draggable-container">
+        <div
+          ref="draggableContainer"
+          id="draggable-container"
+          :style="{ cursor: selectedCursor.container }"
+        >
           <img
             @mousedown="dragMouseDown"
             :src="'../../pictures/' + data"
             ref="imgToZoom"
             @wheel.prevent="zoomWheel($event)"
+            :style="{ cursor: selectedCursor.img }"
           />
         </div>
       </v-card>
@@ -73,25 +79,56 @@ export default {
       },
       zoom: 1,
       zoomMenuActive: false,
+      dragWindow: {},
+      selectedCursor: {
+        container: "default",
+        img: "grab",
+      },
     };
   },
   props: ["data"],
-  created() {},
+
   methods: {
-    dragMouseDown: function(event) {
+    dragMouseDown(event) {
       event.preventDefault();
       // get the mouse cursor position at startup:
       this.positions.clientX = event.clientX;
       this.positions.clientY = event.clientY;
       document.onmousemove = this.elementDrag;
       document.onmouseup = this.closeDragElement;
+      this.selectedCursor.container = "grabbing";
+      this.selectedCursor.img = "grabbing";
+      this.dragWindow = {
+        top:
+          this.$refs.draggableHeader.offsetHeight +
+          this.$refs.dragWindow.$el.offsetTop,
+        bottom:
+          this.$refs.dragWindow.$el.clientHeight +
+          this.$refs.draggableHeader.offsetHeight,
+        left: this.$refs.dragWindow.$el.offsetLeft,
+        right: this.$refs.dragWindow.$el.offsetWidth,
+      };
     },
-    elementDrag: function(event) {
+    elementDrag(event) {
       event.preventDefault();
       this.positions.movementX = this.positions.clientX - event.clientX;
       this.positions.movementY = this.positions.clientY - event.clientY;
       this.positions.clientX = event.clientX;
       this.positions.clientY = event.clientY;
+      //lock drag
+      if (this.dragWindow.top > this.positions.clientY) {
+        return;
+      }
+      if (this.dragWindow.bottom < this.positions.clientY) {
+        return;
+      }
+      if (this.dragWindow.left > this.positions.clientX) {
+        return;
+      }
+      if (this.dragWindow.right < this.positions.clientX) {
+        return;
+      }
+
       // set the element's new position:
       this.$refs.draggableContainer.style.top =
         this.$refs.draggableContainer.offsetTop -
@@ -105,10 +142,14 @@ export default {
     closeDragElement() {
       document.onmouseup = null;
       document.onmousemove = null;
+      this.selectedCursor.container = "default";
+      this.selectedCursor.img = "grab";
     },
+
     closeModal() {
       this.dialog = false;
-      this.$refs.draggableContainer.style.top = 0 + "px";
+      this.$refs.draggableContainer.style.top =
+        this.$refs.draggableHeader.offsetHeight + "px";
       this.$refs.draggableContainer.style.left = 0 + "px";
       this.zoom = 1;
       this.$refs.imgToZoom.style.transform = "scale(" + this.zoom + ")";
@@ -118,6 +159,7 @@ export default {
       this.$refs.imgToZoom.style.transform = "scale(" + this.zoom + ")";
     },
     zoomWheel(event) {
+      this.zoomMenuActive = true;
       if (event.deltaY < 0) {
         this.zoom += 0.1;
         this.$refs.imgToZoom.style.transform = "scale(" + this.zoom + ")";

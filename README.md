@@ -1,6 +1,6 @@
 # workshop db app
 
-Vue 2 + Vuetify + Electron
+App to manage data of your customers, machines and repairs in your workshop.
 
 ## Project setup
 

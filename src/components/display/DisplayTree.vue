@@ -54,11 +54,9 @@ export default {
     changeLink($event, link) {
       $event.stopPropagation();
       console.log(link);
+      console.log(this.items);
       this.$router.push({
-        path: "/",
-      });
-      this.$router.push({
-        path: link,
+        path: "/" + link,
       });
     },
   },

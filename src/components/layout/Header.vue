@@ -10,14 +10,30 @@
     v-resize="onResize"
     extension-height="1"
   >
-    <v-btn class="mr-3" elevation="1" fab small @click="setDrawer(!drawer)">
-      <v-icon v-if="!drawer">
-        mdi-menu
-      </v-icon>
-      <v-icon v-else>
-        mdi-menu-open
-      </v-icon>
-    </v-btn>
+    <v-tooltip bottom>
+      <template v-slot:activator="{ on, attrs }">
+        <v-btn
+          class="mr-3"
+          elevation="1"
+          fab
+          small
+          @click="setDrawer(!drawer)"
+          v-bind="attrs"
+          v-on="on"
+        >
+          <v-icon v-if="!drawer">
+            {{ $icons.openMenu.icon }}
+          </v-icon>
+          <v-icon v-else>
+            {{ $icons.closeMenu.icon }}
+          </v-icon>
+        </v-btn>
+      </template>
+      <span v-if="!drawer">{{ $icons.openMenu.text }}</span>
+      <span v-else>{{ $icons.closeMenu.text }}</span>
+    </v-tooltip>
+
+    <!-- button for faking db -->
     <!-- <v-btn @click="addData()">1</v-btn> -->
     <v-toolbar-title
       class="font-weight-light text-capitalize"
@@ -35,11 +51,11 @@
           color="primary"
         >
           <v-icon>
-            mdi-arrow-left-bold
+            {{ $icons.backBtn.icon }}
           </v-icon>
         </v-btn>
       </template>
-      <span>Poprzedni ekran</span>
+      <span>{{ $icons.backBtn.text }}</span>
     </v-tooltip>
 
     <v-tooltip bottom>
@@ -53,11 +69,11 @@
           color="primary"
         >
           <v-icon>
-            mdi-arrow-up-bold
+            {{ $icons.upBtn.icon }}
           </v-icon>
         </v-btn>
       </template>
-      <span>Ekran rodzica</span>
+      <span>{{ $icons.upBtn.text }}</span>
     </v-tooltip>
 
     <v-tooltip bottom>
@@ -71,11 +87,11 @@
           color="primary"
         >
           <v-icon>
-            mdi-content-save
+            {{ $icons.saveDb.icon }}
           </v-icon>
         </v-btn>
       </template>
-      <span>Zapisz kopię bazy danych</span>
+      <span>{{ $icons.saveDb.text }}</span>
     </v-tooltip>
 
     <template slot="extension">
@@ -136,8 +152,6 @@ export default {
           properties: [],
         })
         .then((file) => {
-          console.log(path.join("./db.json"));
-          console.log(file);
           // Stating whether dialog operation was cancelled or not.
           // console.log(file.canceled);
           // if (!file.canceled) {
@@ -146,7 +160,6 @@ export default {
           //   // Creating and Writing to the sample.txt file
           fs.copyFile("./db.json", file.filePath.toString(), function(err) {
             if (err) throw err;
-            console.log("Saved!");
           });
           // }
         })

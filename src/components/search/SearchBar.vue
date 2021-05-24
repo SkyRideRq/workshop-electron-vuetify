@@ -25,7 +25,6 @@
 </template>
 
 <script>
-// import db from "@/db/db";
 export default {
   name: "SearchBar",
   data: () => {
@@ -56,17 +55,12 @@ export default {
       event.preventDefault();
 
       const regex = new RegExp(`^${this.searchWord}`, "i");
-      console.log(this.searchPlace.value);
       var searchResult = this.$db
         .get("users")
         .filter((item) => regex.test(item[this.searchPlace.value]))
         .sortBy("last")
         .value();
-      console.log("searchresuilt");
-      console.log(searchResult);
       this.$emit("searchResult", searchResult);
-
-      // console.log(this.$db.getState())
     },
   },
 };

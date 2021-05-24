@@ -171,7 +171,7 @@ export default {
       mail: this.owner.mail,
     };
     this.data.photos.forEach((element) => {
-      this.pictures.push("../../pictures/" + element);
+      this.pictures.push("@/pictures/" + element);
     });
   },
   methods: {

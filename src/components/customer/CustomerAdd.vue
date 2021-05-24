@@ -11,10 +11,10 @@
           large
           fab
         >
-          <v-icon x-large>mdi-plus</v-icon>
+          <v-icon x-large>{{ $icons.add.icon }}</v-icon>
         </v-btn>
       </template>
-      <span>Dodaj klienta</span>
+      <span>{{ $icons.add.text }} klienta</span>
     </v-tooltip>
   </div>
 </template>
@@ -26,7 +26,6 @@ export default {
     return {};
   },
   created() {},
-  // props: ["data"],
   methods: {
     AddItem() {
       var guid = this.uuidv4();
@@ -76,7 +75,6 @@ export default {
           .toLowerCase()
       );
     },
-    // moment(this.date(new Date(2014, 0, 1), new Date())).format("LLLL")
   },
 };
 </script>

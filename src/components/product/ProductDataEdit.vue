@@ -5,34 +5,52 @@
         :items="types"
         v-model="data.type"
         label="Typ urządzenia"
-        :disabled="c3"
+        :disabled="c1"
         height="20"
       ></v-select>
-      <v-btn icon large @click="c3 = !c3">
-        <v-icon :color="c3 ? '' : 'primary'">mdi-pencil</v-icon>
-      </v-btn>
+
+      <v-tooltip bottom>
+        <template v-slot:activator="{ on, attrs }">
+          <v-btn v-bind="attrs" v-on="on" @click="c1 = !c1" large icon>
+            <v-icon :color="c1 ? '' : 'primary'">{{ $icons.edit.icon }}</v-icon>
+          </v-btn>
+        </template>
+        <span>{{ $icons.edit.text }} typ</span>
+      </v-tooltip>
     </div>
     <div class="d-flex">
       <v-text-field
         label="Nazwa urządzenia"
         v-model="data.name"
-        :disabled="c1"
+        :disabled="c2"
         height="20"
       ></v-text-field>
-      <v-btn icon large @click="c1 = !c1">
-        <v-icon :color="c1 ? '' : 'primary'">mdi-pencil</v-icon>
-      </v-btn>
+
+      <v-tooltip bottom>
+        <template v-slot:activator="{ on, attrs }">
+          <v-btn v-bind="attrs" v-on="on" @click="c2 = !c2" large icon>
+            <v-icon :color="c2 ? '' : 'primary'">{{ $icons.edit.icon }}</v-icon>
+          </v-btn>
+        </template>
+        <span>{{ $icons.edit.text }} nazwę</span>
+      </v-tooltip>
     </div>
     <div class="d-flex">
       <v-text-field
         label="Numer seryjny"
         v-model="data.serialNumber"
-        :disabled="c2"
+        :disabled="c3"
         height="20"
       ></v-text-field>
-      <v-btn icon large @click="c2 = !c2">
-        <v-icon :color="c2 ? '' : 'primary'">mdi-pencil</v-icon>
-      </v-btn>
+
+      <v-tooltip bottom>
+        <template v-slot:activator="{ on, attrs }">
+          <v-btn v-bind="attrs" v-on="on" @click="c3 = !c3" large icon>
+            <v-icon :color="c3 ? '' : 'primary'">{{ $icons.edit.icon }}</v-icon>
+          </v-btn>
+        </template>
+        <span>{{ $icons.edit.text }} numer seryjny</span>
+      </v-tooltip>
     </div>
     <v-btn
       color="primary"
@@ -45,16 +63,36 @@
     </v-btn>
 
     <div class="d-flex justify-end" v-if="confirmed">
-      <v-btn color="success" class="rounded-0 rounded-l" @click="saveData()">
-        <v-icon>mdi-check</v-icon>
-      </v-btn>
-      <v-btn
-        color="error"
-        class="rounded-0 rounded-r"
-        @click="confirmed = !confirmed"
-      >
-        <v-icon>mdi-close</v-icon>
-      </v-btn>
+      <v-tooltip bottom>
+        <template v-slot:activator="{ on, attrs }">
+          <v-btn
+            type="submit"
+            v-bind="attrs"
+            v-on="on"
+            @click="saveData()"
+            color="success"
+            class="rounded-0 rounded-l"
+          >
+            <v-icon>{{ $icons.agree.icon }}</v-icon>
+          </v-btn>
+        </template>
+        <span>{{ $icons.agree.text }}</span>
+      </v-tooltip>
+
+      <v-tooltip bottom>
+        <template v-slot:activator="{ on, attrs }">
+          <v-btn
+            v-bind="attrs"
+            v-on="on"
+            @click="confirmed = !confirmed"
+            color="error"
+            class="rounded-0 rounded-r"
+          >
+            <v-icon>{{ $icons.disagree.icon }}</v-icon>
+          </v-btn>
+        </template>
+        <span>{{ $icons.disagree.text }}</span>
+      </v-tooltip>
     </div>
   </v-form>
 </template>
@@ -63,7 +101,6 @@ export default {
   name: "ProductDataEdit",
   data: () => {
     return {
-      // data: [],
       controll: true,
       c1: true,
       c2: true,
@@ -107,7 +144,6 @@ export default {
     },
     saveData() {
       this.$emit("dataToChange", this.data);
-      console.log(this.data);
       this.confirmed = false;
     },
   },

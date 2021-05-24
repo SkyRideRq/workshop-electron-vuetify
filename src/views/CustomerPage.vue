@@ -15,10 +15,10 @@
   </v-container>
 </template>
 <script>
-import DisplayData from "../components/display/DisplayData";
-import CustomerDataEdit from "../components/customer/CustomerDataEdit";
-import DisplayTree from "../components/display/DisplayTree";
-import ProductAdd from "../components/product/ProductAdd";
+import DisplayData from "@/components/display/DisplayData";
+import CustomerDataEdit from "@/components/customer/CustomerDataEdit";
+import DisplayTree from "@/components/display/DisplayTree";
+import ProductAdd from "@/components/product/ProductAdd";
 export default {
   name: "CustomerPage",
   data: () => {
@@ -34,12 +34,10 @@ export default {
     ProductAdd,
   },
   created() {
-    // console.log(this.$route);
     this.data = this.$db
       .get("users")
       .find({ guid: this.$route.params.id })
       .value();
-    // console.log(this.data);
 
     this.adressData = {
       // name: this.data.name,
@@ -72,9 +70,6 @@ export default {
         phone: value.phone,
         mail: value.mail,
       };
-
-      // console.log("---value");
-      // console.log(value);
       this.data.name = value.last + " " + value.first;
       this.$db
         .get("users")

@@ -11,10 +11,10 @@
           large
           fab
         >
-          <v-icon x-large>mdi-plus</v-icon>
+          <v-icon x-large>{{ $icons.add.icon }}</v-icon>
         </v-btn>
       </template>
-      <span>Dodaj produkt</span>
+      <span>{{ $icons.add.text }} produkt</span>
     </v-tooltip>
   </div>
 </template>
@@ -22,9 +22,6 @@
 export default {
   name: "ProductAdd",
   components: {},
-  data: () => {
-    return {};
-  },
   created() {},
   methods: {
     AddItem() {
@@ -42,7 +39,6 @@ export default {
         parentLink: this.$route.params.id,
         children: [],
       };
-      // console.log(newProduct);
       this.$db
         .get("users")
         .find({ guid: this.$route.params.id })
@@ -73,7 +69,6 @@ export default {
           .toLowerCase()
       );
     },
-    // moment(this.date(new Date(2014, 0, 1), new Date())).format("LLLL")
   },
 };
 </script>

@@ -17,10 +17,10 @@
 </template>
 
 <script>
-import DisplayTree from "../components/display/DisplayTree";
-import DisplayData from "../components/display/DisplayData";
-import ProductDataEdit from "../components/product/ProductDataEdit";
-import RepairAdd from "../components/repair/RepairAdd";
+import DisplayTree from "@/components/display/DisplayTree";
+import DisplayData from "@/components/display/DisplayData";
+import ProductDataEdit from "@/components/product/ProductDataEdit";
+import RepairAdd from "@/components/repair/RepairAdd";
 export default {
   name: "ProductPage",
   components: {

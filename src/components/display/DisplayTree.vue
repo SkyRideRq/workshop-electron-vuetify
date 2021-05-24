@@ -40,21 +40,13 @@ import CustomerPreview from "../customer/CustomerPreview";
 
 export default {
   name: "DisplayTree",
-  data: () => {
-    return {
-      // items: [],
-    };
-  },
   components: {
     CustomerPreview,
   },
-
   props: ["items"],
   methods: {
     changeLink($event, link) {
       $event.stopPropagation();
-      // console.log(link);
-      // console.log(this.items);
       this.$router.push({
         path: "/" + link,
       });
@@ -62,110 +54,119 @@ export default {
   },
 };
 </script>
-<style>
-.display-tree .v-treeview-node__append {
-  flex: 8;
-  justify-content: flex-end;
-  display: flex;
-}
-.display-tree__box {
-  width: 100%;
-  justify-content: flex-end;
-}
-.display-tree__holder {
-  flex: 1;
-}
-.display-tree__desc {
-  width: 60%;
-  display: -webkit-box;
-  -webkit-box-orient: vertical;
-  -webkit-line-clamp: 1;
-  overflow: hidden;
-}
-.display-tree__data {
-  width: 20%;
-}
-.v-treeview > .v-treeview-node:nth-of-type(2n) {
-  background-color: rgba(0, 0, 0, 0.1);
-}
-/* .v-treeview > .v-treeview-node {
-  border-bottom: 1px solid rgba(0, 0, 0, 0.13);
-} */
-.v-treeview-node__label {
-  font-weight: 700;
-}
-.v-treeview-node__children {
-  position: relative;
-}
-.v-treeview-node__children::before {
-  content: "";
-  width: 2px;
-  height: 100%;
-  position: absolute;
-  top: -23px;
-  left: 19px;
-  background-color: rgba(0, 0, 0, 0.2);
-}
-.v-treeview-node__children .v-treeview-node {
-  position: relative;
-}
-.v-treeview-node__children .v-treeview-node::before {
-  content: "";
-  height: 2px;
-  width: 22px;
-  position: absolute;
-  top: 23px;
-  left: 21px;
-  background-color: rgba(0, 0, 0, 0.2);
-}
-.v-treeview-node__children .v-treeview-node__children {
-  position: relative;
-}
-.v-treeview-node__children .v-treeview-node__children::before {
-  left: 43px;
-}
-.v-treeview-node__children .v-treeview-node__children .v-treeview-node {
-  position: relative;
-}
-.v-treeview-node__children .v-treeview-node__children .v-treeview-node::before {
-  left: 45px;
-}
-
-.v-treeview-node__children .v-treeview-node:last-child::after {
-  content: "";
-  width: 2px;
-  height: calc(100% - 25px);
-  position: absolute;
-  top: 25px;
-  left: 19px;
-  background-color: #e5e5e5;
-  z-index: 1;
-  overflow: hidden;
-}
-.v-treeview
-  > .v-treeview-node:nth-of-type(2n + 1)
-  .v-treeview-node__children
-  .v-treeview-node:last-child::after {
-  background-color: #fff;
-}
-.v-treeview-node__children
-  .v-treeview-node__children
-  .v-treeview-node:last-child::after {
-  content: none;
-}
-.theme--light.v-treeview--hoverable .v-treeview-node__root:hover::before,
-.theme--light.v-treeview
-  .v-treeview-node--click
-  > .v-treeview-node__root:hover::before {
-  z-index: 2;
-}
-.v-treeview-node__root::before {
-  transition: none;
-}
-.theme--light.v-treeview
-  .v-treeview-node__root.v-treeview-node--active:hover::before,
-.theme--light.v-treeview
-  .v-treeview-node__root.v-treeview-node--active::before {
-  z-index: 2;
+<style lang="scss">
+.display-tree {
+  > .v-treeview-node {
+    &:nth-of-type(2n) {
+      background-color: rgba(0, 0, 0, 0.1);
+    }
+    &:nth-of-type(2n + 1) {
+      .v-treeview-node {
+        &__children {
+          .v-treeview-node {
+            &:last-child {
+              &::after {
+                background-color: #fff;
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+  .v-treeview-node {
+    &__append {
+      flex: 8;
+      justify-content: flex-end;
+      display: flex;
+    }
+    &--active {
+      &::before {
+        z-index: 2;
+      }
+    }
+    &__label {
+      font-weight: 700;
+    }
+    &__children {
+      position: relative;
+    }
+    &__root {
+      &::before {
+        transition: none;
+      }
+      &:hover {
+        &::before {
+          z-index: 2;
+        }
+      }
+    }
+    &__children::before {
+      content: "";
+      width: 2px;
+      height: 100%;
+      position: absolute;
+      top: -23px;
+      left: 19px;
+      background-color: rgba(0, 0, 0, 0.2);
+    }
+    &__children {
+      .v-treeview-node {
+        position: relative;
+        &::before {
+          content: "";
+          height: 2px;
+          width: 22px;
+          position: absolute;
+          top: 23px;
+          left: 21px;
+          background-color: rgba(0, 0, 0, 0.2);
+        }
+        &:last-child {
+          &::after {
+            content: "";
+            width: 2px;
+            height: calc(100% - 25px);
+            position: absolute;
+            top: 25px;
+            left: 19px;
+            background-color: #e5e5e5;
+            z-index: 1;
+            overflow: hidden;
+          }
+        }
+        &__children {
+          &::before {
+            left: 43px;
+          }
+          .v-treeview-node {
+            &::before {
+              left: 45px;
+            }
+            &:last-child::after {
+              content: none;
+            }
+          }
+        }
+      }
+    }
+  }
+  &__box {
+    width: 100%;
+    justify-content: flex-end;
+  }
+  &__holder {
+    flex: 1;
+  }
+  &__desc {
+    width: 60%;
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 1;
+    overflow: hidden;
+  }
+  &__data {
+    width: 20%;
+  }
 }
 </style>

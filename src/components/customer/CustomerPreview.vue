@@ -10,15 +10,23 @@
       <v-card>
         <v-card-title class="headline grey lighten-2 px-4">
           {{ data.name }}
-          <v-btn
-            color="error"
-            fab
-            x-small
-            class="ml-auto"
-            @click="dialog = false"
-          >
-            <v-icon>mdi-close</v-icon>
-          </v-btn>
+
+          <v-tooltip bottom>
+            <template v-slot:activator="{ on, attrs }">
+              <v-btn
+                v-bind="attrs"
+                v-on="on"
+                @click="dialog = false"
+                color="error"
+                fab
+                x-small
+                class="ml-auto"
+              >
+                <v-icon>{{ $icons.close.icon }}</v-icon>
+              </v-btn>
+            </template>
+            <span>{{ $icons.close.text }}</span>
+          </v-tooltip>
         </v-card-title>
 
         <v-card-text>
@@ -42,12 +50,8 @@ export default {
     };
   },
   created() {
-    this.adressData = {
-      company: this.data.company,
-      adress: this.data.adress,
-      phone: this.data.phone,
-      mail: this.data.mail,
-    };
+    const { company, adress, phone, mail } = this.data;
+    this.adressData = { company, adress, phone, mail };
   },
   props: ["data"],
 };

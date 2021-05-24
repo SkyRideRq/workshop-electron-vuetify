@@ -11,10 +11,10 @@
           large
           fab
         >
-          <v-icon x-large>mdi-plus</v-icon>
+          <v-icon x-large>{{ $icons.add.icon }}</v-icon>
         </v-btn>
       </template>
-      <span>Dodaj naprawę</span>
+      <span>{{ $icons.add.text }} naprawę</span>
     </v-tooltip>
   </div>
 </template>

@@ -5,7 +5,7 @@
         <v-img
           max-width="200"
           max-height="200"
-          :src="'../../pictures/' + data"
+          :src="'/pictures/' + data"
           v-bind="attrs"
           v-on="on"
           class="img-btn"
@@ -19,20 +19,40 @@
           id="draggable-header"
           ref="draggableHeader"
         >
-          <!--  -->
           {{ data }}
-          <v-btn
-            color="primary"
-            icon
-            x-large
-            class="ml-auto"
-            @click="zoomMenuActive = !zoomMenuActive"
-          >
-            <v-icon>mdi-magnify-plus-outline</v-icon>
-          </v-btn>
-          <v-btn color="error" fab x-small @click="closeModal()">
-            <v-icon>mdi-close</v-icon>
-          </v-btn>
+          <v-tooltip bottom>
+            <template v-slot:activator="{ on, attrs }">
+              <v-btn
+                v-bind="attrs"
+                v-on="on"
+                @click="zoomMenuActive = !zoomMenuActive"
+                color="primary"
+                icon
+                x-large
+                class="ml-auto"
+              >
+                <v-icon>{{ $icons.magnify.icon }}</v-icon>
+              </v-btn>
+            </template>
+            <span>{{ $icons.magnify.text }}</span>
+          </v-tooltip>
+
+          <v-tooltip bottom>
+            <template v-slot:activator="{ on, attrs }">
+              <v-btn
+                v-bind="attrs"
+                v-on="on"
+                @click="closeModal()"
+                color="error"
+                fab
+                x-small
+              >
+                <v-icon>{{ $icons.close.icon }}</v-icon>
+              </v-btn>
+            </template>
+            <span>{{ $icons.close.text }}</span>
+          </v-tooltip>
+
           <v-expand-transition>
             <div class="zoom-menu" v-if="zoomMenuActive">
               <v-slider
@@ -54,7 +74,7 @@
         >
           <img
             @mousedown="dragMouseDown"
-            :src="'../../pictures/' + data"
+            :src="'/pictures/' + data"
             ref="imgToZoom"
             @wheel.prevent="zoomWheel($event)"
             :style="{ cursor: selectedCursor.img }"
@@ -116,16 +136,12 @@ export default {
       this.positions.clientX = event.clientX;
       this.positions.clientY = event.clientY;
       //lock drag
-      if (this.dragWindow.top > this.positions.clientY) {
-        return;
-      }
-      if (this.dragWindow.bottom < this.positions.clientY) {
-        return;
-      }
-      if (this.dragWindow.left > this.positions.clientX) {
-        return;
-      }
-      if (this.dragWindow.right < this.positions.clientX) {
+      if (
+        this.dragWindow.top > this.positions.clientY ||
+        this.dragWindow.bottom < this.positions.clientY ||
+        this.dragWindow.left > this.positions.clientX ||
+        this.dragWindow.right < this.positions.clientX
+      ) {
         return;
       }
 

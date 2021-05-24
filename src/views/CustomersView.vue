@@ -27,9 +27,6 @@ export default {
       .get("users")
       .sortBy("last")
       .value();
-    console.log("---current db---");
-    console.log(this.items);
-    console.log("---end current db---");
   },
   methods: {
     showSearchResult(value) {

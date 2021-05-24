@@ -24,11 +24,11 @@
       >
         <!-- active-class="primary white--text" -->
         <v-list-item-icon>
-          <v-icon>{{ item.icon }}</v-icon>
+          <v-icon>{{ $icons[item.iconID].icon }}</v-icon>
         </v-list-item-icon>
 
         <v-list-item-content>
-          <v-list-item-title>{{ item.title }}</v-list-item-title>
+          <v-list-item-title>{{ $icons[item.iconID].text }}</v-list-item-title>
         </v-list-item-content>
       </v-list-item>
     </v-list>
@@ -40,7 +40,7 @@
           class="ma-0 pa-0"
           color="primary"
           hide-details
-          label="Dark Mode"
+          label="Ciemny szablon"
         />
       </div>
     </template>
@@ -48,6 +48,8 @@
 </template>
 
 <script>
+import menuItems from "@/assets/menuItems.js";
+
 export default {
   name: "TheNavDrawer",
 
@@ -55,44 +57,7 @@ export default {
   data: () => {
     return {
       activeItem: null,
-      items: [
-        {
-          icon: "mdi-view-dashboard",
-          title: "Panel Główny",
-          to: "/",
-          name: "dashboard",
-        },
-        {
-          icon: "mdi-account",
-          title: "Klienci",
-          to: "/klienci",
-          name: "Klienci",
-        },
-        {
-          icon: "mdi-hand-saw",
-          title: "Stihl",
-          to: "/Stihl",
-          name: "Stihl",
-        },
-        {
-          icon: "mdi-robot-mower",
-          title: "Kosiarki",
-          to: "/Kosiarki",
-          name: "Kosiarki",
-        },
-        {
-          icon: "mdi-bike",
-          title: "Rowery",
-          to: "/Rowery",
-          name: "Rowery",
-        },
-        {
-          icon: "mdi-wrench",
-          title: "Naprawy",
-          to: "/Naprawy",
-          name: "Naprawy",
-        },
-      ],
+      items: menuItems,
     };
   },
   mounted() {

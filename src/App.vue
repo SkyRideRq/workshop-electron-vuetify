@@ -18,22 +18,6 @@ export default {
     NavDrawer,
     Header,
   },
-
-  data: () => ({
-    //
-  }),
-  created() {
-    console.log("--current route--");
-    console.log(this.$route);
-    console.log("-- end current route--");
-  },
-  watch: {
-    $route() {
-      console.log("--current route--");
-      console.log(this.$route);
-      console.log("-- end current route--");
-    },
-  },
 };
 </script>
 <style>
@@ -44,7 +28,6 @@ export default {
 /* Track */
 ::-webkit-scrollbar-track {
   -webkit-box-shadow: inset 0 0 1px rgba(0, 0, 0, 1);
-  /* margin-top: 75px; */
 }
 
 /* Handle */

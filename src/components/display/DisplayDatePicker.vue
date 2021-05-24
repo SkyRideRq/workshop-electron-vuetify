@@ -10,7 +10,7 @@
     <template v-slot:activator="{ on, attrs }">
       <v-text-field
         v-model="date"
-        prepend-icon="mdi-calendar"
+        :prepend-icon="$icons.calendar.icon"
         readonly
         v-bind="attrs"
         v-on="on"
@@ -19,12 +19,36 @@
     <v-date-picker v-model="changeDate" scrollable locale="pl-pl">
       <v-spacer></v-spacer>
       <div class="d-flex justify-end">
-        <v-btn class="rounded-0 rounded-l" color="success" @click="saveDate()">
-          <v-icon>mdi-check</v-icon>
-        </v-btn>
-        <v-btn class="rounded-0 rounded-r" color="error" @click="menu = false">
-          <v-icon>mdi-close</v-icon>
-        </v-btn>
+        <v-tooltip bottom>
+          <template v-slot:activator="{ on, attrs }">
+            <v-btn
+              type="submit"
+              v-bind="attrs"
+              v-on="on"
+              @click="saveDate()"
+              color="success"
+              class="rounded-0 rounded-l"
+            >
+              <v-icon>{{ $icons.agree.icon }}</v-icon>
+            </v-btn>
+          </template>
+          <span>{{ $icons.agree.text }}</span>
+        </v-tooltip>
+
+        <v-tooltip bottom>
+          <template v-slot:activator="{ on, attrs }">
+            <v-btn
+              v-bind="attrs"
+              v-on="on"
+              @click="menu = false"
+              color="error"
+              class="rounded-0 rounded-l"
+            >
+              <v-icon>{{ $icons.disagree.icon }}</v-icon>
+            </v-btn>
+          </template>
+          <span>{{ $icons.disagree.text }}</span>
+        </v-tooltip>
       </div>
     </v-date-picker>
   </v-menu>

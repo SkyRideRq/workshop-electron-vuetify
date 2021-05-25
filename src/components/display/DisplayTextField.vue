@@ -8,7 +8,7 @@
       :type="data.type"
     ></v-text-field>
     <v-expand-transition>
-      <div class="d-flex justify-end mt-3 ml-1 confirm-menu" v-if="confirm">
+      <div class="d-flex justify-end mt-3 ml-1 confirm__menu" v-if="confirm">
         <v-tooltip bottom>
           <template v-slot:activator="{ on, attrs }">
             <v-btn
@@ -102,13 +102,13 @@ export default {
   },
 };
 </script>
-<style>
+<style lang="scss">
 .confirm {
   position: relative;
-}
-.confirm-menu {
-  position: absolute;
-  top: 40px;
-  left: -5px;
+  &__menu {
+    position: absolute;
+    top: 40px;
+    left: -5px;
+  }
 }
 </style>

@@ -8,14 +8,14 @@
           :src="'/pictures/' + data"
           v-bind="attrs"
           v-on="on"
-          class="img-btn"
+          class="image-dialog__btn"
         >
         </v-img>
       </template>
 
-      <v-card class="image-dialog-box" height="80vh" ref="dragWindow">
+      <v-card class="image-dialog__box" height="80vh" ref="dragWindow">
         <v-card-title
-          class="headline grey lighten-2 px-4 image-dialog-header"
+          class="headline grey lighten-2 px-4 image-dialog__header"
           id="draggable-header"
           ref="draggableHeader"
         >
@@ -54,7 +54,7 @@
           </v-tooltip>
 
           <v-expand-transition>
-            <div class="zoom-menu" v-if="zoomMenuActive">
+            <div class="image-dialog__zoom-menu" v-if="zoomMenuActive">
               <v-slider
                 v-model="zoom"
                 hint="Im a hint"
@@ -68,6 +68,7 @@
           </v-expand-transition>
         </v-card-title>
         <div
+          class="image-dialog__draggable-container"
           ref="draggableContainer"
           id="draggable-container"
           :style="{ cursor: selectedCursor.container }"
@@ -187,34 +188,33 @@ export default {
   },
 };
 </script>
-<style>
-.img-btn {
-  cursor: pointer;
-}
-.image-dialog-box {
-  overflow: hidden;
-}
-.image-dialog-header {
-  position: relative;
-}
-.zoom-menu {
-  position: absolute;
-  width: 200px;
-  top: 78px;
-  right: 10px;
-  padding: 0 5px;
-  border-bottom-left-radius: 8px;
-  border-bottom-right-radius: 8px;
-  background-color: #e0e0e0 !important;
-}
-#draggable-container {
-  position: absolute;
-  z-index: 9;
-  width: 100%;
-  height: 100%;
-}
-#draggable-header {
-  position: relative;
-  z-index: 10;
+<style lang="scss">
+.image-dialog {
+  &__btn {
+    cursor: pointer;
+  }
+  &__box {
+    overflow: hidden;
+  }
+  &__header {
+    position: relative;
+    z-index: 10;
+  }
+  &__zoom-menu {
+    position: absolute;
+    width: 200px;
+    top: 78px;
+    right: 10px;
+    padding: 0 5px;
+    border-bottom-left-radius: 8px;
+    border-bottom-right-radius: 8px;
+    background-color: #e0e0e0 !important;
+  }
+  &__draggable-container {
+    position: absolute;
+    z-index: 9;
+    width: 100%;
+    height: 100%;
+  }
 }
 </style>

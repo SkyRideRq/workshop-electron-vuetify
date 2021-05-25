@@ -216,8 +216,10 @@ export default {
   },
 };
 </script>
-<style>
-.v-toolbar__extension {
-  padding: 0 !important;
+<style lang="scss">
+.v-toolbar {
+  &__extension {
+    padding: 0 !important;
+  }
 }
 </style>

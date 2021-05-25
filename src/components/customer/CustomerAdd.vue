@@ -19,9 +19,11 @@
   </div>
 </template>
 <script>
+import mongoObjectId from "@/mixins/mongoObjectId.js";
+import uuidv4 from "@/mixins/uuidv4.js";
 export default {
   name: "AddCustomer",
-  components: {},
+  mixins: [mongoObjectId, uuidv4],
   data: () => {
     return {};
   },
@@ -46,34 +48,12 @@ export default {
         link: guid,
         children: [],
       };
-      console.log(newUser);
+
       this.$db
         .get("users")
         .push(newUser)
         .write();
       this.$router.push(newUser.link);
-    },
-    // https://stackoverflow.com/questions/105034/how-to-create-a-guid-uuid
-    uuidv4() {
-      return "xxxxxxxx-xxxx-4xxx-yxxx-xxxxxxxxxxxx".replace(/[xy]/g, function(
-        c
-      ) {
-        var r = (Math.random() * 16) | 0,
-          v = c == "x" ? r : (r & 0x3) | 0x8;
-        return v.toString(16);
-      });
-    },
-    // https://gist.github.com/solenoid/1372386
-    mongoObjectId() {
-      var timestamp = ((new Date().getTime() / 1000) | 0).toString(16);
-      return (
-        timestamp +
-        "xxxxxxxxxxxxxxxx"
-          .replace(/[x]/g, function() {
-            return ((Math.random() * 16) | 0).toString(16);
-          })
-          .toLowerCase()
-      );
     },
   },
 };

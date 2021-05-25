@@ -65,16 +65,13 @@ export default {
   },
 };
 </script>
-<style>
+<style lang="scss">
 .search-box {
   display: flex;
   align-items: center;
   justify-content: center;
-}
-.search-box__input {
-  max-width: 400px;
-}
-
-.search-box__btn {
+  &__input {
+    max-width: 400px;
+  }
 }
 </style>

@@ -39,8 +39,6 @@
 <script>
 export default {
   name: "DisplayData",
-
-  components: {},
   props: ["data"],
 };
 </script>

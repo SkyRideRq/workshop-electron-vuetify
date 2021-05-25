@@ -78,7 +78,6 @@ export default {
       changeData: "",
     };
   },
-  components: {},
   props: ["data"],
   created() {
     this.changeData = this.data.data;
@@ -86,7 +85,7 @@ export default {
   },
   methods: {
     saveData() {
-      this.$emit("changeData", this.changeData);
+      this.$emit("changeData", this.changeData, this.data.dataId);
       this.confirm = false;
       this.controll = true;
       this.oldData = this.changeData;

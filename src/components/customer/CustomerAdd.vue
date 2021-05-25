@@ -24,10 +24,6 @@ import uuidv4 from "@/mixins/uuidv4.js";
 export default {
   name: "AddCustomer",
   mixins: [mongoObjectId, uuidv4],
-  data: () => {
-    return {};
-  },
-  created() {},
   methods: {
     AddItem() {
       var guid = this.uuidv4();

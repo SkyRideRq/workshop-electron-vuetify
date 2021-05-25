@@ -52,8 +52,6 @@ import menuItems from "@/assets/menuItems.js";
 
 export default {
   name: "TheNavDrawer",
-
-  props: {},
   data: () => {
     return {
       activeItem: null,

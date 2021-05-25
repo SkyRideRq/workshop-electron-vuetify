@@ -3,9 +3,9 @@
     {
       "id": "6012abfbe225dd62df57f778",
       "guid": "d1a037c8-bcec-4318-8c0b-4fcc176091a3",
-      "first": "Horton",
-      "last": "Burris",
-      "name": "Burris Horton",
+      "first": "Hortond",
+      "last": "Burris2",
+      "name": "Burris2 Hortond",
       "company": "Cogentry",
       "phone": "+48 (805) 550-2265",
       "mail": "horton@cogentry.com",
@@ -17,8 +17,8 @@
         {
           "id": "6012abfb98ee5f8af2295fa0",
           "guid": "29ce78d3-cc8e-4a3f-b4ab-6d84eff111e0",
-          "name": "MS 230",
-          "type": "stihl",
+          "name": "MS 230c12",
+          "type": "mower",
           "serialNumber": "9779250763lG",
           "registered": "Thursday, February 7, 2019 7:51 PM",
           "link": "d1a037c8-bcec-4318-8c0b-4fcc176091a3/29ce78d3-cc8e-4a3f-b4ab-6d84eff111e0",
@@ -28,19 +28,20 @@
               "id": "6012abfb6f531d89ae7d279a",
               "guid": "3e7132d9-3040-40ab-ab1f-8418f36e5f04",
               "type": "repair",
-              "registered": "2017-07-19",
-              "returned": "Sunday, February 3, 2019 12:21 PM",
-              "partCost": 1009,
-              "workCost": "870333",
+              "registered": "2017-07-10",
+              "returned": "2019-02-26",
+              "partCost": "100",
               "link": "d1a037c8-bcec-4318-8c0b-4fcc176091a3/29ce78d3-cc8e-4a3f-b4ab-6d84eff111e0/3e7132d9-3040-40ab-ab1f-8418f36e5f04",
               "parentLink": "d1a037c8-bcec-4318-8c0b-4fcc176091a3/29ce78d3-cc8e-4a3f-b4ab-6d84eff111e0",
               "name": "serwis",
               "photos": [
                 "photo3stihl.jpg"
               ],
-              "shortNotes": "veniam adipisicing irure dolor sunt lorem velit deserunt culpa mollit.dsfdffffffffffffff",
+              "shortNotes": "123veniam adipisicing irure sads1dolor sunt lorem velit deserunt culpa mollit.dsfdffffffffffffff",
               "notes": "ut excepteur nulla nulla cupidatat consectetur lorem cupidatat nisi. ea qui aute sint dolor voluptate non pariatur sit eu. do excepteur culpa reprehenderit ad est. ut esse exercitation velit est duis qui nisi aute. in minim proident sunt duis est in commodo. occaecat magna eu aliqua aliqua sunt eiusmod amet eiusmod. nulla dolore nostrud amet id cupidatat eu occaecat. consequat enim consectetur nostrud ad velit veniam cillum commodo qui minim sint quis aliquip amet. veniam nulla ad aliquip consequat magna cillum culpa ea cillum incididunt labore nisi. non incididunt sint officia lorem aute.",
-              "partList": []
+              "partList": [],
+              "undefined": "workCost",
+              "workCost": "1203"
             },
             {
               "id": "6012abfba4a8603b9e3f2b0f",

@@ -26,17 +26,10 @@ export default {
   },
   methods: {
     updateContent() {
-      // this.items = this.$db
-      //   .get(`${this.$route.meta.name}`)
-      //   .value()
-      //   .sort(function(a, b) {
-      //     return new Date(b.registered) - new Date(a.registered);
-      //   });
       this.items = [];
       this.$db
         .get("users")
         .value()
-        // .forEach((item) => console.log(item.children));
         .forEach((item) => {
           if (item.children !== undefined)
             item.children.forEach((item) => {
@@ -44,15 +37,12 @@ export default {
                 item.children.forEach((item) => {
                   this.items.push(item);
                 });
-                // console.log(this.item);
-                // this.items = [...this.items, ...item.children];
               }
               if (this.$route.meta.name === item.type) {
                 this.items.push(item);
               }
             });
         });
-      // .forEach((item) => Object.assign(this.items, item.children));
     },
   },
 };

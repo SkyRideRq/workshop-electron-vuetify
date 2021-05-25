@@ -15,7 +15,8 @@
                   ? new Date(data.registered).toISOString().substr(0, 10)
                   : undefined
               "
-              @changeDate="changeRegisteredDate"
+              :dataId="'registered'"
+              @changeDate="changeDate"
             />
           </v-col>
           <v-col>
@@ -26,7 +27,8 @@
                   ? new Date(data.returned).toISOString().substr(0, 10)
                   : undefined
               "
-              @changeDate="changeReturnedDate"
+              :dataId="'returned'"
+              @changeDate="changeDate"
             />
           </v-col>
           <v-col></v-col>
@@ -40,8 +42,9 @@
                 label: '',
                 type: 'number',
                 appendText: 'zł',
+                dataId: 'workCost',
               }"
-              @changeData="changeWorkCost"
+              @changeData="changeSpecificData"
             />
           </v-col>
           <v-col>
@@ -52,8 +55,9 @@
                 label: '',
                 type: 'number',
                 appendText: 'zł',
+                dataId: 'partCost',
               }"
-              @changeData="changePartCost"
+              @changeData="changeSpecificData"
             />
           </v-col>
           <v-col>
@@ -70,8 +74,9 @@
               :data="{
                 data: data.shortNotes,
                 type: 'text',
+                dataId: 'shortNotes',
               }"
-              @changeData="changeShortNotes"
+              @changeData="changeSpecificData"
             />
           </v-col>
         </v-row>
@@ -161,15 +166,14 @@ export default {
       this.type = "Kosiarka";
     }
 
-    this.machineData = {
+    const machineDataRest = {
       machineName: this.product.name,
       type: this.type,
       serialNumber: this.product.serialNumber,
-      name: this.owner.name,
-      company: this.owner.company,
-      phone: this.owner.phone,
-      mail: this.owner.mail,
     };
+    const { name, company, phone, mail } = this.owner;
+    this.machineData = { name, company, phone, mail, ...machineDataRest };
+
     this.data.photos.forEach((element) => {
       this.pictures.push("@/pictures/" + element);
     });
@@ -178,15 +182,14 @@ export default {
     handleHide() {
       this.visible = false;
     },
-    changeRegisteredDate(value) {
-      this.data.registered = value;
-      this.changeData(value, "registered");
+    changeDate(value, name) {
+      this.data[name] = value;
+      this.changeData(value, name);
     },
-    changeReturnedDate(value) {
-      this.data.returned = value;
-      this.changeData(value, "returned");
+    changeSpecificData(value, name) {
+      this.data[name] = value;
+      this.changeData(Number(value), name);
     },
-
     changeData(value, place) {
       this.$db
         .get("users")
@@ -198,18 +201,6 @@ export default {
         .get(place)
         .assign(value)
         .write();
-    },
-    changeWorkCost(value) {
-      this.data.workCost = value;
-      this.changeData(Number(value), "workCost");
-    },
-    changePartCost(value) {
-      this.data.partCost = value;
-      this.changeData(Number(value), "partCost");
-    },
-    changeShortNotes(value) {
-      this.data.shortNotes = value;
-      this.changeData(Number(value), "shortNotes");
     },
   },
 };

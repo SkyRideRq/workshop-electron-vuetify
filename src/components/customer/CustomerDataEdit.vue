@@ -138,7 +138,7 @@
             type="submit"
             v-bind="attrs"
             v-on="on"
-            @click="saveData($event)"
+            @click.prevent="saveData()"
             color="success"
             class="rounded-0 rounded-l"
           >
@@ -180,7 +180,6 @@ export default {
       confirmed: false,
     };
   },
-  components: {},
   props: ["data"],
   created() {
     if (this.data.last === "") {
@@ -209,8 +208,7 @@ export default {
       }
       this.confirmed = true;
     },
-    saveData(event) {
-      event.preventDefault();
+    saveData() {
       this.data.name = this.data.last + " " + this.data.first;
       this.$emit("dataToChange", this.data);
       this.confirmed = false;

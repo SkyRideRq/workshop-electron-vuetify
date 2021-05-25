@@ -39,7 +39,6 @@ export default {
     };
   },
   created() {
-    console.log(this.$route);
     this.data = this.$db
       .get("users")
       .find({ guid: this.$route.params.id })
@@ -51,7 +50,7 @@ export default {
       .find({ guid: this.$route.params.id })
       .value();
     this.items = this.data.children;
-    console.log(this.items);
+
     if (this.data.type === "stihl") {
       this.type = "Stihl";
     }
@@ -61,19 +60,16 @@ export default {
     if (this.data.type === "mower") {
       this.type = "Kosiarka";
     }
-    this.machineData = {
+    const machineDataRest = {
       type: this.type,
       serialNumber: this.data.serialNumber,
       name: this.owner.name,
-      company: this.owner.company,
-      phone: this.owner.phone,
-      mail: this.owner.mail,
     };
-    this.dataToEdit = {
-      serialNumber: this.data.serialNumber,
-      name: this.data.name,
-      type: this.data.type,
-    };
+    const { company, phone, mail } = this.owner;
+    this.machineData = { company, phone, mail, ...machineDataRest };
+
+    const { serialNumber, name, type } = this.data;
+    this.dataToEdit = { serialNumber, name, type };
   },
   methods: {
     changeData(value) {

@@ -64,14 +64,13 @@ export default {
       changeDate: undefined,
     };
   },
-  components: {},
-  props: ["date"],
+  props: ["date", "dataId"],
   created() {
     this.changeDate = this.date;
   },
   methods: {
     saveDate() {
-      this.$emit("changeDate", this.changeDate);
+      this.$emit("changeDate", this.changeDate, this.dataId);
       this.menu = false;
     },
   },

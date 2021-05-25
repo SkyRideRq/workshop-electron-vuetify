@@ -15,10 +15,13 @@
   </v-container>
 </template>
 <script>
+// components
 import DisplayData from "@/components/display/DisplayData";
 import CustomerDataEdit from "@/components/customer/CustomerDataEdit";
 import DisplayTree from "@/components/display/DisplayTree";
 import ProductAdd from "@/components/product/ProductAdd";
+// mixins
+import mountedAdressData from "@/mixins/mountedAdressData.js";
 export default {
   name: "CustomerPage",
   data: () => {
@@ -27,6 +30,7 @@ export default {
       adressData: {},
     };
   },
+  mixins: [mountedAdressData],
   components: {
     DisplayData,
     CustomerDataEdit,
@@ -39,37 +43,16 @@ export default {
       .find({ guid: this.$route.params.id })
       .value();
 
-    this.adressData = {
-      // name: this.data.name,
-      // last: this.data.last,
-      // first: this.data.first,
-      company: this.data.company,
-      adress: this.data.adress,
-      phone: this.data.phone,
-      mail: this.data.mail,
-    };
-    this.dataToEdit = {
-      name: this.data.name,
-      last: this.data.last,
-      first: this.data.first,
-      company: this.data.company,
-      adress: this.data.adress,
-      phone: this.data.phone,
-      mail: this.data.mail,
-    };
+    const { name, last, first, company, adress, phone, mail } = this.data;
+    this.dataToEdit = { name, last, first, company, adress, phone, mail };
+
     this.items = this.data.children;
   },
   methods: {
     changeData(value) {
-      this.adressData = {
-        // name: this.data.name,
-        // last: this.data.last,
-        // first: this.data.first,
-        company: value.company,
-        adress: value.adress,
-        phone: value.phone,
-        mail: value.mail,
-      };
+      const { company, adress, phone, mail } = value;
+      this.adressData = { company, adress, phone, mail };
+
       this.data.name = value.last + " " + value.first;
       this.$db
         .get("users")

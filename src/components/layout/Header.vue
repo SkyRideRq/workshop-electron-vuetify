@@ -103,10 +103,12 @@
 import { mapGetters, mapState, mapMutations } from "vuex";
 export default {
   name: "TheHeader",
-  data: () => ({
-    desktop: true,
-    dialog: false,
-  }),
+  data: () => {
+    return {
+      desktop: true,
+      dialog: false,
+    };
+  },
   props: {
     links: null,
   },

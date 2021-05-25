@@ -69,7 +69,7 @@
             type="submit"
             v-bind="attrs"
             v-on="on"
-            @click="saveData()"
+            @click.prevent="saveData()"
             color="success"
             class="rounded-0 rounded-l"
           >
@@ -122,7 +122,6 @@ export default {
       ],
     };
   },
-  components: {},
   props: ["data"],
   created() {
     if (this.data.name === "") {

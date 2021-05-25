@@ -37,9 +37,13 @@
   </div>
 </template>
 <script>
+// components
 import DisplayData from "../display/DisplayData";
+// mixins
+import mountedAdressData from "@/mixins/mountedAdressData.js";
 export default {
   name: "CustomerPreview",
+  mixins: [mountedAdressData],
   components: {
     DisplayData,
   },
@@ -48,10 +52,6 @@ export default {
       dialog: false,
       adressData: [],
     };
-  },
-  created() {
-    const { company, adress, phone, mail } = this.data;
-    this.adressData = { company, adress, phone, mail };
   },
   props: ["data"],
 };

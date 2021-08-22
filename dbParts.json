@@ -1,1 +1,702 @@
-{}
+[
+  {
+    "id": "60ae264be460f641e6fc189b",
+    "guid": "c40cc586-bd9a-4ce5-88e6-d7cbe687556b",
+    "name": "widelec",
+    "price": 79,
+    "productId": 980758421
+  },
+  {
+    "id": "60ae264bf16c04ba600ee41f",
+    "guid": "ef2ba0a0-d918-470e-8287-7eb49fc69ee9",
+    "name": "taśma izolacyjna",
+    "price": 264,
+    "productId": 183710754
+  },
+  {
+    "id": "60ae264b73d2940ecdd37dd5",
+    "guid": "bf44a7ee-2e76-407d-8e6d-45fd410426f9",
+    "name": "łopata",
+    "price": 1087,
+    "productId": 183436354
+  },
+  {
+    "id": "60ae264b2356c3328e311a20",
+    "guid": "58af9d10-a09b-40ea-a9ce-344b34f76a1b",
+    "name": "łopata",
+    "price": 1167,
+    "productId": 396571911
+  },
+  {
+    "id": "60ae264baf31a7a5eb971c64",
+    "guid": "e88432e8-2ed4-483c-bc90-7fa74d7e6c7d",
+    "name": "nakrętka",
+    "price": 424,
+    "productId": 587368952
+  },
+  {
+    "id": "60ae264b698e77b3ec653417",
+    "guid": "33b21bf7-d160-4d94-bf23-02d276c53c4f",
+    "name": "cylinder",
+    "price": 170,
+    "productId": 842671294
+  },
+  {
+    "id": "60ae264be986f42bb6421709",
+    "guid": "3225a385-5760-44a6-bfd9-14cec757a0ce",
+    "name": "sznur",
+    "price": 607,
+    "productId": 283538821
+  },
+  {
+    "id": "60ae264b4fbf65a263bbd2c7",
+    "guid": "894ec7ea-b919-4e97-bd2a-99e9640bd72f",
+    "name": "tłok",
+    "price": 148,
+    "productId": 101654245
+  },
+  {
+    "id": "60ae264bd9e04b83d4043db6",
+    "guid": "079597a4-2c72-4c11-b907-c5f8df420e52",
+    "name": "łopata",
+    "price": 1191,
+    "productId": 93343823
+  },
+  {
+    "id": "60ae264b3a325aa5e531bb5d",
+    "guid": "2092daaf-14b0-4214-885f-95ced5e4e1fa",
+    "name": "sznur",
+    "price": 1096,
+    "productId": 272661221
+  },
+  {
+    "id": "60ae264b3fb51c831a92706a",
+    "guid": "a54a2b39-923c-4707-91ef-f7849ec26548",
+    "name": "zapadka",
+    "price": 1097,
+    "productId": 865585743
+  },
+  {
+    "id": "60ae264bed1900f4d65dffec",
+    "guid": "a6d5f6c2-6aeb-4eb9-aa9b-498fef296cd1",
+    "name": "klucz",
+    "price": 247,
+    "productId": 432455610
+  },
+  {
+    "id": "60ae264b5c639902446027cd",
+    "guid": "d8bcfea4-932c-419e-b5b6-980d38317590",
+    "name": "cylinder",
+    "price": 1162,
+    "productId": 621076515
+  },
+  {
+    "id": "60ae264b7276e26cb3b53d62",
+    "guid": "1b930329-829a-41bd-9a6a-b844af76999b",
+    "name": "nakrętka",
+    "price": 281,
+    "productId": 740811480
+  },
+  {
+    "id": "60ae264b50a352f21c2b4ed0",
+    "guid": "de755003-8866-4b5a-a731-9f9cae6ed377",
+    "name": "koło",
+    "price": 308,
+    "productId": 780465642
+  },
+  {
+    "id": "60ae264ba306498c9edd3811",
+    "guid": "074dfad2-63c1-492f-99ed-a42d0295db8a",
+    "name": "tłok",
+    "price": 939,
+    "productId": 7387662
+  },
+  {
+    "id": "60ae264b092f74493b86ecae",
+    "guid": "7026893a-e141-4759-95a4-f11d4c4e29c7",
+    "name": "nakrętka",
+    "price": 403,
+    "productId": 885153463
+  },
+  {
+    "id": "60ae264bc63a5b98d51fcd09",
+    "guid": "8e79bc76-1c16-4178-a022-aebb4f39da10",
+    "name": "nakrętka",
+    "price": 264,
+    "productId": 498150704
+  },
+  {
+    "id": "60ae264b2fe579966102650f",
+    "guid": "ec5075b4-79f0-48fa-8884-b15c3ca94e13",
+    "name": "tłok",
+    "price": 803,
+    "productId": 209021098
+  },
+  {
+    "id": "60ae264b2d792fd0c3aa9523",
+    "guid": "8f9a4dd4-ce24-479f-b9bd-382a6f97ec16",
+    "name": "karabin",
+    "price": 805,
+    "productId": 13523567
+  },
+  {
+    "id": "60ae264b02f5bfd06271f374",
+    "guid": "5fffa2c4-3f00-481e-81e3-da62776b24a4",
+    "name": "iglica",
+    "price": 516,
+    "productId": 217279335
+  },
+  {
+    "id": "60ae264b2bf15b5215cafaf4",
+    "guid": "d29bf5b0-76c2-4e97-ab98-30a471e1b7c8",
+    "name": "uszczelka",
+    "price": 621,
+    "productId": 74798855
+  },
+  {
+    "id": "60ae264b207c92af48e29ea9",
+    "guid": "6abcf20e-821e-4586-93e9-75dccf561032",
+    "name": "nakrętka",
+    "price": 475,
+    "productId": 252828913
+  },
+  {
+    "id": "60ae264ba6fc5fae2a230975",
+    "guid": "2ab59b10-aef5-4c8d-8671-f193c0ad1710",
+    "name": "membrana",
+    "price": 1180,
+    "productId": 912584829
+  },
+  {
+    "id": "60ae264b9961f5bda19674e6",
+    "guid": "93b7ab77-09c5-44af-ad8c-2725f0c0d854",
+    "name": "cylinder",
+    "price": 858,
+    "productId": 811256635
+  },
+  {
+    "id": "60ae264b8fa132454d340328",
+    "guid": "99df10ac-f4a4-4c86-84bd-fcaebf5c73cd",
+    "name": "tłok",
+    "price": 1135,
+    "productId": 201171469
+  },
+  {
+    "id": "60ae264b127658228e1ba6c3",
+    "guid": "d7bd7c8c-d7b8-441b-844b-494b1257cd31",
+    "name": "sznur",
+    "price": 726,
+    "productId": 839030778
+  },
+  {
+    "id": "60ae264b902cbb3044edeec2",
+    "guid": "0b2028cc-cc0a-4cd9-b30f-94b7c9e6f520",
+    "name": "uszczelka",
+    "price": 733,
+    "productId": 563939294
+  },
+  {
+    "id": "60ae264b3ae065ae83451a58",
+    "guid": "663e6149-138f-42a3-b3f1-33d76eb924aa",
+    "name": "koło",
+    "price": 1047,
+    "productId": 291934685
+  },
+  {
+    "id": "60ae264b04320a468dc0c97d",
+    "guid": "12e769d7-bf90-4535-9337-674819253d5e",
+    "name": "taśma izolacyjna",
+    "price": 1038,
+    "productId": 581282669
+  },
+  {
+    "id": "60ae264b4c2a795da7cd35e0",
+    "guid": "64a1677c-7c19-4821-8104-07122873d91f",
+    "name": "zapadka",
+    "price": 43,
+    "productId": 507315135
+  },
+  {
+    "id": "60ae264b862b01a27cb8f154",
+    "guid": "acdec191-a0ac-435f-99a9-285d7d108aea",
+    "name": "cylinder",
+    "price": 1141,
+    "productId": 543003198
+  },
+  {
+    "id": "60ae264bd41b1aab7ea47bcc",
+    "guid": "0beaa634-bea4-4f39-973b-f612efd6d650",
+    "name": "łopata",
+    "price": 636,
+    "productId": 205433250
+  },
+  {
+    "id": "60ae264b85e41be3c79aef5e",
+    "guid": "ab539f50-5d3c-4e2e-802c-27a3d184128b",
+    "name": "tłok",
+    "price": 998,
+    "productId": 798055648
+  },
+  {
+    "id": "60ae264b8fa36a54fbeda1b9",
+    "guid": "08850838-1537-491c-8aac-bb9c235c0e11",
+    "name": "karabin",
+    "price": 638,
+    "productId": 32905231
+  },
+  {
+    "id": "60ae264b6a27bafaa87dc284",
+    "guid": "0fbee3ca-85fb-42e2-9261-a2c8dbb24887",
+    "name": "karabin",
+    "price": 1098,
+    "productId": 917760627
+  },
+  {
+    "id": "60ae264b0659eeb58227874b",
+    "guid": "3b923402-67eb-4ae0-9fc8-079796428ff1",
+    "name": "łopata",
+    "price": 642,
+    "productId": 567238982
+  },
+  {
+    "id": "60ae264b89bea5907f1f97e5",
+    "guid": "f5822a18-d7f2-40bd-a640-1d2463057cee",
+    "name": "cylinder",
+    "price": 919,
+    "productId": 787538653
+  },
+  {
+    "id": "60ae264b963f26e813d68b5c",
+    "guid": "276bf6f5-6cb2-4d96-9eee-166e30375cb0",
+    "name": "iglica",
+    "price": 154,
+    "productId": 778720949
+  },
+  {
+    "id": "60ae264b2f45ec686ea20ab1",
+    "guid": "0c6721a7-b3f7-4f7f-9793-93968ab63489",
+    "name": "nakrętka",
+    "price": 736,
+    "productId": 118935546
+  },
+  {
+    "id": "60ae264be6d858e6477d7093",
+    "guid": "9020e7a1-6828-4e58-902b-d2821e9b2cf0",
+    "name": "uszczelka",
+    "price": 654,
+    "productId": 274259956
+  },
+  {
+    "id": "60ae264b5ace1f65a55394bc",
+    "guid": "f39709f8-4512-414a-bbbe-e70268b49c62",
+    "name": "widelec",
+    "price": 222,
+    "productId": 576293555
+  },
+  {
+    "id": "60ae264bea75b1e0c90feed6",
+    "guid": "02aa71ff-d9ac-4d8b-9977-4dddef15613a",
+    "name": "uszczelka",
+    "price": 602,
+    "productId": 899231272
+  },
+  {
+    "id": "60ae264b805389cea853e20c",
+    "guid": "4f779001-9477-446f-8ce9-542942ca8cfc",
+    "name": "łopata",
+    "price": 714,
+    "productId": 60562822
+  },
+  {
+    "id": "60ae264bdbc5e311f7214728",
+    "guid": "7154166a-8380-44b5-81d3-4ba0ca00e2d1",
+    "name": "widelec",
+    "price": 973,
+    "productId": 274843234
+  },
+  {
+    "id": "60ae264b028678e9c6324b89",
+    "guid": "33d8912f-8b2c-4ca6-955b-e4ea223c3b43",
+    "name": "widelec",
+    "price": 494,
+    "productId": 547322721
+  },
+  {
+    "id": "60ae264b831b40b2c766cace",
+    "guid": "efc3d993-7612-4b43-b3cf-3bdb7237d112",
+    "name": "uszczelka",
+    "price": 185,
+    "productId": 634151414
+  },
+  {
+    "id": "60ae264b2bca38f0be6da26c",
+    "guid": "3064f50f-81ab-47ea-8775-4aeae0ac7364",
+    "name": "koło",
+    "price": 365,
+    "productId": 452866578
+  },
+  {
+    "id": "60ae264b209c9cdbd9f29d38",
+    "guid": "d1bfbf96-1981-4bc3-8702-370ea1c3b9cb",
+    "name": "koło",
+    "price": 1071,
+    "productId": 685861464
+  },
+  {
+    "id": "60ae264bd3e9fb41037a5601",
+    "guid": "c622a58b-679b-4aba-bfd7-b2593fc793e3",
+    "name": "cylinder",
+    "price": 229,
+    "productId": 850588976
+  },
+  {
+    "id": "60ae264b48abd86f12da92b7",
+    "guid": "97386891-b539-4311-87e1-dc88ead1cb20",
+    "name": "klucz",
+    "price": 182,
+    "productId": 106951061
+  },
+  {
+    "id": "60ae264b518acde9e7e31c0d",
+    "guid": "fcefec01-6c3a-4f8d-802b-ef3e30c4bdf5",
+    "name": "zapadka",
+    "price": 1008,
+    "productId": 555691402
+  },
+  {
+    "id": "60ae264bd7d19bc466b66f58",
+    "guid": "e55c324b-e523-4092-a93b-391c7a4647e1",
+    "name": "zapadka",
+    "price": 181,
+    "productId": 499594991
+  },
+  {
+    "id": "60ae264bb00b73206f90b3d8",
+    "guid": "4f72b870-0b00-4517-bd33-9dcb0b16a756",
+    "name": "sznur",
+    "price": 734,
+    "productId": 477232521
+  },
+  {
+    "id": "60ae264b692db8d6c4990fc4",
+    "guid": "6e4f719f-f9f8-4dc9-9030-a47d0fe48b28",
+    "name": "karabin",
+    "price": 1086,
+    "productId": 731991967
+  },
+  {
+    "id": "60ae264b6e6cc73cbf10a04a",
+    "guid": "015ae19d-74d8-4568-b155-32e16755761a",
+    "name": "iglica",
+    "price": 547,
+    "productId": 24057301
+  },
+  {
+    "id": "60ae264be4ec69c11e3e7041",
+    "guid": "197c6d78-d5ed-4573-afec-7ad632c8ab04",
+    "name": "koło",
+    "price": 79,
+    "productId": 646423232
+  },
+  {
+    "id": "60ae264b76cb55419d590ed2",
+    "guid": "7be7c689-9560-435b-9d5c-9397b201cba8",
+    "name": "iglica",
+    "price": 700,
+    "productId": 72354951
+  },
+  {
+    "id": "60ae264bf3715958d282a489",
+    "guid": "3b46f434-06e1-4206-b498-8a8cc6917176",
+    "name": "iglica",
+    "price": 767,
+    "productId": 321560055
+  },
+  {
+    "id": "60ae264b010b3c0ecb2225e1",
+    "guid": "b0eaaffc-c77f-49c1-a134-b64c56632d0c",
+    "name": "tłok",
+    "price": 920,
+    "productId": 91730578
+  },
+  {
+    "id": "60ae264bfda34c681a17a899",
+    "guid": "23b008c6-7e08-4895-b387-7cc942316e03",
+    "name": "sznur",
+    "price": 77,
+    "productId": 695080476
+  },
+  {
+    "id": "60ae264b6251979e8b8527ee",
+    "guid": "0a019cff-1cab-40b0-9297-38d9e19e1898",
+    "name": "cylinder",
+    "price": 924,
+    "productId": 524791604
+  },
+  {
+    "id": "60ae264b85e9b8d8c84839cf",
+    "guid": "e99a2a0c-f51d-4fce-9f4c-7bce04147cef",
+    "name": "sznur",
+    "price": 504,
+    "productId": 570097258
+  },
+  {
+    "id": "60ae264bf91972a7cbb36794",
+    "guid": "b8bac6c6-c562-4520-b4bf-a5ce0a93d9db",
+    "name": "sznur",
+    "price": 150,
+    "productId": 665092936
+  },
+  {
+    "id": "60ae264beaee6479c886cc4b",
+    "guid": "73f6eec5-425a-41a8-8a03-9f770824f8d1",
+    "name": "uszczelka",
+    "price": 610,
+    "productId": 707880020
+  },
+  {
+    "id": "60ae264b618f16ed7f117096",
+    "guid": "7147c2c3-5bb9-4992-af4e-aaf8e227fc4e",
+    "name": "zapadka",
+    "price": 1102,
+    "productId": 988519755
+  },
+  {
+    "id": "60ae264bd5ad2355f6de6a23",
+    "guid": "8080b008-0f43-4847-a243-1209b3db2b9c",
+    "name": "cylinder",
+    "price": 1201,
+    "productId": 667390495
+  },
+  {
+    "id": "60ae264bf61f17d2cd1c41d0",
+    "guid": "1ad5cba4-0573-4eeb-b187-ddaffcb1383b",
+    "name": "cylinder",
+    "price": 354,
+    "productId": 818184718
+  },
+  {
+    "id": "60ae264b6969e99fae162ece",
+    "guid": "de7e3cb9-ee0b-4431-b2a0-ff82c3920994",
+    "name": "klucz",
+    "price": 315,
+    "productId": 13216866
+  },
+  {
+    "id": "60ae264b54f07e3fa57c21ed",
+    "guid": "851a2aac-7e31-4704-9650-dcc6029e9224",
+    "name": "iglica",
+    "price": 771,
+    "productId": 417717690
+  },
+  {
+    "id": "60ae264b1ea68fec6a5bb7ee",
+    "guid": "98e571d6-1ffb-4a1d-8ca8-c7466f47bb91",
+    "name": "cylinder",
+    "price": 962,
+    "productId": 190199187
+  },
+  {
+    "id": "60ae264be123fe984dc12523",
+    "guid": "b79d58b6-5016-4d69-a7d7-6dc041836363",
+    "name": "nakrętka",
+    "price": 351,
+    "productId": 651002377
+  },
+  {
+    "id": "60ae264b346001deaa81352e",
+    "guid": "70de022f-2fae-4c59-8037-e7300e7dfb60",
+    "name": "uszczelka",
+    "price": 586,
+    "productId": 542059448
+  },
+  {
+    "id": "60ae264b1d7d5f3e37fef1bb",
+    "guid": "6ecb8c00-823f-4eb1-b259-9d87bc7c690f",
+    "name": "zapadka",
+    "price": 198,
+    "productId": 173849475
+  },
+  {
+    "id": "60ae264b3117eda4b4743f5b",
+    "guid": "623e2adf-6716-4d87-af9c-4d30f8e4e42a",
+    "name": "sznur",
+    "price": 80,
+    "productId": 755775774
+  },
+  {
+    "id": "60ae264b9f35c17b1231775b",
+    "guid": "7d3f2d34-874a-43a8-8e15-fe81a6a24ebd",
+    "name": "cylinder",
+    "price": 333,
+    "productId": 393846420
+  },
+  {
+    "id": "60ae264b7a17f6a3b4c7dbae",
+    "guid": "61dd3cff-2d4f-48ce-bd99-0d20325d5b87",
+    "name": "membrana",
+    "price": 925,
+    "productId": 748772283
+  },
+  {
+    "id": "60ae264bde1af34f59b3e329",
+    "guid": "aa8e7ae9-1cb6-456a-8c04-d24955ab8e82",
+    "name": "widelec",
+    "price": 923,
+    "productId": 236311819
+  },
+  {
+    "id": "60ae264b57dbbd2c818144d8",
+    "guid": "7ad04dcf-16a6-4f09-b7c5-2a717435adc8",
+    "name": "iglica",
+    "price": 1102,
+    "productId": 280900777
+  },
+  {
+    "id": "60ae264bc3b440a877a56f10",
+    "guid": "5b8e074a-df11-43b4-b44f-0c774cbc0a5c",
+    "name": "zapadka",
+    "price": 384,
+    "productId": 607291327
+  },
+  {
+    "id": "60ae264b443330cc2c2c5e73",
+    "guid": "65326a4b-6b05-408e-8341-a19d792560ca",
+    "name": "koło",
+    "price": 395,
+    "productId": 65294733
+  },
+  {
+    "id": "60ae264b39faa5c2d0a96558",
+    "guid": "b39a9e96-42cf-4450-8dce-d51c99994875",
+    "name": "cylinder",
+    "price": 711,
+    "productId": 212638630
+  },
+  {
+    "id": "60ae264bc691171357f2eb1a",
+    "guid": "0bcf36d9-0793-4c2a-bb9d-104d5dbe9648",
+    "name": "klucz",
+    "price": 444,
+    "productId": 83528867
+  },
+  {
+    "id": "60ae264b6ed908462c77cebe",
+    "guid": "725f80e7-ae7a-4149-9b9b-b148d92f8d30",
+    "name": "tłok",
+    "price": 911,
+    "productId": 739720698
+  },
+  {
+    "id": "60ae264b4485be6d0e354099",
+    "guid": "12bbc6af-7b6a-4fbb-a91a-a5bdf097cdce",
+    "name": "sznur",
+    "price": 310,
+    "productId": 167160770
+  },
+  {
+    "id": "60ae264b9bb589ee0d35ae3a",
+    "guid": "7493b6e5-ce87-4981-836e-0c647942ccda",
+    "name": "cylinder",
+    "price": 944,
+    "productId": 875837200
+  },
+  {
+    "id": "60ae264b7e15c9ae1537bf7d",
+    "guid": "4fdc9171-7036-4642-9c47-70a14924eb64",
+    "name": "klucz",
+    "price": 863,
+    "productId": 57343544
+  },
+  {
+    "id": "60ae264bc72e6a1cde916e04",
+    "guid": "6d10c01a-a94a-4316-8076-8eb70c6c1696",
+    "name": "sznur",
+    "price": 776,
+    "productId": 339578109
+  },
+  {
+    "id": "60ae264b9dbd4b029622693d",
+    "guid": "f2873376-90ef-4239-942d-94c74bc1e70e",
+    "name": "koło",
+    "price": 1150,
+    "productId": 989371018
+  },
+  {
+    "id": "60ae264b93f8dbba53451ca6",
+    "guid": "d82c7640-1ff0-453c-b264-ef1f82823283",
+    "name": "tłok",
+    "price": 664,
+    "productId": 223980482
+  },
+  {
+    "id": "60ae264be5d0eae39da0d906",
+    "guid": "282a9990-a1b4-45f0-87ed-ae400540ffaa",
+    "name": "nakrętka",
+    "price": 880,
+    "productId": 306846747
+  },
+  {
+    "id": "60ae264b4206a0e22775d683",
+    "guid": "430d2b05-eb73-440d-8d24-092fc79cb5d7",
+    "name": "nakrętka",
+    "price": 812,
+    "productId": 448393901
+  },
+  {
+    "id": "60ae264b10457f0e971041f9",
+    "guid": "2b6101fe-237e-4f28-aa45-be1f3aa6b112",
+    "name": "karabin",
+    "price": 980,
+    "productId": 517810354
+  },
+  {
+    "id": "60ae264bf3481dbd82025690",
+    "guid": "a37c17eb-9f09-4b9a-8dbd-0051b2b178c9",
+    "name": "cylinder",
+    "price": 1168,
+    "productId": 804285729
+  },
+  {
+    "id": "60ae264bc9aa6345f1742f69",
+    "guid": "275e6196-4365-4a5b-994a-ef1b78fa864e",
+    "name": "membrana",
+    "price": 1178,
+    "productId": 662279713
+  },
+  {
+    "id": "60ae264ba69646c7fc32e233",
+    "guid": "dabf4f64-ee40-4900-a4a4-f88f4bc26278",
+    "name": "taśma izolacyjna",
+    "price": 651,
+    "productId": 708746303
+  },
+  {
+    "id": "60ae264bddbc861882047fe0",
+    "guid": "342a35ab-896a-4658-8c35-9d504b09e393",
+    "name": "zapadka",
+    "price": 752,
+    "productId": 654356530
+  },
+  {
+    "id": "60ae264b11e0eb1f9b1a3c90",
+    "guid": "34eb6153-df1a-4b5c-989d-584c1c9955b8",
+    "name": "iglica",
+    "price": 769,
+    "productId": 615717818
+  },
+  {
+    "id": "60ae264b2308148e9cff3bb2",
+    "guid": "199ab96f-83a5-4689-805c-1b01bd4d30c0",
+    "name": "tłok",
+    "price": 692,
+    "productId": 50889761
+  },
+  {
+    "id": "60ae264b5c497d3cfc134a41",
+    "guid": "91f10ca4-adaa-4908-a5d4-e4159a1f9f06",
+    "name": "tłok",
+    "price": 917,
+    "productId": 244429828
+  }
+]

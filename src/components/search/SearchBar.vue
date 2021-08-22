@@ -1,6 +1,6 @@
 <template>
   <v-container>
-    <v-form ref="form" @submit="search($event)">
+    <v-form ref="form">
       <div class="search-box mt-5">
         <v-combobox
           v-model="searchPlace"
@@ -8,17 +8,16 @@
           class="px-2 search-box__input"
           label="Szukaj po"
           disable-lookup
+          @change="changeSearch"
         ></v-combobox>
 
-        <v-text-field
-          :label="this.searchPlace.searchLabel"
+        <v-autocomplete
+          :label="searchPlace.searchLabel"
           v-model="searchWord"
           class="px-2 search-box__input"
-        ></v-text-field>
-
-        <v-btn type="submit" color="primary" class="search-box__btn">
-          Szukaj
-        </v-btn>
+          :items='searchPlace.dataToSuggest'
+          @change='search'
+        ></v-autocomplete>
       </div>
     </v-form>
   </v-container>
@@ -34,12 +33,14 @@ export default {
         text: "Nazwisku klienta",
         value: "last",
         searchLabel: "Nazwisko",
+        dataToSuggest: []
       },
       items: [
         {
           text: "Nazwie firmy",
           value: "company",
           searchLabel: "Firma",
+          
         },
         {
           text: "Nazwisku klienta",
@@ -47,13 +48,24 @@ export default {
           searchLabel: "Nazwisko",
         },
       ],
+      dataLastNames:[],
+      dataCompanyNames:[]
     };
+  },
+  props:["dataItems"],
+  mounted() {
+    this.dataItems.forEach((element) => { 
+      this.dataLastNames.push(element.last)
+      this.dataCompanyNames.push(element.company)
+    })
+    this.changeSearch()
   },
   components: {},
   methods: {
-    search(event) {
-      event.preventDefault();
-
+    changeSearch() {
+      this.searchPlace.dataToSuggest = this.searchPlace.value === "last" ? this.dataLastNames : this.dataCompanyNames
+    },
+    search() {
       const regex = new RegExp(`^${this.searchWord}`, "i");
       var searchResult = this.$db
         .get("users")

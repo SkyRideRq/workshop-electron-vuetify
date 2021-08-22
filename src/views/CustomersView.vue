@@ -1,6 +1,6 @@
 <template>
   <v-container>
-    <SearchBar @searchResult="showSearchResult" />
+    <SearchBar @searchResult="showSearchResult" :dataItems="items"/>
     <DisplayTree :items="items" />
     <CustomerAdd />
   </v-container>
